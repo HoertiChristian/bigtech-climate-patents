@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.env
+.python-version
+
+# R
+.Rhistory
+.Rproj.user/
+*.Rproj
+
+# Data (raw data not tracked — too large / API-dependent)
+data/raw/*.json
+data/raw/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
