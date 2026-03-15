@@ -1,19 +1,15 @@
-parent_company,subsidiary_name,reason_for_inclusion
-Meta,WhatsApp LLC,Messaging Infrastructure
-Meta,Facebook Holdings LLC 
-Meta,Facebook Procurement LLC 
-Meta,FCL Tech Limited,  
-Meta,Instagram LLC 
-Meta,Meta Payments Inc, 
-Meta,Meta Platforms Ireland Limited, 
-Meta,Siculus LLC, 
-Meta,Sidecat LLC, 
-Amazon,Amazon Technologies Inc,Core AWS and Software Patents
-Amazon,Amazon Data Services Inc,Energy and Data Center Infrastructure
-Amazon,Amazon Web Services Inc, 
-Amazon,Amazon US Services LLC, 
-Amazon,Amazon.com Services LLC, 
-Amazon,Amazon.com Sales Inc, 
-Amazon,Amazon.com NV Investment Holdings LLC,
-Amazon,A100 ROW Inc, 
-Amazon,Day One Insurance Inc, 
+parent_company,subsidiary_name,source,reason
+Meta,Meta Platforms Inc,SEC 10-K,Ultimate Parent (Major Patents)
+Meta,Meta Platforms Technologies LLC,OpenCorporates,Powerhouse for AI Hardware/Sensors
+Meta,Edge Network Services Limited,OpenCorporates,Data Center/Grid Infrastructure
+Meta,FCL Tech Limited,SEC/OpenCorp,Connectivity Lab (Solar/Green R&D)
+Meta,Meta Platforms Ireland Limited,SEC 10-K,EU Energy Compliance & IP
+Meta,Siculus LLC,SEC 10-K,Data Center Infrastructure (Energy Footprint)
+Meta,Sidecat LLC,SEC 10-K,Data Center Infrastructure (Energy Footprint)
+Amazon,Amazon Web Services Inc,SEC,Potentially includes international international R&D branches
+Amazon,Amazon Technologies Inc,SEC,Primary Intellectual Property holder/Core AWS and Software Patents
+Amazon,Amazon Data Services Inc,SEC,Data Center infrastructure and energy tech
+Amazon,Annapurna Labs Ltd,Patent Search,Energy-efficient AI chips (Graviton)
+Amazon,Kuiper Systems LLC,OpenCorp,Networking and satellite infrastructure
+Amazon,A100 ROW Inc,OpenCorp,International (EU) data center infrastructure
+Amazon,Zoox Inc,Acquisition,EV and autonomous battery innovation
