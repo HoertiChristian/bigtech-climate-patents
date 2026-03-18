@@ -6,7 +6,6 @@ Mapping climate and energy R&D priorities at Alphabet, Amazon, Apple, Meta, and 
 
 1. **Climate innovation intensity**: How has each firm's share of energy/climate patents evolved (2010–2024), and do portfolios cluster or diverge?
 2. **Topic discovery**: What are the dominant technological themes within Big Tech climate patents, and have these shifted around major policy events?
-3. **Portfolio convergence** (advanced): Are Big Tech climate patent portfolios becoming more similar over time, especially in AI-adjacent energy domains?
 
 ## Project Structure
 
