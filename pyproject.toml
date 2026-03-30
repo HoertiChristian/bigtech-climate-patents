@@ -3,7 +3,6 @@ name = "bigtech-climate-patents"
 version = "0.1.0"
 description = "Patent landscape analysis of Big Tech climate and energy innovation"
 requires-python = ">=3.11"
-
 dependencies = [
     "bertopic>=0.16",
     "sentence-transformers>=3.0",
@@ -13,10 +12,11 @@ dependencies = [
     "umap-learn>=0.5",
     "hdbscan>=0.8",
     "openpyxl>=3.1",
+    "rapidfuzz>=3.0",
 ]
 
-[tool.uv]
-dev-dependencies = [
+[dependency-groups]
+dev = [
     "jupyter>=1.0",
     "ipykernel>=6.0",
 ]
