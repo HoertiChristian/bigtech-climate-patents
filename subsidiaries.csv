@@ -1,23 +1,30 @@
 parent_company,subsidiary_name,source,reason
 Meta,Meta Platforms Inc,SEC 10-K,Ultimate Parent (Major Patents)
 Meta,Meta Platforms Technologies LLC,OpenCorporates,Powerhouse for AI Hardware/Sensors
+Meta,Meta Platforms Tech LLC,Lens, Different spelling
 Meta,Edge Network Services Limited,OpenCorporates,Data Center/Grid Infrastructure
 Meta,FCL Tech Limited (Ireland),SEC 10-K,Connectivity Lab (Solar/Green R&D)
 Meta,Meta Platforms Ireland Limited,SEC 10-K,EU Energy Compliance & IP
 Meta,Siculus LLC,SEC 10-K,Data Center Infrastructure (Energy Footprint)
 Meta,Sidecat LLC,SEC 10-K,Data Center Infrastructure (Energy Footprint)
 Meta,Facebook Holdings LLC (Delaware),SEC 10-K
-Meta,Facebook Procurement LLC (Delaware),SEC 10-K
-Meta,Instagram LLC (Delaware),SEC 10-K
-Meta,Meta Payments Inc (Florida),SEC 10-K
-Meta,WhatsApp LLC (Delaware),SEC 10-K
+Meta,Facebook Holdings LLC,SEC 10-K
+Meta,Facebook Tech LLC, Lens,Facebook company
+Meta,Facebook Technologies LLC, Lens,Facebook company
+Meta,Facebook Procurement LLC,SEC 10-K
+Meta,Instagram LLC,SEC 10-K
+Meta,Meta Payments Inc,SEC 10-K
+Meta,WhatsApp LLC,SEC 10-K
 Amazon,Amazon.com Services LLC,SEC 10-K,SEC 10-K
 Amazon,Amazon.com Sales Inc.,SEK 10-K,SEC 10-K
+Amazon,Amazoncom INC ,SEK 10-K,SEC 10-K
 Amazon,Amazon.com NV Investment Holdings LLC,SEK 10-K,SEC 10-K
 Amazon,Amazon US Services LLC,SEK 10-K,SEC 10-K
 Amazon,Day One Insurance Inc,SEK 10-K,SEC 10-K
 Amazon,Amazon Web Services Inc,SEC,Potentially includes international international R&D branches
 Amazon,Amazon Technologies Inc,SEC,Primary Intellectual Property holder/Core AWS and Software Patents
+Amazon,Amazon Tech INC,Lens,Different spelling
+Amazon,Amazon Com INC,Lens,Different spelling
 Amazon,Amazon Data Services Inc,SEC,Data Center infrastructure and energy tech
 Amazon,Kuiper Systems LLC,OpenCorp,Networking and satellite infrastructure
 Amazon,A100 ROW Inc,OpenCorp,International (EU) data center infrastructure
@@ -28,11 +35,14 @@ Amazon,NV Services Inc,OpenCorp,OpenCorp
 Amazon,Alexa Internet,OpenCorp,OpenCorp
 Amazon,Internet Movie Database,OpenCorp,OpenCorp
 Microsoft,Microsoft Corp, Lens Parent company
+Microsoft,Microsoft Corporation,Lens,Different spelling
 Microsoft,Microsoft Technology Licensing LLC,Lens, Subsidiary managing patents and technology transfer activities
-Apple, Apple INC, Lens, Parent company
-Apple, Apple Computer, Former name of parent company, has patents on Lens
-Apple,  Apple Korea Limited, SEK 10-K - in lens written  Apple Korea Co Ltd
-Apple, Apple Operations International Limited, SEK 10-K manufactures and distributes electronic products
-Apple, Apple Operations Limited, SEK 10-K
-Apple, Anobit Technologies LTD,  Wikipedia - semiconductor subsidiary
-Apple, Anobit Technologies,  Wikipedia - semiconductor subsidiary
+Microsoft,Microsoft Tech Licensing LLC, Lens, Different spelling
+Apple,Apple INC, Lens, Parent company
+Apple,Apple Computer, Former name of parent company, has patents on Lens
+Apple,Apple Computer INC,Lens, Different spelling
+Apple,Apple Korea Limited, SEK 10-K - in lens written  Apple Korea Co Ltd
+Apple,Apple Operations International Limited, SEK 10-K manufactures and distributes electronic products
+Apple,Apple Operations Limited, SEK 10-K
+Apple,Anobit Technologies LTD,  Wikipedia - semiconductor subsidiary
+Apple,Anobit Technologies,  Wikipedia - semiconductor subsidiary
