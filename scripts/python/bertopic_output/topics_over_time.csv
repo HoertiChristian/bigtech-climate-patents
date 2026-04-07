@@ -1,0 +1,593 @@
+company,year,topic,count,topic_label
+Amazon,2010,1,1,1_power management_computing environment_power consumption_computing device
+Amazon,2010,18,1,18_environmental tracking_carbon_environmental impact_environment environmental
+Amazon,2010,20,1,20_cooling mode_evaporative cooling_sub systems_cooling
+Amazon,2011,18,1,18_environmental tracking_carbon_environmental impact_environment environmental
+Amazon,2011,20,1,20_cooling mode_evaporative cooling_sub systems_cooling
+Amazon,2012,0,1,0_cellular network_communications_communication device_transmit
+Amazon,2012,1,2,1_power management_computing environment_power consumption_computing device
+Amazon,2012,18,3,18_environmental tracking_carbon_environmental impact_environment environmental
+Amazon,2012,20,2,20_cooling mode_evaporative cooling_sub systems_cooling
+Amazon,2013,0,4,0_cellular network_communications_communication device_transmit
+Amazon,2013,1,7,1_power management_computing environment_power consumption_computing device
+Amazon,2013,3,1,3_device detects_device electronic_electronic device_device displays
+Amazon,2013,11,4,11_multifunction device_multifunction_object device_input device
+Amazon,2013,13,1,13_robotic manipulator_manipulator_robotic_data analyzed
+Amazon,2013,20,2,20_cooling mode_evaporative cooling_sub systems_cooling
+Amazon,2014,0,5,0_cellular network_communications_communication device_transmit
+Amazon,2014,1,13,1_power management_computing environment_power consumption_computing device
+Amazon,2014,3,4,3_device detects_device electronic_electronic device_device displays
+Amazon,2014,8,6,8_protocol stack_protocol_tcp_packet
+Amazon,2014,11,2,11_multifunction device_multifunction_object device_input device
+Amazon,2014,14,1,14_fuel cell_control subsystem_subsystem provides_subsystem
+Amazon,2014,20,1,20_cooling mode_evaporative cooling_sub systems_cooling
+Amazon,2015,0,9,0_cellular network_communications_communication device_transmit
+Amazon,2015,1,20,1_power management_computing environment_power consumption_computing device
+Amazon,2015,2,4,2_battery cells_battery cell_cell battery_battery packs
+Amazon,2015,3,7,3_device detects_device electronic_electronic device_device displays
+Amazon,2015,8,3,8_protocol stack_protocol_tcp_packet
+Amazon,2015,11,6,11_multifunction device_multifunction_object device_input device
+Amazon,2015,13,5,13_robotic manipulator_manipulator_robotic_data analyzed
+Amazon,2015,14,2,14_fuel cell_control subsystem_subsystem provides_subsystem
+Amazon,2016,0,15,0_cellular network_communications_communication device_transmit
+Amazon,2016,1,23,1_power management_computing environment_power consumption_computing device
+Amazon,2016,2,7,2_battery cells_battery cell_cell battery_battery packs
+Amazon,2016,3,4,3_device detects_device electronic_electronic device_device displays
+Amazon,2016,4,1,4_converters_dc converter_power converter_converter includes
+Amazon,2016,6,4,6_flexible hinge_flexible_hinge_input device
+Amazon,2016,11,6,11_multifunction device_multifunction_object device_input device
+Amazon,2016,12,4,12_propeller_mechanism_aerial vehicles_blades
+Amazon,2016,13,1,13_robotic manipulator_manipulator_robotic_data analyzed
+Amazon,2016,14,5,14_fuel cell_control subsystem_subsystem provides_subsystem
+Amazon,2016,21,4,21_provisioning_provider implement_provisioning server_module provisioning
+Amazon,2017,0,13,0_cellular network_communications_communication device_transmit
+Amazon,2017,1,40,1_power management_computing environment_power consumption_computing device
+Amazon,2017,2,6,2_battery cells_battery cell_cell battery_battery packs
+Amazon,2017,3,10,3_device detects_device electronic_electronic device_device displays
+Amazon,2017,5,1,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Amazon,2017,6,1,6_flexible hinge_flexible_hinge_input device
+Amazon,2017,8,4,8_protocol stack_protocol_tcp_packet
+Amazon,2017,11,6,11_multifunction device_multifunction_object device_input device
+Amazon,2017,12,22,12_propeller_mechanism_aerial vehicles_blades
+Amazon,2017,13,11,13_robotic manipulator_manipulator_robotic_data analyzed
+Amazon,2017,14,7,14_fuel cell_control subsystem_subsystem provides_subsystem
+Amazon,2017,20,1,20_cooling mode_evaporative cooling_sub systems_cooling
+Amazon,2018,0,14,0_cellular network_communications_communication device_transmit
+Amazon,2018,1,23,1_power management_computing environment_power consumption_computing device
+Amazon,2018,2,7,2_battery cells_battery cell_cell battery_battery packs
+Amazon,2018,3,2,3_device detects_device electronic_electronic device_device displays
+Amazon,2018,4,7,4_converters_dc converter_power converter_converter includes
+Amazon,2018,6,3,6_flexible hinge_flexible_hinge_input device
+Amazon,2018,8,3,8_protocol stack_protocol_tcp_packet
+Amazon,2018,11,10,11_multifunction device_multifunction_object device_input device
+Amazon,2018,12,11,12_propeller_mechanism_aerial vehicles_blades
+Amazon,2018,13,8,13_robotic manipulator_manipulator_robotic_data analyzed
+Amazon,2018,14,6,14_fuel cell_control subsystem_subsystem provides_subsystem
+Amazon,2018,15,1,15_storage devices_storage device_storage media_device synchronization
+Amazon,2018,20,2,20_cooling mode_evaporative cooling_sub systems_cooling
+Amazon,2019,0,8,0_cellular network_communications_communication device_transmit
+Amazon,2019,1,32,1_power management_computing environment_power consumption_computing device
+Amazon,2019,2,13,2_battery cells_battery cell_cell battery_battery packs
+Amazon,2019,3,5,3_device detects_device electronic_electronic device_device displays
+Amazon,2019,4,7,4_converters_dc converter_power converter_converter includes
+Amazon,2019,5,1,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Amazon,2019,6,2,6_flexible hinge_flexible_hinge_input device
+Amazon,2019,8,8,8_protocol stack_protocol_tcp_packet
+Amazon,2019,9,3,9_dnn processor_dnn module_network dnn_neural processor
+Amazon,2019,11,3,11_multifunction device_multifunction_object device_input device
+Amazon,2019,12,13,12_propeller_mechanism_aerial vehicles_blades
+Amazon,2019,13,4,13_robotic manipulator_manipulator_robotic_data analyzed
+Amazon,2019,14,14,14_fuel cell_control subsystem_subsystem provides_subsystem
+Amazon,2019,15,1,15_storage devices_storage device_storage media_device synchronization
+Amazon,2020,0,13,0_cellular network_communications_communication device_transmit
+Amazon,2020,1,30,1_power management_computing environment_power consumption_computing device
+Amazon,2020,2,10,2_battery cells_battery cell_cell battery_battery packs
+Amazon,2020,3,1,3_device detects_device electronic_electronic device_device displays
+Amazon,2020,4,8,4_converters_dc converter_power converter_converter includes
+Amazon,2020,6,4,6_flexible hinge_flexible_hinge_input device
+Amazon,2020,8,4,8_protocol stack_protocol_tcp_packet
+Amazon,2020,9,3,9_dnn processor_dnn module_network dnn_neural processor
+Amazon,2020,11,5,11_multifunction device_multifunction_object device_input device
+Amazon,2020,12,18,12_propeller_mechanism_aerial vehicles_blades
+Amazon,2020,13,3,13_robotic manipulator_manipulator_robotic_data analyzed
+Amazon,2020,14,3,14_fuel cell_control subsystem_subsystem provides_subsystem
+Amazon,2020,21,2,21_provisioning_provider implement_provisioning server_module provisioning
+Amazon,2021,0,6,0_cellular network_communications_communication device_transmit
+Amazon,2021,1,29,1_power management_computing environment_power consumption_computing device
+Amazon,2021,2,6,2_battery cells_battery cell_cell battery_battery packs
+Amazon,2021,3,4,3_device detects_device electronic_electronic device_device displays
+Amazon,2021,4,8,4_converters_dc converter_power converter_converter includes
+Amazon,2021,5,3,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Amazon,2021,6,3,6_flexible hinge_flexible_hinge_input device
+Amazon,2021,8,1,8_protocol stack_protocol_tcp_packet
+Amazon,2021,10,1,10_navigation application_map device_navigation_maps
+Amazon,2021,11,2,11_multifunction device_multifunction_object device_input device
+Amazon,2021,12,6,12_propeller_mechanism_aerial vehicles_blades
+Amazon,2021,13,1,13_robotic manipulator_manipulator_robotic_data analyzed
+Amazon,2021,14,3,14_fuel cell_control subsystem_subsystem provides_subsystem
+Amazon,2021,15,1,15_storage devices_storage device_storage media_device synchronization
+Amazon,2021,20,1,20_cooling mode_evaporative cooling_sub systems_cooling
+Amazon,2022,0,5,0_cellular network_communications_communication device_transmit
+Amazon,2022,1,14,1_power management_computing environment_power consumption_computing device
+Amazon,2022,2,4,2_battery cells_battery cell_cell battery_battery packs
+Amazon,2022,3,1,3_device detects_device electronic_electronic device_device displays
+Amazon,2022,4,2,4_converters_dc converter_power converter_converter includes
+Amazon,2022,8,1,8_protocol stack_protocol_tcp_packet
+Amazon,2022,9,2,9_dnn processor_dnn module_network dnn_neural processor
+Amazon,2022,11,1,11_multifunction device_multifunction_object device_input device
+Amazon,2022,12,2,12_propeller_mechanism_aerial vehicles_blades
+Amazon,2022,13,1,13_robotic manipulator_manipulator_robotic_data analyzed
+Amazon,2022,14,1,14_fuel cell_control subsystem_subsystem provides_subsystem
+Amazon,2022,21,1,21_provisioning_provider implement_provisioning server_module provisioning
+Amazon,2023,0,5,0_cellular network_communications_communication device_transmit
+Amazon,2023,1,15,1_power management_computing environment_power consumption_computing device
+Amazon,2023,2,1,2_battery cells_battery cell_cell battery_battery packs
+Amazon,2023,3,1,3_device detects_device electronic_electronic device_device displays
+Amazon,2023,4,1,4_converters_dc converter_power converter_converter includes
+Amazon,2023,6,1,6_flexible hinge_flexible_hinge_input device
+Amazon,2023,8,3,8_protocol stack_protocol_tcp_packet
+Amazon,2023,9,2,9_dnn processor_dnn module_network dnn_neural processor
+Amazon,2023,12,1,12_propeller_mechanism_aerial vehicles_blades
+Amazon,2023,13,1,13_robotic manipulator_manipulator_robotic_data analyzed
+Amazon,2024,0,4,0_cellular network_communications_communication device_transmit
+Amazon,2024,1,3,1_power management_computing environment_power consumption_computing device
+Amazon,2024,2,2,2_battery cells_battery cell_cell battery_battery packs
+Amazon,2024,8,1,8_protocol stack_protocol_tcp_packet
+Apple,2010,0,18,0_cellular network_communications_communication device_transmit
+Apple,2010,1,32,1_power management_computing environment_power consumption_computing device
+Apple,2010,2,5,2_battery cells_battery cell_cell battery_battery packs
+Apple,2010,3,8,3_device detects_device electronic_electronic device_device displays
+Apple,2010,4,10,4_converters_dc converter_power converter_converter includes
+Apple,2010,6,9,6_flexible hinge_flexible_hinge_input device
+Apple,2010,16,4,16_material melting_melting_melt_heating
+Apple,2011,0,39,0_cellular network_communications_communication device_transmit
+Apple,2011,1,48,1_power management_computing environment_power consumption_computing device
+Apple,2011,2,24,2_battery cells_battery cell_cell battery_battery packs
+Apple,2011,3,11,3_device detects_device electronic_electronic device_device displays
+Apple,2011,4,11,4_converters_dc converter_power converter_converter includes
+Apple,2011,6,8,6_flexible hinge_flexible_hinge_input device
+Apple,2011,9,1,9_dnn processor_dnn module_network dnn_neural processor
+Apple,2011,11,1,11_multifunction device_multifunction_object device_input device
+Apple,2011,16,1,16_material melting_melting_melt_heating
+Apple,2012,0,58,0_cellular network_communications_communication device_transmit
+Apple,2012,1,116,1_power management_computing environment_power consumption_computing device
+Apple,2012,2,31,2_battery cells_battery cell_cell battery_battery packs
+Apple,2012,3,31,3_device detects_device electronic_electronic device_device displays
+Apple,2012,4,13,4_converters_dc converter_power converter_converter includes
+Apple,2012,5,1,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Apple,2012,6,15,6_flexible hinge_flexible_hinge_input device
+Apple,2012,8,1,8_protocol stack_protocol_tcp_packet
+Apple,2012,11,1,11_multifunction device_multifunction_object device_input device
+Apple,2012,13,2,13_robotic manipulator_manipulator_robotic_data analyzed
+Apple,2013,0,146,0_cellular network_communications_communication device_transmit
+Apple,2013,1,113,1_power management_computing environment_power consumption_computing device
+Apple,2013,2,63,2_battery cells_battery cell_cell battery_battery packs
+Apple,2013,3,35,3_device detects_device electronic_electronic device_device displays
+Apple,2013,4,19,4_converters_dc converter_power converter_converter includes
+Apple,2013,5,3,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Apple,2013,6,18,6_flexible hinge_flexible_hinge_input device
+Apple,2013,8,3,8_protocol stack_protocol_tcp_packet
+Apple,2013,10,31,10_navigation application_map device_navigation_maps
+Apple,2013,11,2,11_multifunction device_multifunction_object device_input device
+Apple,2013,16,1,16_material melting_melting_melt_heating
+Apple,2013,19,9,19_adaptive channel_reception drx_channel state_drx cycles
+Apple,2013,21,4,21_provisioning_provider implement_provisioning server_module provisioning
+Apple,2013,25,3,25_evolution lte_lte_lte network_lte lte
+Apple,2014,0,172,0_cellular network_communications_communication device_transmit
+Apple,2014,1,165,1_power management_computing environment_power consumption_computing device
+Apple,2014,2,80,2_battery cells_battery cell_cell battery_battery packs
+Apple,2014,3,39,3_device detects_device electronic_electronic device_device displays
+Apple,2014,4,28,4_converters_dc converter_power converter_converter includes
+Apple,2014,5,2,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Apple,2014,6,25,6_flexible hinge_flexible_hinge_input device
+Apple,2014,8,3,8_protocol stack_protocol_tcp_packet
+Apple,2014,10,28,10_navigation application_map device_navigation_maps
+Apple,2014,11,3,11_multifunction device_multifunction_object device_input device
+Apple,2014,13,3,13_robotic manipulator_manipulator_robotic_data analyzed
+Apple,2014,16,8,16_material melting_melting_melt_heating
+Apple,2014,19,6,19_adaptive channel_reception drx_channel state_drx cycles
+Apple,2014,21,1,21_provisioning_provider implement_provisioning server_module provisioning
+Apple,2014,25,2,25_evolution lte_lte_lte network_lte lte
+Apple,2015,0,169,0_cellular network_communications_communication device_transmit
+Apple,2015,1,142,1_power management_computing environment_power consumption_computing device
+Apple,2015,2,53,2_battery cells_battery cell_cell battery_battery packs
+Apple,2015,3,45,3_device detects_device electronic_electronic device_device displays
+Apple,2015,4,15,4_converters_dc converter_power converter_converter includes
+Apple,2015,5,21,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Apple,2015,6,23,6_flexible hinge_flexible_hinge_input device
+Apple,2015,7,6,7_rach_harq_rrc rach_heuristically testing
+Apple,2015,8,6,8_protocol stack_protocol_tcp_packet
+Apple,2015,10,15,10_navigation application_map device_navigation_maps
+Apple,2015,11,2,11_multifunction device_multifunction_object device_input device
+Apple,2015,13,3,13_robotic manipulator_manipulator_robotic_data analyzed
+Apple,2015,16,2,16_material melting_melting_melt_heating
+Apple,2015,19,3,19_adaptive channel_reception drx_channel state_drx cycles
+Apple,2015,21,1,21_provisioning_provider implement_provisioning server_module provisioning
+Apple,2015,28,2,28_metal surface_layer surface_layer protects_surfaces
+Apple,2016,0,256,0_cellular network_communications_communication device_transmit
+Apple,2016,1,148,1_power management_computing environment_power consumption_computing device
+Apple,2016,2,68,2_battery cells_battery cell_cell battery_battery packs
+Apple,2016,3,77,3_device detects_device electronic_electronic device_device displays
+Apple,2016,4,26,4_converters_dc converter_power converter_converter includes
+Apple,2016,5,18,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Apple,2016,6,23,6_flexible hinge_flexible_hinge_input device
+Apple,2016,7,29,7_rach_harq_rrc rach_heuristically testing
+Apple,2016,8,4,8_protocol stack_protocol_tcp_packet
+Apple,2016,10,12,10_navigation application_map device_navigation_maps
+Apple,2016,11,4,11_multifunction device_multifunction_object device_input device
+Apple,2016,13,3,13_robotic manipulator_manipulator_robotic_data analyzed
+Apple,2016,16,1,16_material melting_melting_melt_heating
+Apple,2016,17,2,17_aspects subject_aspects_aspect_presented notification
+Apple,2016,19,4,19_adaptive channel_reception drx_channel state_drx cycles
+Apple,2016,21,2,21_provisioning_provider implement_provisioning server_module provisioning
+Apple,2016,22,2,22_context determined_context based_context using_contexts context
+Apple,2016,24,3,24_precipitate_precursor_material cathode_relate manufacture
+Apple,2016,25,2,25_evolution lte_lte_lte network_lte lte
+Apple,2016,28,2,28_metal surface_layer surface_layer protects_surfaces
+Apple,2017,0,166,0_cellular network_communications_communication device_transmit
+Apple,2017,1,115,1_power management_computing environment_power consumption_computing device
+Apple,2017,2,72,2_battery cells_battery cell_cell battery_battery packs
+Apple,2017,3,70,3_device detects_device electronic_electronic device_device displays
+Apple,2017,4,17,4_converters_dc converter_power converter_converter includes
+Apple,2017,5,23,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Apple,2017,6,22,6_flexible hinge_flexible_hinge_input device
+Apple,2017,7,20,7_rach_harq_rrc rach_heuristically testing
+Apple,2017,8,8,8_protocol stack_protocol_tcp_packet
+Apple,2017,10,4,10_navigation application_map device_navigation_maps
+Apple,2017,11,5,11_multifunction device_multifunction_object device_input device
+Apple,2017,13,1,13_robotic manipulator_manipulator_robotic_data analyzed
+Apple,2017,16,5,16_material melting_melting_melt_heating
+Apple,2017,17,2,17_aspects subject_aspects_aspect_presented notification
+Apple,2017,19,2,19_adaptive channel_reception drx_channel state_drx cycles
+Apple,2017,21,1,21_provisioning_provider implement_provisioning server_module provisioning
+Apple,2017,22,1,22_context determined_context based_context using_contexts context
+Apple,2017,24,3,24_precipitate_precursor_material cathode_relate manufacture
+Apple,2017,25,1,25_evolution lte_lte_lte network_lte lte
+Apple,2017,28,1,28_metal surface_layer surface_layer protects_surfaces
+Apple,2018,0,191,0_cellular network_communications_communication device_transmit
+Apple,2018,1,98,1_power management_computing environment_power consumption_computing device
+Apple,2018,2,71,2_battery cells_battery cell_cell battery_battery packs
+Apple,2018,3,82,3_device detects_device electronic_electronic device_device displays
+Apple,2018,4,27,4_converters_dc converter_power converter_converter includes
+Apple,2018,5,7,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Apple,2018,6,25,6_flexible hinge_flexible_hinge_input device
+Apple,2018,7,15,7_rach_harq_rrc rach_heuristically testing
+Apple,2018,8,4,8_protocol stack_protocol_tcp_packet
+Apple,2018,9,3,9_dnn processor_dnn module_network dnn_neural processor
+Apple,2018,10,7,10_navigation application_map device_navigation_maps
+Apple,2018,11,3,11_multifunction device_multifunction_object device_input device
+Apple,2018,13,1,13_robotic manipulator_manipulator_robotic_data analyzed
+Apple,2018,14,1,14_fuel cell_control subsystem_subsystem provides_subsystem
+Apple,2018,22,2,22_context determined_context based_context using_contexts context
+Apple,2018,23,5,23_metal oxides_metal oxide_oxides_oxide
+Apple,2018,24,1,24_precipitate_precursor_material cathode_relate manufacture
+Apple,2019,0,212,0_cellular network_communications_communication device_transmit
+Apple,2019,1,96,1_power management_computing environment_power consumption_computing device
+Apple,2019,2,61,2_battery cells_battery cell_cell battery_battery packs
+Apple,2019,3,87,3_device detects_device electronic_electronic device_device displays
+Apple,2019,4,46,4_converters_dc converter_power converter_converter includes
+Apple,2019,5,16,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Apple,2019,6,14,6_flexible hinge_flexible_hinge_input device
+Apple,2019,7,18,7_rach_harq_rrc rach_heuristically testing
+Apple,2019,8,20,8_protocol stack_protocol_tcp_packet
+Apple,2019,9,10,9_dnn processor_dnn module_network dnn_neural processor
+Apple,2019,10,1,10_navigation application_map device_navigation_maps
+Apple,2019,11,2,11_multifunction device_multifunction_object device_input device
+Apple,2019,13,1,13_robotic manipulator_manipulator_robotic_data analyzed
+Apple,2019,14,1,14_fuel cell_control subsystem_subsystem provides_subsystem
+Apple,2019,16,2,16_material melting_melting_melt_heating
+Apple,2019,17,2,17_aspects subject_aspects_aspect_presented notification
+Apple,2019,23,3,23_metal oxides_metal oxide_oxides_oxide
+Apple,2019,24,3,24_precipitate_precursor_material cathode_relate manufacture
+Apple,2019,25,2,25_evolution lte_lte_lte network_lte lte
+Apple,2019,28,1,28_metal surface_layer surface_layer protects_surfaces
+Apple,2020,0,242,0_cellular network_communications_communication device_transmit
+Apple,2020,1,96,1_power management_computing environment_power consumption_computing device
+Apple,2020,2,89,2_battery cells_battery cell_cell battery_battery packs
+Apple,2020,3,90,3_device detects_device electronic_electronic device_device displays
+Apple,2020,4,22,4_converters_dc converter_power converter_converter includes
+Apple,2020,5,28,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Apple,2020,6,24,6_flexible hinge_flexible_hinge_input device
+Apple,2020,7,17,7_rach_harq_rrc rach_heuristically testing
+Apple,2020,8,7,8_protocol stack_protocol_tcp_packet
+Apple,2020,9,6,9_dnn processor_dnn module_network dnn_neural processor
+Apple,2020,10,2,10_navigation application_map device_navigation_maps
+Apple,2020,11,3,11_multifunction device_multifunction_object device_input device
+Apple,2020,13,1,13_robotic manipulator_manipulator_robotic_data analyzed
+Apple,2020,16,2,16_material melting_melting_melt_heating
+Apple,2020,17,1,17_aspects subject_aspects_aspect_presented notification
+Apple,2020,22,1,22_context determined_context based_context using_contexts context
+Apple,2020,23,2,23_metal oxides_metal oxide_oxides_oxide
+Apple,2020,24,1,24_precipitate_precursor_material cathode_relate manufacture
+Apple,2021,0,205,0_cellular network_communications_communication device_transmit
+Apple,2021,1,105,1_power management_computing environment_power consumption_computing device
+Apple,2021,2,85,2_battery cells_battery cell_cell battery_battery packs
+Apple,2021,3,101,3_device detects_device electronic_electronic device_device displays
+Apple,2021,4,30,4_converters_dc converter_power converter_converter includes
+Apple,2021,5,38,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Apple,2021,6,18,6_flexible hinge_flexible_hinge_input device
+Apple,2021,7,16,7_rach_harq_rrc rach_heuristically testing
+Apple,2021,8,10,8_protocol stack_protocol_tcp_packet
+Apple,2021,9,4,9_dnn processor_dnn module_network dnn_neural processor
+Apple,2021,10,7,10_navigation application_map device_navigation_maps
+Apple,2021,14,1,14_fuel cell_control subsystem_subsystem provides_subsystem
+Apple,2021,16,2,16_material melting_melting_melt_heating
+Apple,2021,17,1,17_aspects subject_aspects_aspect_presented notification
+Apple,2021,21,1,21_provisioning_provider implement_provisioning server_module provisioning
+Apple,2021,23,3,23_metal oxides_metal oxide_oxides_oxide
+Apple,2021,25,1,25_evolution lte_lte_lte network_lte lte
+Apple,2021,27,5,27_power estimation_power consumption_power management_dynamic power
+Apple,2022,0,301,0_cellular network_communications_communication device_transmit
+Apple,2022,1,109,1_power management_computing environment_power consumption_computing device
+Apple,2022,2,87,2_battery cells_battery cell_cell battery_battery packs
+Apple,2022,3,73,3_device detects_device electronic_electronic device_device displays
+Apple,2022,4,24,4_converters_dc converter_power converter_converter includes
+Apple,2022,5,62,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Apple,2022,6,21,6_flexible hinge_flexible_hinge_input device
+Apple,2022,7,24,7_rach_harq_rrc rach_heuristically testing
+Apple,2022,8,9,8_protocol stack_protocol_tcp_packet
+Apple,2022,9,4,9_dnn processor_dnn module_network dnn_neural processor
+Apple,2022,10,1,10_navigation application_map device_navigation_maps
+Apple,2022,11,2,11_multifunction device_multifunction_object device_input device
+Apple,2022,16,3,16_material melting_melting_melt_heating
+Apple,2022,17,1,17_aspects subject_aspects_aspect_presented notification
+Apple,2022,21,2,21_provisioning_provider implement_provisioning server_module provisioning
+Apple,2022,27,2,27_power estimation_power consumption_power management_dynamic power
+Apple,2022,28,1,28_metal surface_layer surface_layer protects_surfaces
+Apple,2023,0,288,0_cellular network_communications_communication device_transmit
+Apple,2023,1,113,1_power management_computing environment_power consumption_computing device
+Apple,2023,2,108,2_battery cells_battery cell_cell battery_battery packs
+Apple,2023,3,92,3_device detects_device electronic_electronic device_device displays
+Apple,2023,4,34,4_converters_dc converter_power converter_converter includes
+Apple,2023,5,36,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Apple,2023,6,8,6_flexible hinge_flexible_hinge_input device
+Apple,2023,7,32,7_rach_harq_rrc rach_heuristically testing
+Apple,2023,8,8,8_protocol stack_protocol_tcp_packet
+Apple,2023,9,8,9_dnn processor_dnn module_network dnn_neural processor
+Apple,2023,10,3,10_navigation application_map device_navigation_maps
+Apple,2023,11,2,11_multifunction device_multifunction_object device_input device
+Apple,2023,15,1,15_storage devices_storage device_storage media_device synchronization
+Apple,2023,16,1,16_material melting_melting_melt_heating
+Apple,2023,19,4,19_adaptive channel_reception drx_channel state_drx cycles
+Apple,2023,21,1,21_provisioning_provider implement_provisioning server_module provisioning
+Apple,2023,28,1,28_metal surface_layer surface_layer protects_surfaces
+Apple,2024,0,257,0_cellular network_communications_communication device_transmit
+Apple,2024,1,80,1_power management_computing environment_power consumption_computing device
+Apple,2024,2,83,2_battery cells_battery cell_cell battery_battery packs
+Apple,2024,3,54,3_device detects_device electronic_electronic device_device displays
+Apple,2024,4,18,4_converters_dc converter_power converter_converter includes
+Apple,2024,5,23,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Apple,2024,6,20,6_flexible hinge_flexible_hinge_input device
+Apple,2024,7,21,7_rach_harq_rrc rach_heuristically testing
+Apple,2024,8,3,8_protocol stack_protocol_tcp_packet
+Apple,2024,9,11,9_dnn processor_dnn module_network dnn_neural processor
+Apple,2024,11,2,11_multifunction device_multifunction_object device_input device
+Apple,2024,13,2,13_robotic manipulator_manipulator_robotic_data analyzed
+Apple,2024,15,2,15_storage devices_storage device_storage media_device synchronization
+Apple,2024,16,5,16_material melting_melting_melt_heating
+Apple,2024,27,1,27_power estimation_power consumption_power management_dynamic power
+Meta,2019,2,1,2_battery cells_battery cell_cell battery_battery packs
+Meta,2019,3,6,3_device detects_device electronic_electronic device_device displays
+Meta,2020,3,5,3_device detects_device electronic_electronic device_device displays
+Meta,2020,4,6,4_converters_dc converter_power converter_converter includes
+Meta,2021,1,13,1_power management_computing environment_power consumption_computing device
+Meta,2021,2,1,2_battery cells_battery cell_cell battery_battery packs
+Meta,2021,3,13,3_device detects_device electronic_electronic device_device displays
+Meta,2021,4,3,4_converters_dc converter_power converter_converter includes
+Meta,2021,9,7,9_dnn processor_dnn module_network dnn_neural processor
+Meta,2022,0,22,0_cellular network_communications_communication device_transmit
+Meta,2022,1,9,1_power management_computing environment_power consumption_computing device
+Meta,2022,2,2,2_battery cells_battery cell_cell battery_battery packs
+Meta,2022,3,6,3_device detects_device electronic_electronic device_device displays
+Meta,2022,4,9,4_converters_dc converter_power converter_converter includes
+Meta,2022,6,4,6_flexible hinge_flexible_hinge_input device
+Meta,2022,7,7,7_rach_harq_rrc rach_heuristically testing
+Meta,2022,9,3,9_dnn processor_dnn module_network dnn_neural processor
+Meta,2023,0,33,0_cellular network_communications_communication device_transmit
+Meta,2023,1,21,1_power management_computing environment_power consumption_computing device
+Meta,2023,2,12,2_battery cells_battery cell_cell battery_battery packs
+Meta,2023,3,5,3_device detects_device electronic_electronic device_device displays
+Meta,2023,4,4,4_converters_dc converter_power converter_converter includes
+Meta,2023,7,8,7_rach_harq_rrc rach_heuristically testing
+Meta,2023,9,2,9_dnn processor_dnn module_network dnn_neural processor
+Meta,2024,0,13,0_cellular network_communications_communication device_transmit
+Meta,2024,1,12,1_power management_computing environment_power consumption_computing device
+Meta,2024,2,4,2_battery cells_battery cell_cell battery_battery packs
+Meta,2024,3,3,3_device detects_device electronic_electronic device_device displays
+Meta,2024,4,1,4_converters_dc converter_power converter_converter includes
+Microsoft,2010,0,31,0_cellular network_communications_communication device_transmit
+Microsoft,2010,1,48,1_power management_computing environment_power consumption_computing device
+Microsoft,2010,2,13,2_battery cells_battery cell_cell battery_battery packs
+Microsoft,2010,3,2,3_device detects_device electronic_electronic device_device displays
+Microsoft,2010,8,9,8_protocol stack_protocol_tcp_packet
+Microsoft,2010,10,3,10_navigation application_map device_navigation_maps
+Microsoft,2010,14,1,14_fuel cell_control subsystem_subsystem provides_subsystem
+Microsoft,2010,18,9,18_environmental tracking_carbon_environmental impact_environment environmental
+Microsoft,2010,26,3,26_cluster_clusters_clustering_clustered
+Microsoft,2011,0,38,0_cellular network_communications_communication device_transmit
+Microsoft,2011,1,58,1_power management_computing environment_power consumption_computing device
+Microsoft,2011,2,19,2_battery cells_battery cell_cell battery_battery packs
+Microsoft,2011,3,16,3_device detects_device electronic_electronic device_device displays
+Microsoft,2011,5,6,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Microsoft,2011,8,8,8_protocol stack_protocol_tcp_packet
+Microsoft,2011,9,1,9_dnn processor_dnn module_network dnn_neural processor
+Microsoft,2011,10,2,10_navigation application_map device_navigation_maps
+Microsoft,2011,18,3,18_environmental tracking_carbon_environmental impact_environment environmental
+Microsoft,2011,21,1,21_provisioning_provider implement_provisioning server_module provisioning
+Microsoft,2011,26,1,26_cluster_clusters_clustering_clustered
+Microsoft,2012,0,52,0_cellular network_communications_communication device_transmit
+Microsoft,2012,1,106,1_power management_computing environment_power consumption_computing device
+Microsoft,2012,2,9,2_battery cells_battery cell_cell battery_battery packs
+Microsoft,2012,3,22,3_device detects_device electronic_electronic device_device displays
+Microsoft,2012,4,2,4_converters_dc converter_power converter_converter includes
+Microsoft,2012,5,2,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Microsoft,2012,8,15,8_protocol stack_protocol_tcp_packet
+Microsoft,2012,11,2,11_multifunction device_multifunction_object device_input device
+Microsoft,2012,18,1,18_environmental tracking_carbon_environmental impact_environment environmental
+Microsoft,2012,26,2,26_cluster_clusters_clustering_clustered
+Microsoft,2013,0,67,0_cellular network_communications_communication device_transmit
+Microsoft,2013,1,84,1_power management_computing environment_power consumption_computing device
+Microsoft,2013,2,13,2_battery cells_battery cell_cell battery_battery packs
+Microsoft,2013,3,26,3_device detects_device electronic_electronic device_device displays
+Microsoft,2013,5,3,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Microsoft,2013,6,15,6_flexible hinge_flexible_hinge_input device
+Microsoft,2013,8,10,8_protocol stack_protocol_tcp_packet
+Microsoft,2013,15,1,15_storage devices_storage device_storage media_device synchronization
+Microsoft,2013,22,4,22_context determined_context based_context using_contexts context
+Microsoft,2014,0,77,0_cellular network_communications_communication device_transmit
+Microsoft,2014,1,91,1_power management_computing environment_power consumption_computing device
+Microsoft,2014,2,15,2_battery cells_battery cell_cell battery_battery packs
+Microsoft,2014,3,38,3_device detects_device electronic_electronic device_device displays
+Microsoft,2014,4,1,4_converters_dc converter_power converter_converter includes
+Microsoft,2014,5,2,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Microsoft,2014,6,40,6_flexible hinge_flexible_hinge_input device
+Microsoft,2014,8,11,8_protocol stack_protocol_tcp_packet
+Microsoft,2014,13,1,13_robotic manipulator_manipulator_robotic_data analyzed
+Microsoft,2014,15,7,15_storage devices_storage device_storage media_device synchronization
+Microsoft,2014,18,5,18_environmental tracking_carbon_environmental impact_environment environmental
+Microsoft,2014,22,2,22_context determined_context based_context using_contexts context
+Microsoft,2015,0,46,0_cellular network_communications_communication device_transmit
+Microsoft,2015,1,84,1_power management_computing environment_power consumption_computing device
+Microsoft,2015,2,17,2_battery cells_battery cell_cell battery_battery packs
+Microsoft,2015,3,26,3_device detects_device electronic_electronic device_device displays
+Microsoft,2015,4,2,4_converters_dc converter_power converter_converter includes
+Microsoft,2015,5,1,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Microsoft,2015,6,10,6_flexible hinge_flexible_hinge_input device
+Microsoft,2015,7,8,7_rach_harq_rrc rach_heuristically testing
+Microsoft,2015,8,6,8_protocol stack_protocol_tcp_packet
+Microsoft,2015,13,2,13_robotic manipulator_manipulator_robotic_data analyzed
+Microsoft,2015,15,6,15_storage devices_storage device_storage media_device synchronization
+Microsoft,2015,17,4,17_aspects subject_aspects_aspect_presented notification
+Microsoft,2015,18,1,18_environmental tracking_carbon_environmental impact_environment environmental
+Microsoft,2015,20,1,20_cooling mode_evaporative cooling_sub systems_cooling
+Microsoft,2015,22,1,22_context determined_context based_context using_contexts context
+Microsoft,2016,0,76,0_cellular network_communications_communication device_transmit
+Microsoft,2016,1,101,1_power management_computing environment_power consumption_computing device
+Microsoft,2016,2,31,2_battery cells_battery cell_cell battery_battery packs
+Microsoft,2016,3,32,3_device detects_device electronic_electronic device_device displays
+Microsoft,2016,5,5,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Microsoft,2016,6,9,6_flexible hinge_flexible_hinge_input device
+Microsoft,2016,7,13,7_rach_harq_rrc rach_heuristically testing
+Microsoft,2016,8,12,8_protocol stack_protocol_tcp_packet
+Microsoft,2016,9,2,9_dnn processor_dnn module_network dnn_neural processor
+Microsoft,2016,11,2,11_multifunction device_multifunction_object device_input device
+Microsoft,2016,13,1,13_robotic manipulator_manipulator_robotic_data analyzed
+Microsoft,2016,15,6,15_storage devices_storage device_storage media_device synchronization
+Microsoft,2016,17,7,17_aspects subject_aspects_aspect_presented notification
+Microsoft,2016,20,1,20_cooling mode_evaporative cooling_sub systems_cooling
+Microsoft,2016,22,1,22_context determined_context based_context using_contexts context
+Microsoft,2017,0,54,0_cellular network_communications_communication device_transmit
+Microsoft,2017,1,156,1_power management_computing environment_power consumption_computing device
+Microsoft,2017,2,32,2_battery cells_battery cell_cell battery_battery packs
+Microsoft,2017,3,38,3_device detects_device electronic_electronic device_device displays
+Microsoft,2017,4,4,4_converters_dc converter_power converter_converter includes
+Microsoft,2017,5,41,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Microsoft,2017,6,8,6_flexible hinge_flexible_hinge_input device
+Microsoft,2017,7,13,7_rach_harq_rrc rach_heuristically testing
+Microsoft,2017,8,6,8_protocol stack_protocol_tcp_packet
+Microsoft,2017,9,4,9_dnn processor_dnn module_network dnn_neural processor
+Microsoft,2017,11,1,11_multifunction device_multifunction_object device_input device
+Microsoft,2017,13,4,13_robotic manipulator_manipulator_robotic_data analyzed
+Microsoft,2017,15,5,15_storage devices_storage device_storage media_device synchronization
+Microsoft,2017,18,1,18_environmental tracking_carbon_environmental impact_environment environmental
+Microsoft,2017,20,5,20_cooling mode_evaporative cooling_sub systems_cooling
+Microsoft,2017,22,2,22_context determined_context based_context using_contexts context
+Microsoft,2017,26,1,26_cluster_clusters_clustering_clustered
+Microsoft,2018,0,57,0_cellular network_communications_communication device_transmit
+Microsoft,2018,1,166,1_power management_computing environment_power consumption_computing device
+Microsoft,2018,2,31,2_battery cells_battery cell_cell battery_battery packs
+Microsoft,2018,3,53,3_device detects_device electronic_electronic device_device displays
+Microsoft,2018,4,3,4_converters_dc converter_power converter_converter includes
+Microsoft,2018,5,18,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Microsoft,2018,6,8,6_flexible hinge_flexible_hinge_input device
+Microsoft,2018,7,5,7_rach_harq_rrc rach_heuristically testing
+Microsoft,2018,8,2,8_protocol stack_protocol_tcp_packet
+Microsoft,2018,9,38,9_dnn processor_dnn module_network dnn_neural processor
+Microsoft,2018,13,1,13_robotic manipulator_manipulator_robotic_data analyzed
+Microsoft,2018,15,4,15_storage devices_storage device_storage media_device synchronization
+Microsoft,2018,17,2,17_aspects subject_aspects_aspect_presented notification
+Microsoft,2018,20,1,20_cooling mode_evaporative cooling_sub systems_cooling
+Microsoft,2019,0,45,0_cellular network_communications_communication device_transmit
+Microsoft,2019,1,140,1_power management_computing environment_power consumption_computing device
+Microsoft,2019,2,32,2_battery cells_battery cell_cell battery_battery packs
+Microsoft,2019,3,39,3_device detects_device electronic_electronic device_device displays
+Microsoft,2019,4,6,4_converters_dc converter_power converter_converter includes
+Microsoft,2019,5,16,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Microsoft,2019,6,10,6_flexible hinge_flexible_hinge_input device
+Microsoft,2019,7,5,7_rach_harq_rrc rach_heuristically testing
+Microsoft,2019,8,3,8_protocol stack_protocol_tcp_packet
+Microsoft,2019,9,21,9_dnn processor_dnn module_network dnn_neural processor
+Microsoft,2019,13,1,13_robotic manipulator_manipulator_robotic_data analyzed
+Microsoft,2019,15,3,15_storage devices_storage device_storage media_device synchronization
+Microsoft,2019,17,3,17_aspects subject_aspects_aspect_presented notification
+Microsoft,2019,20,3,20_cooling mode_evaporative cooling_sub systems_cooling
+Microsoft,2019,26,1,26_cluster_clusters_clustering_clustered
+Microsoft,2020,0,26,0_cellular network_communications_communication device_transmit
+Microsoft,2020,1,105,1_power management_computing environment_power consumption_computing device
+Microsoft,2020,2,26,2_battery cells_battery cell_cell battery_battery packs
+Microsoft,2020,3,20,3_device detects_device electronic_electronic device_device displays
+Microsoft,2020,5,11,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Microsoft,2020,6,3,6_flexible hinge_flexible_hinge_input device
+Microsoft,2020,7,1,7_rach_harq_rrc rach_heuristically testing
+Microsoft,2020,8,5,8_protocol stack_protocol_tcp_packet
+Microsoft,2020,9,12,9_dnn processor_dnn module_network dnn_neural processor
+Microsoft,2020,13,3,13_robotic manipulator_manipulator_robotic_data analyzed
+Microsoft,2020,14,2,14_fuel cell_control subsystem_subsystem provides_subsystem
+Microsoft,2020,15,3,15_storage devices_storage device_storage media_device synchronization
+Microsoft,2020,17,3,17_aspects subject_aspects_aspect_presented notification
+Microsoft,2020,18,1,18_environmental tracking_carbon_environmental impact_environment environmental
+Microsoft,2020,20,1,20_cooling mode_evaporative cooling_sub systems_cooling
+Microsoft,2021,0,25,0_cellular network_communications_communication device_transmit
+Microsoft,2021,1,98,1_power management_computing environment_power consumption_computing device
+Microsoft,2021,2,21,2_battery cells_battery cell_cell battery_battery packs
+Microsoft,2021,3,13,3_device detects_device electronic_electronic device_device displays
+Microsoft,2021,4,1,4_converters_dc converter_power converter_converter includes
+Microsoft,2021,5,9,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Microsoft,2021,6,2,6_flexible hinge_flexible_hinge_input device
+Microsoft,2021,7,3,7_rach_harq_rrc rach_heuristically testing
+Microsoft,2021,8,3,8_protocol stack_protocol_tcp_packet
+Microsoft,2021,9,13,9_dnn processor_dnn module_network dnn_neural processor
+Microsoft,2021,13,1,13_robotic manipulator_manipulator_robotic_data analyzed
+Microsoft,2021,14,3,14_fuel cell_control subsystem_subsystem provides_subsystem
+Microsoft,2021,15,1,15_storage devices_storage device_storage media_device synchronization
+Microsoft,2021,17,2,17_aspects subject_aspects_aspect_presented notification
+Microsoft,2021,20,2,20_cooling mode_evaporative cooling_sub systems_cooling
+Microsoft,2021,21,2,21_provisioning_provider implement_provisioning server_module provisioning
+Microsoft,2022,0,13,0_cellular network_communications_communication device_transmit
+Microsoft,2022,1,67,1_power management_computing environment_power consumption_computing device
+Microsoft,2022,2,16,2_battery cells_battery cell_cell battery_battery packs
+Microsoft,2022,3,14,3_device detects_device electronic_electronic device_device displays
+Microsoft,2022,5,9,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Microsoft,2022,6,4,6_flexible hinge_flexible_hinge_input device
+Microsoft,2022,7,3,7_rach_harq_rrc rach_heuristically testing
+Microsoft,2022,8,3,8_protocol stack_protocol_tcp_packet
+Microsoft,2022,9,14,9_dnn processor_dnn module_network dnn_neural processor
+Microsoft,2022,14,1,14_fuel cell_control subsystem_subsystem provides_subsystem
+Microsoft,2022,17,1,17_aspects subject_aspects_aspect_presented notification
+Microsoft,2022,18,2,18_environmental tracking_carbon_environmental impact_environment environmental
+Microsoft,2023,0,12,0_cellular network_communications_communication device_transmit
+Microsoft,2023,1,66,1_power management_computing environment_power consumption_computing device
+Microsoft,2023,2,17,2_battery cells_battery cell_cell battery_battery packs
+Microsoft,2023,3,6,3_device detects_device electronic_electronic device_device displays
+Microsoft,2023,4,7,4_converters_dc converter_power converter_converter includes
+Microsoft,2023,5,4,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Microsoft,2023,6,1,6_flexible hinge_flexible_hinge_input device
+Microsoft,2023,7,6,7_rach_harq_rrc rach_heuristically testing
+Microsoft,2023,8,6,8_protocol stack_protocol_tcp_packet
+Microsoft,2023,9,18,9_dnn processor_dnn module_network dnn_neural processor
+Microsoft,2023,15,1,15_storage devices_storage device_storage media_device synchronization
+Microsoft,2023,17,1,17_aspects subject_aspects_aspect_presented notification
+Microsoft,2023,20,2,20_cooling mode_evaporative cooling_sub systems_cooling
+Microsoft,2023,21,2,21_provisioning_provider implement_provisioning server_module provisioning
+Microsoft,2024,0,9,0_cellular network_communications_communication device_transmit
+Microsoft,2024,1,34,1_power management_computing environment_power consumption_computing device
+Microsoft,2024,2,21,2_battery cells_battery cell_cell battery_battery packs
+Microsoft,2024,3,6,3_device detects_device electronic_electronic device_device displays
+Microsoft,2024,4,2,4_converters_dc converter_power converter_converter includes
+Microsoft,2024,5,3,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Microsoft,2024,6,1,6_flexible hinge_flexible_hinge_input device
+Microsoft,2024,7,2,7_rach_harq_rrc rach_heuristically testing
+Microsoft,2024,8,5,8_protocol stack_protocol_tcp_packet
+Microsoft,2024,9,6,9_dnn processor_dnn module_network dnn_neural processor
+Microsoft,2024,11,2,11_multifunction device_multifunction_object device_input device
+Microsoft,2024,20,1,20_cooling mode_evaporative cooling_sub systems_cooling

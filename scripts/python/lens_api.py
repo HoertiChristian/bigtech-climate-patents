@@ -273,7 +273,7 @@ def build_query(applicant_names: list[str], size: int = 50,
             "range": {
                 "date_published": {
                     "gte": "2010-01-01",
-                    "lte": "2024-12-31",
+                    "lte": "2025-12-31",
                 }
             }
         },

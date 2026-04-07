@@ -1,0 +1,73 @@
+company,topic,count,topic_label
+Amazon,0,102,0_cellular network_communications_communication device_transmit
+Amazon,1,252,1_power management_computing environment_power consumption_computing device
+Amazon,2,60,2_battery cells_battery cell_cell battery_battery packs
+Amazon,3,40,3_device detects_device electronic_electronic device_device displays
+Amazon,4,34,4_converters_dc converter_power converter_converter includes
+Amazon,5,5,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Amazon,6,18,6_flexible hinge_flexible_hinge_input device
+Amazon,8,34,8_protocol stack_protocol_tcp_packet
+Amazon,9,10,9_dnn processor_dnn module_network dnn_neural processor
+Amazon,10,1,10_navigation application_map device_navigation_maps
+Amazon,11,45,11_multifunction device_multifunction_object device_input device
+Amazon,12,77,12_propeller_mechanism_aerial vehicles_blades
+Amazon,13,36,13_robotic manipulator_manipulator_robotic_data analyzed
+Amazon,14,42,14_fuel cell_control subsystem_subsystem provides_subsystem
+Amazon,15,3,15_storage devices_storage device_storage media_device synchronization
+Amazon,18,5,18_environmental tracking_carbon_environmental impact_environment environmental
+Amazon,20,11,20_cooling mode_evaporative cooling_sub systems_cooling
+Amazon,21,7,21_provisioning_provider implement_provisioning server_module provisioning
+Apple,0,2720,0_cellular network_communications_communication device_transmit
+Apple,1,1576,1_power management_computing environment_power consumption_computing device
+Apple,2,980,2_battery cells_battery cell_cell battery_battery packs
+Apple,3,895,3_device detects_device electronic_electronic device_device displays
+Apple,4,340,4_converters_dc converter_power converter_converter includes
+Apple,5,278,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Apple,6,273,6_flexible hinge_flexible_hinge_input device
+Apple,7,198,7_rach_harq_rrc rach_heuristically testing
+Apple,8,86,8_protocol stack_protocol_tcp_packet
+Apple,9,47,9_dnn processor_dnn module_network dnn_neural processor
+Apple,10,111,10_navigation application_map device_navigation_maps
+Apple,11,32,11_multifunction device_multifunction_object device_input device
+Apple,13,17,13_robotic manipulator_manipulator_robotic_data analyzed
+Apple,14,3,14_fuel cell_control subsystem_subsystem provides_subsystem
+Apple,15,3,15_storage devices_storage device_storage media_device synchronization
+Apple,16,37,16_material melting_melting_melt_heating
+Apple,17,9,17_aspects subject_aspects_aspect_presented notification
+Apple,19,28,19_adaptive channel_reception drx_channel state_drx cycles
+Apple,21,13,21_provisioning_provider implement_provisioning server_module provisioning
+Apple,22,6,22_context determined_context based_context using_contexts context
+Apple,23,13,23_metal oxides_metal oxide_oxides_oxide
+Apple,24,11,24_precipitate_precursor_material cathode_relate manufacture
+Apple,25,11,25_evolution lte_lte_lte network_lte lte
+Apple,27,8,27_power estimation_power consumption_power management_dynamic power
+Apple,28,8,28_metal surface_layer surface_layer protects_surfaces
+Meta,0,68,0_cellular network_communications_communication device_transmit
+Meta,1,55,1_power management_computing environment_power consumption_computing device
+Meta,2,20,2_battery cells_battery cell_cell battery_battery packs
+Meta,3,38,3_device detects_device electronic_electronic device_device displays
+Meta,4,23,4_converters_dc converter_power converter_converter includes
+Meta,6,4,6_flexible hinge_flexible_hinge_input device
+Meta,7,15,7_rach_harq_rrc rach_heuristically testing
+Meta,9,12,9_dnn processor_dnn module_network dnn_neural processor
+Microsoft,0,628,0_cellular network_communications_communication device_transmit
+Microsoft,1,1404,1_power management_computing environment_power consumption_computing device
+Microsoft,2,313,2_battery cells_battery cell_cell battery_battery packs
+Microsoft,3,351,3_device detects_device electronic_electronic device_device displays
+Microsoft,4,28,4_converters_dc converter_power converter_converter includes
+Microsoft,5,130,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+Microsoft,6,111,6_flexible hinge_flexible_hinge_input device
+Microsoft,7,59,7_rach_harq_rrc rach_heuristically testing
+Microsoft,8,104,8_protocol stack_protocol_tcp_packet
+Microsoft,9,129,9_dnn processor_dnn module_network dnn_neural processor
+Microsoft,10,5,10_navigation application_map device_navigation_maps
+Microsoft,11,7,11_multifunction device_multifunction_object device_input device
+Microsoft,13,14,13_robotic manipulator_manipulator_robotic_data analyzed
+Microsoft,14,7,14_fuel cell_control subsystem_subsystem provides_subsystem
+Microsoft,15,37,15_storage devices_storage device_storage media_device synchronization
+Microsoft,17,23,17_aspects subject_aspects_aspect_presented notification
+Microsoft,18,23,18_environmental tracking_carbon_environmental impact_environment environmental
+Microsoft,20,17,20_cooling mode_evaporative cooling_sub systems_cooling
+Microsoft,21,5,21_provisioning_provider implement_provisioning server_module provisioning
+Microsoft,22,10,22_context determined_context based_context using_contexts context
+Microsoft,26,8,26_cluster_clusters_clustering_clustered

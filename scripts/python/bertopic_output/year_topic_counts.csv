@@ -1,0 +1,305 @@
+year,topic,count,topic_label
+2010,0,49,0_cellular network_communications_communication device_transmit
+2010,1,81,1_power management_computing environment_power consumption_computing device
+2010,2,18,2_battery cells_battery cell_cell battery_battery packs
+2010,3,10,3_device detects_device electronic_electronic device_device displays
+2010,4,10,4_converters_dc converter_power converter_converter includes
+2010,6,9,6_flexible hinge_flexible_hinge_input device
+2010,8,9,8_protocol stack_protocol_tcp_packet
+2010,10,3,10_navigation application_map device_navigation_maps
+2010,14,1,14_fuel cell_control subsystem_subsystem provides_subsystem
+2010,16,4,16_material melting_melting_melt_heating
+2010,18,10,18_environmental tracking_carbon_environmental impact_environment environmental
+2010,20,1,20_cooling mode_evaporative cooling_sub systems_cooling
+2010,26,3,26_cluster_clusters_clustering_clustered
+2011,0,77,0_cellular network_communications_communication device_transmit
+2011,1,106,1_power management_computing environment_power consumption_computing device
+2011,2,43,2_battery cells_battery cell_cell battery_battery packs
+2011,3,27,3_device detects_device electronic_electronic device_device displays
+2011,4,11,4_converters_dc converter_power converter_converter includes
+2011,5,6,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+2011,6,8,6_flexible hinge_flexible_hinge_input device
+2011,8,8,8_protocol stack_protocol_tcp_packet
+2011,9,2,9_dnn processor_dnn module_network dnn_neural processor
+2011,10,2,10_navigation application_map device_navigation_maps
+2011,11,1,11_multifunction device_multifunction_object device_input device
+2011,16,1,16_material melting_melting_melt_heating
+2011,18,4,18_environmental tracking_carbon_environmental impact_environment environmental
+2011,20,1,20_cooling mode_evaporative cooling_sub systems_cooling
+2011,21,1,21_provisioning_provider implement_provisioning server_module provisioning
+2011,26,1,26_cluster_clusters_clustering_clustered
+2012,0,111,0_cellular network_communications_communication device_transmit
+2012,1,224,1_power management_computing environment_power consumption_computing device
+2012,2,40,2_battery cells_battery cell_cell battery_battery packs
+2012,3,53,3_device detects_device electronic_electronic device_device displays
+2012,4,15,4_converters_dc converter_power converter_converter includes
+2012,5,3,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+2012,6,15,6_flexible hinge_flexible_hinge_input device
+2012,8,16,8_protocol stack_protocol_tcp_packet
+2012,11,3,11_multifunction device_multifunction_object device_input device
+2012,13,2,13_robotic manipulator_manipulator_robotic_data analyzed
+2012,18,4,18_environmental tracking_carbon_environmental impact_environment environmental
+2012,20,2,20_cooling mode_evaporative cooling_sub systems_cooling
+2012,26,2,26_cluster_clusters_clustering_clustered
+2013,0,217,0_cellular network_communications_communication device_transmit
+2013,1,204,1_power management_computing environment_power consumption_computing device
+2013,2,76,2_battery cells_battery cell_cell battery_battery packs
+2013,3,62,3_device detects_device electronic_electronic device_device displays
+2013,4,19,4_converters_dc converter_power converter_converter includes
+2013,5,6,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+2013,6,33,6_flexible hinge_flexible_hinge_input device
+2013,8,13,8_protocol stack_protocol_tcp_packet
+2013,10,31,10_navigation application_map device_navigation_maps
+2013,11,6,11_multifunction device_multifunction_object device_input device
+2013,13,1,13_robotic manipulator_manipulator_robotic_data analyzed
+2013,15,1,15_storage devices_storage device_storage media_device synchronization
+2013,16,1,16_material melting_melting_melt_heating
+2013,19,9,19_adaptive channel_reception drx_channel state_drx cycles
+2013,20,2,20_cooling mode_evaporative cooling_sub systems_cooling
+2013,21,4,21_provisioning_provider implement_provisioning server_module provisioning
+2013,22,4,22_context determined_context based_context using_contexts context
+2013,25,3,25_evolution lte_lte_lte network_lte lte
+2014,0,254,0_cellular network_communications_communication device_transmit
+2014,1,269,1_power management_computing environment_power consumption_computing device
+2014,2,95,2_battery cells_battery cell_cell battery_battery packs
+2014,3,81,3_device detects_device electronic_electronic device_device displays
+2014,4,29,4_converters_dc converter_power converter_converter includes
+2014,5,4,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+2014,6,65,6_flexible hinge_flexible_hinge_input device
+2014,8,20,8_protocol stack_protocol_tcp_packet
+2014,10,28,10_navigation application_map device_navigation_maps
+2014,11,5,11_multifunction device_multifunction_object device_input device
+2014,13,4,13_robotic manipulator_manipulator_robotic_data analyzed
+2014,14,1,14_fuel cell_control subsystem_subsystem provides_subsystem
+2014,15,7,15_storage devices_storage device_storage media_device synchronization
+2014,16,8,16_material melting_melting_melt_heating
+2014,18,5,18_environmental tracking_carbon_environmental impact_environment environmental
+2014,19,6,19_adaptive channel_reception drx_channel state_drx cycles
+2014,20,1,20_cooling mode_evaporative cooling_sub systems_cooling
+2014,21,1,21_provisioning_provider implement_provisioning server_module provisioning
+2014,22,2,22_context determined_context based_context using_contexts context
+2014,25,2,25_evolution lte_lte_lte network_lte lte
+2015,0,224,0_cellular network_communications_communication device_transmit
+2015,1,246,1_power management_computing environment_power consumption_computing device
+2015,2,74,2_battery cells_battery cell_cell battery_battery packs
+2015,3,78,3_device detects_device electronic_electronic device_device displays
+2015,4,17,4_converters_dc converter_power converter_converter includes
+2015,5,22,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+2015,6,33,6_flexible hinge_flexible_hinge_input device
+2015,7,14,7_rach_harq_rrc rach_heuristically testing
+2015,8,15,8_protocol stack_protocol_tcp_packet
+2015,10,15,10_navigation application_map device_navigation_maps
+2015,11,8,11_multifunction device_multifunction_object device_input device
+2015,13,10,13_robotic manipulator_manipulator_robotic_data analyzed
+2015,14,2,14_fuel cell_control subsystem_subsystem provides_subsystem
+2015,15,6,15_storage devices_storage device_storage media_device synchronization
+2015,16,2,16_material melting_melting_melt_heating
+2015,17,4,17_aspects subject_aspects_aspect_presented notification
+2015,18,1,18_environmental tracking_carbon_environmental impact_environment environmental
+2015,19,3,19_adaptive channel_reception drx_channel state_drx cycles
+2015,20,1,20_cooling mode_evaporative cooling_sub systems_cooling
+2015,21,1,21_provisioning_provider implement_provisioning server_module provisioning
+2015,22,1,22_context determined_context based_context using_contexts context
+2015,28,2,28_metal surface_layer surface_layer protects_surfaces
+2016,0,347,0_cellular network_communications_communication device_transmit
+2016,1,272,1_power management_computing environment_power consumption_computing device
+2016,2,106,2_battery cells_battery cell_cell battery_battery packs
+2016,3,113,3_device detects_device electronic_electronic device_device displays
+2016,4,27,4_converters_dc converter_power converter_converter includes
+2016,5,23,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+2016,6,36,6_flexible hinge_flexible_hinge_input device
+2016,7,42,7_rach_harq_rrc rach_heuristically testing
+2016,8,16,8_protocol stack_protocol_tcp_packet
+2016,9,2,9_dnn processor_dnn module_network dnn_neural processor
+2016,10,12,10_navigation application_map device_navigation_maps
+2016,11,12,11_multifunction device_multifunction_object device_input device
+2016,12,4,12_propeller_mechanism_aerial vehicles_blades
+2016,13,5,13_robotic manipulator_manipulator_robotic_data analyzed
+2016,14,5,14_fuel cell_control subsystem_subsystem provides_subsystem
+2016,15,6,15_storage devices_storage device_storage media_device synchronization
+2016,16,1,16_material melting_melting_melt_heating
+2016,17,9,17_aspects subject_aspects_aspect_presented notification
+2016,19,4,19_adaptive channel_reception drx_channel state_drx cycles
+2016,20,1,20_cooling mode_evaporative cooling_sub systems_cooling
+2016,21,6,21_provisioning_provider implement_provisioning server_module provisioning
+2016,22,3,22_context determined_context based_context using_contexts context
+2016,24,3,24_precipitate_precursor_material cathode_relate manufacture
+2016,25,2,25_evolution lte_lte_lte network_lte lte
+2016,28,2,28_metal surface_layer surface_layer protects_surfaces
+2017,0,233,0_cellular network_communications_communication device_transmit
+2017,1,311,1_power management_computing environment_power consumption_computing device
+2017,2,110,2_battery cells_battery cell_cell battery_battery packs
+2017,3,118,3_device detects_device electronic_electronic device_device displays
+2017,4,21,4_converters_dc converter_power converter_converter includes
+2017,5,65,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+2017,6,31,6_flexible hinge_flexible_hinge_input device
+2017,7,33,7_rach_harq_rrc rach_heuristically testing
+2017,8,18,8_protocol stack_protocol_tcp_packet
+2017,9,4,9_dnn processor_dnn module_network dnn_neural processor
+2017,10,4,10_navigation application_map device_navigation_maps
+2017,11,12,11_multifunction device_multifunction_object device_input device
+2017,12,22,12_propeller_mechanism_aerial vehicles_blades
+2017,13,16,13_robotic manipulator_manipulator_robotic_data analyzed
+2017,14,7,14_fuel cell_control subsystem_subsystem provides_subsystem
+2017,15,5,15_storage devices_storage device_storage media_device synchronization
+2017,16,5,16_material melting_melting_melt_heating
+2017,17,2,17_aspects subject_aspects_aspect_presented notification
+2017,18,1,18_environmental tracking_carbon_environmental impact_environment environmental
+2017,19,2,19_adaptive channel_reception drx_channel state_drx cycles
+2017,20,6,20_cooling mode_evaporative cooling_sub systems_cooling
+2017,21,1,21_provisioning_provider implement_provisioning server_module provisioning
+2017,22,3,22_context determined_context based_context using_contexts context
+2017,24,3,24_precipitate_precursor_material cathode_relate manufacture
+2017,25,1,25_evolution lte_lte_lte network_lte lte
+2017,26,1,26_cluster_clusters_clustering_clustered
+2017,28,1,28_metal surface_layer surface_layer protects_surfaces
+2018,0,262,0_cellular network_communications_communication device_transmit
+2018,1,287,1_power management_computing environment_power consumption_computing device
+2018,2,109,2_battery cells_battery cell_cell battery_battery packs
+2018,3,137,3_device detects_device electronic_electronic device_device displays
+2018,4,37,4_converters_dc converter_power converter_converter includes
+2018,5,25,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+2018,6,36,6_flexible hinge_flexible_hinge_input device
+2018,7,20,7_rach_harq_rrc rach_heuristically testing
+2018,8,9,8_protocol stack_protocol_tcp_packet
+2018,9,41,9_dnn processor_dnn module_network dnn_neural processor
+2018,10,7,10_navigation application_map device_navigation_maps
+2018,11,13,11_multifunction device_multifunction_object device_input device
+2018,12,11,12_propeller_mechanism_aerial vehicles_blades
+2018,13,10,13_robotic manipulator_manipulator_robotic_data analyzed
+2018,14,7,14_fuel cell_control subsystem_subsystem provides_subsystem
+2018,15,5,15_storage devices_storage device_storage media_device synchronization
+2018,17,2,17_aspects subject_aspects_aspect_presented notification
+2018,20,3,20_cooling mode_evaporative cooling_sub systems_cooling
+2018,22,2,22_context determined_context based_context using_contexts context
+2018,23,5,23_metal oxides_metal oxide_oxides_oxide
+2018,24,1,24_precipitate_precursor_material cathode_relate manufacture
+2019,0,265,0_cellular network_communications_communication device_transmit
+2019,1,268,1_power management_computing environment_power consumption_computing device
+2019,2,107,2_battery cells_battery cell_cell battery_battery packs
+2019,3,137,3_device detects_device electronic_electronic device_device displays
+2019,4,59,4_converters_dc converter_power converter_converter includes
+2019,5,33,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+2019,6,26,6_flexible hinge_flexible_hinge_input device
+2019,7,23,7_rach_harq_rrc rach_heuristically testing
+2019,8,31,8_protocol stack_protocol_tcp_packet
+2019,9,34,9_dnn processor_dnn module_network dnn_neural processor
+2019,10,1,10_navigation application_map device_navigation_maps
+2019,11,5,11_multifunction device_multifunction_object device_input device
+2019,12,13,12_propeller_mechanism_aerial vehicles_blades
+2019,13,6,13_robotic manipulator_manipulator_robotic_data analyzed
+2019,14,15,14_fuel cell_control subsystem_subsystem provides_subsystem
+2019,15,4,15_storage devices_storage device_storage media_device synchronization
+2019,16,2,16_material melting_melting_melt_heating
+2019,17,5,17_aspects subject_aspects_aspect_presented notification
+2019,20,3,20_cooling mode_evaporative cooling_sub systems_cooling
+2019,23,3,23_metal oxides_metal oxide_oxides_oxide
+2019,24,3,24_precipitate_precursor_material cathode_relate manufacture
+2019,25,2,25_evolution lte_lte_lte network_lte lte
+2019,26,1,26_cluster_clusters_clustering_clustered
+2019,28,1,28_metal surface_layer surface_layer protects_surfaces
+2020,0,281,0_cellular network_communications_communication device_transmit
+2020,1,231,1_power management_computing environment_power consumption_computing device
+2020,2,125,2_battery cells_battery cell_cell battery_battery packs
+2020,3,116,3_device detects_device electronic_electronic device_device displays
+2020,4,36,4_converters_dc converter_power converter_converter includes
+2020,5,39,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+2020,6,31,6_flexible hinge_flexible_hinge_input device
+2020,7,18,7_rach_harq_rrc rach_heuristically testing
+2020,8,16,8_protocol stack_protocol_tcp_packet
+2020,9,21,9_dnn processor_dnn module_network dnn_neural processor
+2020,10,2,10_navigation application_map device_navigation_maps
+2020,11,8,11_multifunction device_multifunction_object device_input device
+2020,12,18,12_propeller_mechanism_aerial vehicles_blades
+2020,13,7,13_robotic manipulator_manipulator_robotic_data analyzed
+2020,14,5,14_fuel cell_control subsystem_subsystem provides_subsystem
+2020,15,3,15_storage devices_storage device_storage media_device synchronization
+2020,16,2,16_material melting_melting_melt_heating
+2020,17,4,17_aspects subject_aspects_aspect_presented notification
+2020,18,1,18_environmental tracking_carbon_environmental impact_environment environmental
+2020,20,1,20_cooling mode_evaporative cooling_sub systems_cooling
+2020,21,2,21_provisioning_provider implement_provisioning server_module provisioning
+2020,22,1,22_context determined_context based_context using_contexts context
+2020,23,2,23_metal oxides_metal oxide_oxides_oxide
+2020,24,1,24_precipitate_precursor_material cathode_relate manufacture
+2021,0,236,0_cellular network_communications_communication device_transmit
+2021,1,245,1_power management_computing environment_power consumption_computing device
+2021,2,113,2_battery cells_battery cell_cell battery_battery packs
+2021,3,131,3_device detects_device electronic_electronic device_device displays
+2021,4,42,4_converters_dc converter_power converter_converter includes
+2021,5,50,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+2021,6,23,6_flexible hinge_flexible_hinge_input device
+2021,7,19,7_rach_harq_rrc rach_heuristically testing
+2021,8,14,8_protocol stack_protocol_tcp_packet
+2021,9,24,9_dnn processor_dnn module_network dnn_neural processor
+2021,10,8,10_navigation application_map device_navigation_maps
+2021,11,2,11_multifunction device_multifunction_object device_input device
+2021,12,6,12_propeller_mechanism_aerial vehicles_blades
+2021,13,2,13_robotic manipulator_manipulator_robotic_data analyzed
+2021,14,7,14_fuel cell_control subsystem_subsystem provides_subsystem
+2021,15,2,15_storage devices_storage device_storage media_device synchronization
+2021,16,2,16_material melting_melting_melt_heating
+2021,17,3,17_aspects subject_aspects_aspect_presented notification
+2021,20,3,20_cooling mode_evaporative cooling_sub systems_cooling
+2021,21,3,21_provisioning_provider implement_provisioning server_module provisioning
+2021,23,3,23_metal oxides_metal oxide_oxides_oxide
+2021,25,1,25_evolution lte_lte_lte network_lte lte
+2021,27,5,27_power estimation_power consumption_power management_dynamic power
+2022,0,341,0_cellular network_communications_communication device_transmit
+2022,1,199,1_power management_computing environment_power consumption_computing device
+2022,2,109,2_battery cells_battery cell_cell battery_battery packs
+2022,3,94,3_device detects_device electronic_electronic device_device displays
+2022,4,35,4_converters_dc converter_power converter_converter includes
+2022,5,71,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+2022,6,29,6_flexible hinge_flexible_hinge_input device
+2022,7,34,7_rach_harq_rrc rach_heuristically testing
+2022,8,13,8_protocol stack_protocol_tcp_packet
+2022,9,23,9_dnn processor_dnn module_network dnn_neural processor
+2022,10,1,10_navigation application_map device_navigation_maps
+2022,11,3,11_multifunction device_multifunction_object device_input device
+2022,12,2,12_propeller_mechanism_aerial vehicles_blades
+2022,13,1,13_robotic manipulator_manipulator_robotic_data analyzed
+2022,14,2,14_fuel cell_control subsystem_subsystem provides_subsystem
+2022,16,3,16_material melting_melting_melt_heating
+2022,17,2,17_aspects subject_aspects_aspect_presented notification
+2022,18,2,18_environmental tracking_carbon_environmental impact_environment environmental
+2022,21,3,21_provisioning_provider implement_provisioning server_module provisioning
+2022,27,2,27_power estimation_power consumption_power management_dynamic power
+2022,28,1,28_metal surface_layer surface_layer protects_surfaces
+2023,0,338,0_cellular network_communications_communication device_transmit
+2023,1,215,1_power management_computing environment_power consumption_computing device
+2023,2,138,2_battery cells_battery cell_cell battery_battery packs
+2023,3,104,3_device detects_device electronic_electronic device_device displays
+2023,4,46,4_converters_dc converter_power converter_converter includes
+2023,5,40,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+2023,6,10,6_flexible hinge_flexible_hinge_input device
+2023,7,46,7_rach_harq_rrc rach_heuristically testing
+2023,8,17,8_protocol stack_protocol_tcp_packet
+2023,9,30,9_dnn processor_dnn module_network dnn_neural processor
+2023,10,3,10_navigation application_map device_navigation_maps
+2023,11,2,11_multifunction device_multifunction_object device_input device
+2023,12,1,12_propeller_mechanism_aerial vehicles_blades
+2023,13,1,13_robotic manipulator_manipulator_robotic_data analyzed
+2023,15,2,15_storage devices_storage device_storage media_device synchronization
+2023,16,1,16_material melting_melting_melt_heating
+2023,17,1,17_aspects subject_aspects_aspect_presented notification
+2023,19,4,19_adaptive channel_reception drx_channel state_drx cycles
+2023,20,2,20_cooling mode_evaporative cooling_sub systems_cooling
+2023,21,3,21_provisioning_provider implement_provisioning server_module provisioning
+2023,28,1,28_metal surface_layer surface_layer protects_surfaces
+2024,0,283,0_cellular network_communications_communication device_transmit
+2024,1,129,1_power management_computing environment_power consumption_computing device
+2024,2,110,2_battery cells_battery cell_cell battery_battery packs
+2024,3,63,3_device detects_device electronic_electronic device_device displays
+2024,4,21,4_converters_dc converter_power converter_converter includes
+2024,5,26,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
+2024,6,21,6_flexible hinge_flexible_hinge_input device
+2024,7,23,7_rach_harq_rrc rach_heuristically testing
+2024,8,9,8_protocol stack_protocol_tcp_packet
+2024,9,17,9_dnn processor_dnn module_network dnn_neural processor
+2024,11,4,11_multifunction device_multifunction_object device_input device
+2024,13,2,13_robotic manipulator_manipulator_robotic_data analyzed
+2024,15,2,15_storage devices_storage device_storage media_device synchronization
+2024,16,5,16_material melting_melting_melt_heating
+2024,20,1,20_cooling mode_evaporative cooling_sub systems_cooling
+2024,27,1,27_power estimation_power consumption_power management_dynamic power
