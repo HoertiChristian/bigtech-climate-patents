@@ -64,7 +64,7 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 #   "C"  →  Semantic       (higher-quality embeddings, moderate topics)
 #   "D"  →  Forced-30      (forces exactly 30 topics via hierarchical merge)
 #
-PRESET = "D"
+PRESET = "A"
 # =====================================================================
 
 PRESETS = {

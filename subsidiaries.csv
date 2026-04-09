@@ -1,220 +1,116 @@
 parent_company,subsidiary_name,source,reason
-Meta,Meta Platforms Inc,SEC 10-K,Ultimate Parent (Major Patents)
-Meta,Meta Platforms Technologies LLC,OpenCorporates,Powerhouse for AI Hardware/Sensors
-Meta,Meta Platforms Tech LLC,Lens, Different spelling
-Meta,Edge Network Services Limited,OpenCorporates,Data Center/Grid Infrastructure
-Meta,FCL Tech Limited (Ireland),SEC 10-K,Connectivity Lab (Solar/Green R&D)
-Meta,Meta Platforms Ireland Limited,SEC 10-K,EU Energy Compliance & IP
-Meta,Siculus LLC,SEC 10-K,Data Center Infrastructure (Energy Footprint)
-Meta,Sidecat LLC,SEC 10-K,Data Center Infrastructure (Energy Footprint)
-Meta,Facebook Holdings LLC (Delaware),SEC 10-K
-Meta,Facebook Holdings LLC,SEC 10-K
-Meta,Facebook Tech LLC, Lens,Facebook company
-Meta,Facebook Technologies LLC, Lens,Facebook company
-Meta,Facebook Procurement LLC,SEC 10-K
-Meta,Instagram LLC,SEC 10-K
-Meta,Meta Payments Inc,SEC 10-K
-Meta,WhatsApp LLC,SEC 10-K
-Meta,Cassin Networks ApS,Denmark,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Edge Network Services Limited,Ireland,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Facebook Circularity LLC,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Facebook Holdings LLC,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Facebook India Online Services Private Limited,India,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Facebook Operations LLC,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Facebook Procurement LLC,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Facebook Serviços Online Do Brasil Ltda.,Brazil,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Facebook UK Limited,United Kingdom,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,FCL Tech Limited,Ireland,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Goldframe LLC,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Greater Kudu LLC,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Hibiscus Properties LLC,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Instagram LLC,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Malkoha Pte. Ltd.,Singapore,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Meta Payments Inc.,Florida,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Meta Platforms Ireland Limited,Ireland,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Meta Platforms Technologies LLC,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Middle Mile Infrastructure LLC,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Morning Hornet LLC,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Offprints LLC,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Omanyte LLC,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Paile LLC,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Pinnacle Sweden AB,Sweden,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Raven Northbrook LLC,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Redale LLC,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Runways Information Services Limited,Ireland,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Scout Development LLC,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Siculus Inc.,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Sidecat LLC,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Stadion LLC,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Starbelt LLC,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Velvet Tech Services LLC,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Vitesse LLC,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Winner LLC,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Woolhawk LLC,Delaware,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
-Meta,Andale Inc.,https://www.sec.gov/Archives/edgar/data/1326801/000132680115000006/fb-12312014x10kexhibit211.htm
-Meta,Cassin Networks ApS,https://www.sec.gov/Archives/edgar/data/1326801/000132680117000007/fb-12312016x10kexhibit211.htm
-Meta,Edge Network Services Limited,https://www.sec.gov/Archives/edgar/data/1326801/000132680115000006/fb-12312014x10kexhibit211.htm
-Meta,Facebook Circularity LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-12312022x10kexhibit211.htm
-Meta,Facebook Global Holdings I Inc.,https://www.sec.gov/Archives/edgar/data/1326801/000132680117000007/fb-12312016x10kexhibit211.htm
-Meta,Facebook Global Holdings I LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680117000007/fb-12312016x10kexhibit211.htm
-Meta,Facebook Global Holdings II LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680117000007/fb-12312016x10kexhibit211.htm
-Meta,Facebook Holdings LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680121000014/fb-12312020x10kexhibit211.htm
-Meta,Facebook India Online Services Private Limited,https://www.sec.gov/Archives/edgar/data/1326801/000132680124000012/meta-12312023x10kexhibit211.htm
-Meta,Facebook International Operations Limited,https://www.sec.gov/Archives/edgar/data/1326801/000132680117000007/fb-12312016x10kexhibit211.htm
-Meta,Facebook Ireland Holdings Limited,https://www.sec.gov/Archives/edgar/data/1326801/000132680115000006/fb-12312014x10kexhibit211.htm
-Meta,Facebook Ireland Holdings Unlimited,https://www.sec.gov/Archives/edgar/data/1326801/000132680117000007/fb-12312016x10kexhibit211.htm
-Meta,Facebook Ireland Limited,https://www.sec.gov/Archives/edgar/data/1326801/000132680115000006/fb-12312014x10kexhibit211.htm
-Meta,Facebook Operations LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680115000006/fb-12312014x10kexhibit211.htm
-Meta,Facebook Payments Inc.,https://www.sec.gov/Archives/edgar/data/1326801/000132680121000014/fb-12312020x10kexhibit211.htm
-Meta,Facebook Procurement LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680124000012/meta-12312023x10kexhibit211.htm
-Meta,Facebook Serviços Online Do Brasil Ltda.,https://www.sec.gov/Archives/edgar/data/1326801/000132680124000012/meta-12312023x10kexhibit211.htm
-Meta,Facebook Sweden Holdings AB,https://www.sec.gov/Archives/edgar/data/1326801/000132680117000007/fb-12312016x10kexhibit211.htm
-Meta,Facebook Technologies LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680119000009/fb-12312018x10kexhibit211.htm
-Meta,Facebook UK Limited,https://www.sec.gov/Archives/edgar/data/1326801/000132680122000018/fb-12312021x10kexhibit211.htm
-Meta,FCL Tech Limited,https://www.sec.gov/Archives/edgar/data/1326801/000132680117000007/fb-12312016x10kexhibit211.htm
-Meta,Goldframe LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680121000014/fb-12312020x10kexhibit211.htm
-Meta,Greater Kudu LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680117000007/fb-12312016x10kexhibit211.htm
-Meta,Hibiscus Properties LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680122000018/fb-12312021x10kexhibit211.htm
-Meta,Instagram LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680116000043/fb-12312015x10kexhibit211.htm
-Meta,KUSU PTE. LTD.,https://www.sec.gov/Archives/edgar/data/1326801/000132680117000007/fb-12312016x10kexhibit211.htm
-Meta,Malkoha Pte. Ltd.,https://www.sec.gov/Archives/edgar/data/1326801/000132680119000009/fb-12312018x10kexhibit211.htm
-Meta,Meta Payments Inc.,https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-12312022x10kexhibit211.htm
-Meta,Meta Platforms Ireland Limited,https://www.sec.gov/Archives/edgar/data/1326801/000132680122000018/fb-12312021x10kexhibit211.htm
-Meta,Meta Platforms Technologies LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-12312022x10kexhibit211.htm
-Meta,Middle Mile Infrastructure LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-12312024x10kexhibit211.htm
-Meta,Morning Hornet LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680119000009/fb-12312018x10kexhibit211.htm
-Meta,Novi Financial Inc.,https://www.sec.gov/Archives/edgar/data/1326801/000132680121000014/fb-12312020x10kexhibit211.htm
-Meta,Oculus VR LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680115000006/fb-12312014x10kexhibit211.htm
-Meta,Offprints LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-12312024x10kexhibit211.htm
-Meta,Omanyte LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-12312024x10kexhibit211.htm
-Meta,Paile LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-12312024x10kexhibit211.htm
-Meta,Parse LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680115000006/fb-12312014x10kexhibit211.htm
-Meta,Pinnacle Sweden AB,https://www.sec.gov/Archives/edgar/data/1326801/000132680115000006/fb-12312014x10kexhibit211.htm
-Meta,Raven Northbrook LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680118000009/fb-12312017x10kexhibit211.htm
-Meta,Redale LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680124000012/meta-12312023x10kexhibit211.htm
-Meta,Runways Information Services Limited,https://www.sec.gov/Archives/edgar/data/1326801/000132680117000007/fb-12312016x10kexhibit211.htm
-Meta,Scout Development LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680118000009/fb-12312017x10kexhibit211.htm
-Meta,Siculus Inc.,https://www.sec.gov/Archives/edgar/data/1326801/000132680115000006/fb-12312014x10kexhibit211.htm
-Meta,Sidecat LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680118000009/fb-12312017x10kexhibit211.htm
-Meta,Stadion LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680119000009/fb-12312018x10kexhibit211.htm
-Meta,Starbelt LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680119000009/fb-12312018x10kexhibit211.htm
-Meta,Velvet Tech Services LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-12312024x10kexhibit211.htm
-Meta,Vitesse LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680115000006/fb-12312014x10kexhibit211.htm
-Meta,WhatsApp Inc.,https://www.sec.gov/Archives/edgar/data/1326801/000132680115000006/fb-12312014x10kexhibit211.htm
-Meta,WhatsApp LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680122000018/fb-12312021x10kexhibit211.htm
-Meta,Winner LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680117000007/fb-12312016x10kexhibit211.htm
-Meta,Woolhawk LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680121000014/fb-12312020x10kexhibit211.htm
-Amazon,Amazon.com Services LLC,SEC 10-K,SEC 10-K
-Amazon,Amazon.com Sales Inc.,SEK 10-K,SEC 10-K
-Amazon,Amazoncom INC ,SEK 10-K,SEC 10-K
-Amazon,Amazon.com NV Investment Holdings LLC,SEK 10-K,SEC 10-K
-Amazon,Amazon US Services LLC,SEK 10-K,SEC 10-K
-Amazon,Day One Insurance Inc,SEK 10-K,SEC 10-K
-Amazon,Amazon Web Services Inc,SEC,Potentially includes international international R&D branches
-Amazon,Amazon Technologies Inc,SEC,Primary Intellectual Property holder/Core AWS and Software Patents
-Amazon,Amazon Tech INC,Lens,Different spelling
-Amazon,Amazon Com INC,Lens,Different spelling
-Amazon,Amazon Data Services Inc,SEC,Data Center infrastructure and energy tech
-Amazon,Kuiper Systems LLC,OpenCorp,Networking and satellite infrastructure
-Amazon,A100 ROW Inc,OpenCorp,International (EU) data center infrastructure
-Amazon,AMAZON.COM PAYMENTS INC,OpenCorp,OpenCorp
-Amazon,Bejing Century Joyo Information Technology Co. Limited,OpenCorp,OpenCorp
-Amazon,A27 Gift Certificates,OpenCorp,OpenCorp
-Amazon,NV Services Inc,OpenCorp,OpenCorp
-Amazon,Alexa Internet,OpenCorp,OpenCorp
-Amazon,Internet Movie Database,OpenCorp,OpenCorp
-Microsoft,Microsoft Corp, Lens Parent company
-Microsoft,Microsoft Corporation,Lens,Different spelling
-Microsoft,Microsoft Technology Licensing LLC,Lens, Subsidiary managing patents and technology transfer activities
-Microsoft,Microsoft Tech Licensing LLC, Lens, Different spelling
-Apple,Apple INC, Lens, Parent company
-Apple,Apple Computer, Former name of parent company, has patents on Lens
-Apple,Apple Computer INC,Lens, Different spelling
-Apple,Apple Korea Limited, SEK 10-K - in lens written  Apple Korea Co Ltd
-Apple,Apple Operations International Limited, SEK 10-K manufactures and distributes electronic products
-Apple,Apple Operations Limited, SEK 10-K
-Apple,Anobit Technologies LTD,  Wikipedia - semiconductor subsidiary
-Apple,Anobit Technologies,  Wikipedia - semiconductor subsidiary
-Alphabet,Google LLC, Parent company
-Alphabet,Google INC, Parent company
-Alphabet,Google Technology Holdings LLC, Lens
-Alphabet,Google LTD Responsibility Company, Lens
 Alphabet,Alphabet Inc,SEC Exhibit 21.1 (2024),Parent company
-Alphabet,XXVI Holdings Inc,SEC Exhibit 21.1 (2024),Significant subsidiary — Other Bets holding company
-Alphabet,Alphabet Capital US LLC,SEC Exhibit 21.1 (2024),Significant subsidiary — capital/finance entity
-Alphabet,Google Ireland Holdings,SEC Exhibit 21.1 (2019),Significant subsidiary — Irish holding entity
-Alphabet,Google Ireland Limited,SEC Exhibit 21.1 (2014),Significant subsidiary — Irish operating entity
-Alphabet,Google International LLC,SEC Exhibit 21.1 (2014),Significant subsidiary — international operations
-Alphabet,KHA Technologies Inc,SEC Exhibit 21.1 (2019),Significant subsidiary (2019 filing only)
-Alphabet,Waymo LLC,Known subsidiary / Other Bets,Autonomous driving — active patent filer
-Alphabet,DeepMind Technologies Limited,Known subsidiary / Other Bets,AI research lab (London) — active patent filer
-Alphabet,Verily Life Sciences LLC,Known subsidiary / Other Bets,Life sciences — active patent filer
+Alphabet,Alphabet Energy Inc,Lens,energy
+Alphabet,Android Inc,SEC Exhibit 21.1 (2006),Mobile OS subsidiary (acquired 2005)
+Alphabet,Applied Semantics Inc,SEC Exhibit 21.1 (2006),AdSense technology (acquired 2003)
 Alphabet,Calico Life Sciences LLC,Known subsidiary / Other Bets,Aging/biotech research
-Alphabet,Wing Aviation LLC,Known subsidiary / Other Bets,Drone delivery
-Alphabet,X Development LLC,Known subsidiary / Other Bets,Moonshot lab (formerly Google X)
+Alphabet,Chronicle LLC,Known subsidiary / Other Bets,Cybersecurity (folded back into Google Cloud ~2019)
+Alphabet,Dandelion Energy Inc,Known subsidiary / Other Bets,Geothermal heating (spun off ~2022)
+Alphabet,DeepMind Technologies Limited,Known subsidiary / Other Bets,AI research lab (London) — active patent filer
+Alphabet,DeepMind Technologies Ltd, Lens, Different spelling
+Alphabet,Endoxon Ltd,SEC Exhibit 21.1 (2006),Mapping/geo subsidiary (Switzerland)
+Alphabet,Google INC,Parent company,
+Alphabet,Google LLC,Parent company,
+Alphabet,Google LTD Responsibility Company,Lens,
+Alphabet,Google Technology Holdings LLC,Lens,
+Alphabet,Google Technology Holdings,Lens,
 Alphabet,Intrinsic Innovation LLC,Known subsidiary / Other Bets,Robotics software (spun out of X in 2021)
-Alphabet,Isomorphic Labs,Known subsidiary / Other Bets,AI drug discovery (est. 2021)
-Alphabet,Google Fiber Inc,Known subsidiary / Other Bets,High-speed internet service
+Alphabet,Isomorphic Labs Ltd,Known subsidiary / Other Bets,AI drug discovery (est. 2021)
+Alphabet,Jigsaw LLC,Known subsidiary / Other Bets,Technology incubator (formerly Google Ideas)
+Alphabet,JotSpot Inc,SEC Exhibit 21.1 (2006),Wiki platform (acquired 2006; became Google Sites)
+Alphabet,KHA Technologies Inc,SEC Exhibit 21.1 (2019),Significant subsidiary (2019 filing only)
+Alphabet,Loon LLC,Known subsidiary / Other Bets,Internet balloons (wound down 2021)
+Alphabet,Makani Technologies LLC,Known subsidiary / Other Bets,Airborne wind energy (wound down 2020)
 Alphabet,Nest Labs Inc,Known subsidiary / Other Bets,Smart home devices (acquired 2014; later merged into Google)
 Alphabet,Sidewalk Labs LLC,Known subsidiary / Other Bets,Urban innovation (wound down ~2020)
-Alphabet,Jigsaw LLC,Known subsidiary / Other Bets,Technology incubator (formerly Google Ideas)
-Alphabet,Chronicle LLC,Known subsidiary / Other Bets,Cybersecurity (folded back into Google Cloud ~2019)
-Alphabet,Makani Technologies LLC,Known subsidiary / Other Bets,Airborne wind energy (wound down 2020)
-Alphabet,Loon LLC,Known subsidiary / Other Bets,Internet balloons (wound down 2021)
-Alphabet,Dandelion Energy Inc,Known subsidiary / Other Bets,Geothermal heating (spun off ~2022)
-Alphabet,Google Payment Corp,SEC Exhibit 21.1 (2006),Payment services entity
-Alphabet,YouTube LLC,SEC Exhibit 21.1 (2006),Video platform subsidiary
-Alphabet,Android Inc,SEC Exhibit 21.1 (2006),Mobile OS subsidiary (acquired 2005)
-Alphabet,Google Australia Pty Ltd,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google Canada Corporation,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google France SarL,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google Germany GmbH,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google India Private Limited,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google International GmbH,SEC Exhibit 21.1 (2006),Regional operating entity (Austria)
-Alphabet,Google Israel Ltd,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google Italy s.r.l.,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google Japan Inc,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google Korea LLC,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google Netherlands B.V.,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google Netherlands Holdings B.V.,SEC Exhibit 21.1 (2006),Regional holding entity
-Alphabet,Google UK Limited,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google Spain S.L.,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google Sweden AB,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google Switzerland GmbH,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google Singapore Pte. Ltd.,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google Brasil Internet Ltda.,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google Argentina S.R.L.,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google Mexico S. de R.L. de C.V.,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google Chile Limitada,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google New Zealand Ltd.,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google South Africa (Proprietary) Limited,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google Belgium NV,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google Czech Republic s.r.o.,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google Denmark ApS,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google Finland OY,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google Norway AS,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google Poland Sp. z o.o.,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google (Hong Kong) Limited,SEC Exhibit 21.1 (2006),Regional operating entity
-Alphabet,Google Bermuda Limited,SEC Exhibit 21.1 (2006),Offshore entity
-Alphabet,Google Bermuda Unlimited,SEC Exhibit 21.1 (2006),Offshore entity
-Alphabet,Google Akwan Internet Ltda.,SEC Exhibit 21.1 (2006),Brazilian subsidiary (acquisition)
-Alphabet,Google Payment Ltd.,SEC Exhibit 21.1 (2006),UK payment entity
-Alphabet,Google Payment Hong Kong Limited,SEC Exhibit 21.1 (2006),HK payment entity
-Alphabet,Google Payment Singapore Pte. Ltd.,SEC Exhibit 21.1 (2006),SG payment entity
-Alphabet,Google Advertising and Marketing Limited,SEC Exhibit 21.1 (2006),Turkey — advertising entity
-Alphabet,Google Limited Liability Company,SEC Exhibit 21.1 (2006),Russia (Google OOO)
-Alphabet,Picasa LLC,SEC Exhibit 21.1 (2006),Photo software (acquired 2004)
-Alphabet,Urchin Software Corporation,SEC Exhibit 21.1 (2006),Web analytics (acquired 2005)
-Alphabet,Applied Semantics Inc,SEC Exhibit 21.1 (2006),AdSense technology (acquired 2003)
+Alphabet,Urchin Software Corp,SEC Exhibit 21.1 (2006),Web analytics (acquired 2005)
+Alphabet,Verily Life Sciences LLC,Known subsidiary / Other Bets,Life sciences — active patent filer
+Alphabet,Waymo LLC,Known subsidiary / Other Bets,Autonomous driving — active patent filer
 Alphabet,Where2 LLC,SEC Exhibit 21.1 (2006),Mapping technology (became Google Maps)
+Alphabet,Wing Aviation LLC,Known subsidiary / Other Bets,Drone delivery
+Alphabet,X Development LLC,Known subsidiary / Other Bets,Moonshot lab (formerly Google X)
+Alphabet,XXVI Holdings Inc,SEC Exhibit 21.1 (2024),Significant subsidiary — Other Bets holding company
+Alphabet,YouTube LLC,SEC Exhibit 21.1 (2006),Video platform subsidiary
 Alphabet,ZipDash Inc,SEC Exhibit 21.1 (2006),Traffic data (acquired 2004)
-Alphabet,JotSpot Inc,SEC Exhibit 21.1 (2006),Wiki platform (acquired 2006; became Google Sites)
-Alphabet,Neven Vision KK,SEC Exhibit 21.1 (2006),Image recognition (Japan; acquired 2006)
-Alphabet,Neven Vision Germany GmbH,SEC Exhibit 21.1 (2006),Image recognition (Germany)
-Alphabet,Endoxon Ltd.,SEC Exhibit 21.1 (2006),Mapping/geo subsidiary (Switzerland)
-Alphabet,Reqwireless Inc,SEC Exhibit 21.1 (2006),Mobile browser (Canada; acquired 2005)
 Alphabet,dMarc Broadcasting Inc,SEC Exhibit 21.1 (2006),Radio advertising (acquired 2006)
-Alphabet, Google LLC, Parent company
-Alphabet, Google INC, Parent company
-Alphabet, Google Technology Holdings LLC, Lens
-Alphabet, Google LTD Responsibility Company, Lens
+Amazon,A100 ROW Inc,OpenCorp,International (EU) data center infrastructure
+Amazon,Alexa Internet,OpenCorp,OpenCorp
+Amazon,Amazon Com INC,Lens,Different spelling
+Amazon,Amazon Data Services Inc,SEC,Data Center infrastructure and energy tech
+Amazon,Amazon Digital Services Inc,SEC Exhibit 21.1,SEC Exhibit 21.1 subsidiary — Delaware
+Amazon,Amazon Digital Services LLC,SEC Exhibit 21.1,SEC Exhibit 21.1 subsidiary — Delaware
+Amazon,Amazon EU S.à.r.l.,SEC Exhibit 21.1,SEC Exhibit 21.1 subsidiary — Luxembourg
+Amazon,Amazon Europe Holding Tech SCS,SEC Exhibit 21.1,different spelling
+Amazon,Amazon Europe Holding Technologies SCS,SEC Exhibit 21.1,SEC Exhibit 21.1 subsidiary — Luxembourg
+Amazon,Amazon Inc,SEC Exhibit 21.1,SEC Exhibit 21.1 subsidiary — Nevada
+Amazon,Amazon Overseas Holdings Inc,SEC Exhibit 21.1,SEC Exhibit 21.1 subsidiary — Delaware
+Amazon,Amazon Services LLC,SEC Exhibit 21.1,SEC Exhibit 21.1 subsidiary — Nevada
+Amazon,Amazon Tech INC,Lens,Different spelling
+Amazon,Amazon Technologies Inc,SEC,Primary Intellectual Property holder/Core AWS and Software Patents
+Amazon,Amazon US Services LLC,SEK 10-K,SEC 10-K
+Amazon,Amazon Web Services Inc,SEC,Potentially includes international international R&D branches
+Amazon,Amazon.com NV Investment Holdings LLC,SEK 10-K,SEC 10-K
+Amazon,Amazon.com Sales Inc.,SEK 10-K,SEC 10-K
+Amazon,Amazon.com Services LLC,SEC 10-K,SEC 10-K
+Amazon,Amazoncom INC,SEK 10-K,SEC 10-K
+Amazon,Bejing Century Joyo Information Technology Co. Limited,OpenCorp,OpenCorp
+Amazon,Day One Insurance Inc,SEK 10-K,SEC 10-K
+Amazon,Internet Movie Database,OpenCorp,OpenCorp
+Amazon,Kuiper Systems LLC,OpenCorp,Networking and satellite infrastructure
+Amazon,NV Services Inc,OpenCorp,OpenCorp
+Apple,Anobit Technologies,Wikipedia - semiconductor subsidiary,
+Apple,Anobit Technologies LTD,Wikipedia - semiconductor subsidiary,
+Apple,Apple Computer,Former name of parent company,has patents on Lens
+Apple,Apple Computer INC,Lens,Different spelling
+Apple,Apple INC,Lens,Parent company
+Apple,Apple Korea Co Ltd,SEK 10-K - in lens written  Apple Korea Co Ltd,
+Meta,Cassin Networks ApS,https://www.sec.gov/Archives/edgar/data/1326801/000132680117000007/fb-12312016x10kexhibit211.htm,
+Meta,Edge Network Services Limited,OpenCorporates,Data Center/Grid Infrastructure
+Meta,FACEBOOK INC,SEC Exhibit 21.1,SEC Exhibit 21.1 subsidiary — 
+Meta,FCL Tech Limited,SEC 10-K,Connectivity Lab (Solar/Green R&D)
+Meta,Facebook Holdings LLC,SEC 10-K,
+Meta,Facebook Operations LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680115000006/fb-12312014x10kexhibit211.htm,
+Meta,Facebook Tech LLC,Lens,Facebook company
+Meta,Facebook Technologies LLC,Lens,Facebook company
+Meta,Goldframe LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680121000014/fb-12312020x10kexhibit211.htm,
+Meta,Greater Kudu LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680117000007/fb-12312016x10kexhibit211.htm,
+Meta,Hibiscus Properties LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680122000018/fb-12312021x10kexhibit211.htm,
+Meta,Instagram LLC,SEC 10-K,
+Meta,KUSU PTE LTD,https://www.sec.gov/Archives/edgar/data/1326801/000132680117000007/fb-12312016x10kexhibit211.htm,
+Meta,META PLATFORMS INC,SEC Exhibit 21.1,SEC Exhibit 21.1 subsidiary — 
+Meta,Meta Platforms Ireland Ltd,SEC 10-K,EU Energy Compliance & IP
+Meta,Meta Platforms Ireland Limited,SEC Exhibit 21.1 – Meta Platforms 10-K,2024-12-31
+Meta,Meta Platforms Tech LLC,Lens,Different spelling
+Meta,Meta Platforms Technologies LLC,OpenCorporates,Powerhouse for AI Hardware/Sensors
+Meta,Middle Mile Infrastructure LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-12312024x10kexhibit211.htm,
+Meta,Morning Hornet LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680119000009/fb-12312018x10kexhibit211.htm,
+Meta,Novi Financial Inc.,https://www.sec.gov/Archives/edgar/data/1326801/000132680121000014/fb-12312020x10kexhibit211.htm,
+Meta,Oculus VR LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680115000006/fb-12312014x10kexhibit211.htm,
+Meta,Scout Development LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680118000009/fb-12312017x10kexhibit211.htm,
+Meta,Starbelt LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680119000009/fb-12312018x10kexhibit211.htm,
+Meta,Velvet Tech Services LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-12312024x10kexhibit211.htm,
+Meta,Vitesse LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680115000006/fb-12312014x10kexhibit211.htm,
+Meta,WhatsApp Inc.,https://www.sec.gov/Archives/edgar/data/1326801/000132680115000006/fb-12312014x10kexhibit211.htm,
+Meta,WhatsApp LLC,SEC 10-K,
+Meta,Winner LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680117000007/fb-12312016x10kexhibit211.htm,
+Meta,Woolhawk LLC,https://www.sec.gov/Archives/edgar/data/1326801/000132680121000014/fb-12312020x10kexhibit211.htm,
+Microsoft,Activision Blizzard Inc.,SEC Exhibit 21.1,SEC Exhibit 21.1 subsidiary — United States
+Microsoft,Activision Publishing Inc.,SEC Exhibit 21.1,SEC Exhibit 21.1 subsidiary — United States
+Microsoft,LinkedIn Corporation,SEC Exhibit 21.1,SEC Exhibit 21.1 subsidiary — United States
+Microsoft,LinkedIn Ireland Unlimited Company,SEC Exhibit 21.1,SEC Exhibit 21.1 subsidiary — Ireland
+Microsoft,MOL Corporation,SEC Exhibit 21.1,SEC Exhibit 21.1 subsidiary — United States
+Microsoft,Microsoft Corp,Lens Parent company,
+Microsoft,Microsoft Corporation,Lens,Different spelling
+Microsoft,Microsoft Global Finance,SEC Exhibit 21.1,SEC Exhibit 21.1 subsidiary — Ireland
+Microsoft,Microsoft Global Finance Unlimited Company,SEC Exhibit 21.1,SEC Exhibit 21.1 subsidiary — Ireland
+Microsoft,Microsoft Ireland Operations Limited,SEC Exhibit 21.1,SEC Exhibit 21.1 subsidiary — Ireland
+Microsoft,Microsoft Ireland Research,SEC Exhibit 21.1,SEC Exhibit 21.1 subsidiary — Ireland
+Microsoft,Microsoft Ireland Research Unlimited Company,SEC Exhibit 21.1,SEC Exhibit 21.1 subsidiary — Ireland
+Microsoft,Microsoft Mobile Oy,SEC Exhibit 21.1,SEC Exhibit 21.1 subsidiary — Finland
+Microsoft,Microsoft Online Inc.,SEC Exhibit 21.1,SEC Exhibit 21.1 subsidiary — United States
+Microsoft,Microsoft Regional Sales Pte Ltd,SEC Exhibit 21.1,SEC Exhibit 21.1 subsidiary — Singapore
+Microsoft,Microsoft Tech Licensing LLC,Lens,Different spelling
+Microsoft,Microsoft Tech LLC,Lens,Different spelling
+Microsoft,Microsoft Technology LLC,Lens,Different spelling
+Microsoft,Microsoft Technology Licensing LLC,Lens,Subsidiary managing patents and technology transfer activities
+Microsoft,Nuance Communications INC,different spelling,

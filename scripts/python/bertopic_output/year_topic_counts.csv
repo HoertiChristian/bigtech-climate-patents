@@ -1,305 +1,1257 @@
 year,topic,count,topic_label
-2010,0,49,0_cellular network_communications_communication device_transmit
-2010,1,81,1_power management_computing environment_power consumption_computing device
-2010,2,18,2_battery cells_battery cell_cell battery_battery packs
-2010,3,10,3_device detects_device electronic_electronic device_device displays
-2010,4,10,4_converters_dc converter_power converter_converter includes
-2010,6,9,6_flexible hinge_flexible_hinge_input device
-2010,8,9,8_protocol stack_protocol_tcp_packet
-2010,10,3,10_navigation application_map device_navigation_maps
-2010,14,1,14_fuel cell_control subsystem_subsystem provides_subsystem
-2010,16,4,16_material melting_melting_melt_heating
-2010,18,10,18_environmental tracking_carbon_environmental impact_environment environmental
-2010,20,1,20_cooling mode_evaporative cooling_sub systems_cooling
-2010,26,3,26_cluster_clusters_clustering_clustered
-2011,0,77,0_cellular network_communications_communication device_transmit
-2011,1,106,1_power management_computing environment_power consumption_computing device
-2011,2,43,2_battery cells_battery cell_cell battery_battery packs
-2011,3,27,3_device detects_device electronic_electronic device_device displays
-2011,4,11,4_converters_dc converter_power converter_converter includes
-2011,5,6,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
-2011,6,8,6_flexible hinge_flexible_hinge_input device
-2011,8,8,8_protocol stack_protocol_tcp_packet
-2011,9,2,9_dnn processor_dnn module_network dnn_neural processor
-2011,10,2,10_navigation application_map device_navigation_maps
-2011,11,1,11_multifunction device_multifunction_object device_input device
-2011,16,1,16_material melting_melting_melt_heating
-2011,18,4,18_environmental tracking_carbon_environmental impact_environment environmental
-2011,20,1,20_cooling mode_evaporative cooling_sub systems_cooling
-2011,21,1,21_provisioning_provider implement_provisioning server_module provisioning
-2011,26,1,26_cluster_clusters_clustering_clustered
-2012,0,111,0_cellular network_communications_communication device_transmit
-2012,1,224,1_power management_computing environment_power consumption_computing device
-2012,2,40,2_battery cells_battery cell_cell battery_battery packs
-2012,3,53,3_device detects_device electronic_electronic device_device displays
-2012,4,15,4_converters_dc converter_power converter_converter includes
-2012,5,3,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
-2012,6,15,6_flexible hinge_flexible_hinge_input device
-2012,8,16,8_protocol stack_protocol_tcp_packet
-2012,11,3,11_multifunction device_multifunction_object device_input device
-2012,13,2,13_robotic manipulator_manipulator_robotic_data analyzed
-2012,18,4,18_environmental tracking_carbon_environmental impact_environment environmental
-2012,20,2,20_cooling mode_evaporative cooling_sub systems_cooling
-2012,26,2,26_cluster_clusters_clustering_clustered
-2013,0,217,0_cellular network_communications_communication device_transmit
-2013,1,204,1_power management_computing environment_power consumption_computing device
-2013,2,76,2_battery cells_battery cell_cell battery_battery packs
-2013,3,62,3_device detects_device electronic_electronic device_device displays
-2013,4,19,4_converters_dc converter_power converter_converter includes
-2013,5,6,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
-2013,6,33,6_flexible hinge_flexible_hinge_input device
-2013,8,13,8_protocol stack_protocol_tcp_packet
-2013,10,31,10_navigation application_map device_navigation_maps
-2013,11,6,11_multifunction device_multifunction_object device_input device
-2013,13,1,13_robotic manipulator_manipulator_robotic_data analyzed
-2013,15,1,15_storage devices_storage device_storage media_device synchronization
-2013,16,1,16_material melting_melting_melt_heating
-2013,19,9,19_adaptive channel_reception drx_channel state_drx cycles
-2013,20,2,20_cooling mode_evaporative cooling_sub systems_cooling
-2013,21,4,21_provisioning_provider implement_provisioning server_module provisioning
-2013,22,4,22_context determined_context based_context using_contexts context
-2013,25,3,25_evolution lte_lte_lte network_lte lte
-2014,0,254,0_cellular network_communications_communication device_transmit
-2014,1,269,1_power management_computing environment_power consumption_computing device
-2014,2,95,2_battery cells_battery cell_cell battery_battery packs
-2014,3,81,3_device detects_device electronic_electronic device_device displays
-2014,4,29,4_converters_dc converter_power converter_converter includes
-2014,5,4,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
-2014,6,65,6_flexible hinge_flexible_hinge_input device
-2014,8,20,8_protocol stack_protocol_tcp_packet
-2014,10,28,10_navigation application_map device_navigation_maps
-2014,11,5,11_multifunction device_multifunction_object device_input device
-2014,13,4,13_robotic manipulator_manipulator_robotic_data analyzed
-2014,14,1,14_fuel cell_control subsystem_subsystem provides_subsystem
-2014,15,7,15_storage devices_storage device_storage media_device synchronization
-2014,16,8,16_material melting_melting_melt_heating
-2014,18,5,18_environmental tracking_carbon_environmental impact_environment environmental
-2014,19,6,19_adaptive channel_reception drx_channel state_drx cycles
-2014,20,1,20_cooling mode_evaporative cooling_sub systems_cooling
-2014,21,1,21_provisioning_provider implement_provisioning server_module provisioning
-2014,22,2,22_context determined_context based_context using_contexts context
-2014,25,2,25_evolution lte_lte_lte network_lte lte
-2015,0,224,0_cellular network_communications_communication device_transmit
-2015,1,246,1_power management_computing environment_power consumption_computing device
-2015,2,74,2_battery cells_battery cell_cell battery_battery packs
-2015,3,78,3_device detects_device electronic_electronic device_device displays
-2015,4,17,4_converters_dc converter_power converter_converter includes
-2015,5,22,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
-2015,6,33,6_flexible hinge_flexible_hinge_input device
-2015,7,14,7_rach_harq_rrc rach_heuristically testing
-2015,8,15,8_protocol stack_protocol_tcp_packet
-2015,10,15,10_navigation application_map device_navigation_maps
-2015,11,8,11_multifunction device_multifunction_object device_input device
-2015,13,10,13_robotic manipulator_manipulator_robotic_data analyzed
-2015,14,2,14_fuel cell_control subsystem_subsystem provides_subsystem
-2015,15,6,15_storage devices_storage device_storage media_device synchronization
-2015,16,2,16_material melting_melting_melt_heating
-2015,17,4,17_aspects subject_aspects_aspect_presented notification
-2015,18,1,18_environmental tracking_carbon_environmental impact_environment environmental
-2015,19,3,19_adaptive channel_reception drx_channel state_drx cycles
-2015,20,1,20_cooling mode_evaporative cooling_sub systems_cooling
-2015,21,1,21_provisioning_provider implement_provisioning server_module provisioning
-2015,22,1,22_context determined_context based_context using_contexts context
-2015,28,2,28_metal surface_layer surface_layer protects_surfaces
-2016,0,347,0_cellular network_communications_communication device_transmit
-2016,1,272,1_power management_computing environment_power consumption_computing device
-2016,2,106,2_battery cells_battery cell_cell battery_battery packs
-2016,3,113,3_device detects_device electronic_electronic device_device displays
-2016,4,27,4_converters_dc converter_power converter_converter includes
-2016,5,23,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
-2016,6,36,6_flexible hinge_flexible_hinge_input device
-2016,7,42,7_rach_harq_rrc rach_heuristically testing
-2016,8,16,8_protocol stack_protocol_tcp_packet
-2016,9,2,9_dnn processor_dnn module_network dnn_neural processor
-2016,10,12,10_navigation application_map device_navigation_maps
-2016,11,12,11_multifunction device_multifunction_object device_input device
-2016,12,4,12_propeller_mechanism_aerial vehicles_blades
-2016,13,5,13_robotic manipulator_manipulator_robotic_data analyzed
-2016,14,5,14_fuel cell_control subsystem_subsystem provides_subsystem
-2016,15,6,15_storage devices_storage device_storage media_device synchronization
-2016,16,1,16_material melting_melting_melt_heating
-2016,17,9,17_aspects subject_aspects_aspect_presented notification
-2016,19,4,19_adaptive channel_reception drx_channel state_drx cycles
-2016,20,1,20_cooling mode_evaporative cooling_sub systems_cooling
-2016,21,6,21_provisioning_provider implement_provisioning server_module provisioning
-2016,22,3,22_context determined_context based_context using_contexts context
-2016,24,3,24_precipitate_precursor_material cathode_relate manufacture
-2016,25,2,25_evolution lte_lte_lte network_lte lte
-2016,28,2,28_metal surface_layer surface_layer protects_surfaces
-2017,0,233,0_cellular network_communications_communication device_transmit
-2017,1,311,1_power management_computing environment_power consumption_computing device
-2017,2,110,2_battery cells_battery cell_cell battery_battery packs
-2017,3,118,3_device detects_device electronic_electronic device_device displays
-2017,4,21,4_converters_dc converter_power converter_converter includes
-2017,5,65,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
-2017,6,31,6_flexible hinge_flexible_hinge_input device
-2017,7,33,7_rach_harq_rrc rach_heuristically testing
-2017,8,18,8_protocol stack_protocol_tcp_packet
-2017,9,4,9_dnn processor_dnn module_network dnn_neural processor
-2017,10,4,10_navigation application_map device_navigation_maps
-2017,11,12,11_multifunction device_multifunction_object device_input device
-2017,12,22,12_propeller_mechanism_aerial vehicles_blades
-2017,13,16,13_robotic manipulator_manipulator_robotic_data analyzed
-2017,14,7,14_fuel cell_control subsystem_subsystem provides_subsystem
-2017,15,5,15_storage devices_storage device_storage media_device synchronization
-2017,16,5,16_material melting_melting_melt_heating
-2017,17,2,17_aspects subject_aspects_aspect_presented notification
-2017,18,1,18_environmental tracking_carbon_environmental impact_environment environmental
-2017,19,2,19_adaptive channel_reception drx_channel state_drx cycles
-2017,20,6,20_cooling mode_evaporative cooling_sub systems_cooling
-2017,21,1,21_provisioning_provider implement_provisioning server_module provisioning
-2017,22,3,22_context determined_context based_context using_contexts context
-2017,24,3,24_precipitate_precursor_material cathode_relate manufacture
-2017,25,1,25_evolution lte_lte_lte network_lte lte
-2017,26,1,26_cluster_clusters_clustering_clustered
-2017,28,1,28_metal surface_layer surface_layer protects_surfaces
-2018,0,262,0_cellular network_communications_communication device_transmit
-2018,1,287,1_power management_computing environment_power consumption_computing device
-2018,2,109,2_battery cells_battery cell_cell battery_battery packs
-2018,3,137,3_device detects_device electronic_electronic device_device displays
-2018,4,37,4_converters_dc converter_power converter_converter includes
-2018,5,25,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
-2018,6,36,6_flexible hinge_flexible_hinge_input device
-2018,7,20,7_rach_harq_rrc rach_heuristically testing
-2018,8,9,8_protocol stack_protocol_tcp_packet
-2018,9,41,9_dnn processor_dnn module_network dnn_neural processor
-2018,10,7,10_navigation application_map device_navigation_maps
-2018,11,13,11_multifunction device_multifunction_object device_input device
-2018,12,11,12_propeller_mechanism_aerial vehicles_blades
-2018,13,10,13_robotic manipulator_manipulator_robotic_data analyzed
-2018,14,7,14_fuel cell_control subsystem_subsystem provides_subsystem
-2018,15,5,15_storage devices_storage device_storage media_device synchronization
-2018,17,2,17_aspects subject_aspects_aspect_presented notification
-2018,20,3,20_cooling mode_evaporative cooling_sub systems_cooling
-2018,22,2,22_context determined_context based_context using_contexts context
-2018,23,5,23_metal oxides_metal oxide_oxides_oxide
-2018,24,1,24_precipitate_precursor_material cathode_relate manufacture
-2019,0,265,0_cellular network_communications_communication device_transmit
-2019,1,268,1_power management_computing environment_power consumption_computing device
-2019,2,107,2_battery cells_battery cell_cell battery_battery packs
-2019,3,137,3_device detects_device electronic_electronic device_device displays
-2019,4,59,4_converters_dc converter_power converter_converter includes
-2019,5,33,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
-2019,6,26,6_flexible hinge_flexible_hinge_input device
-2019,7,23,7_rach_harq_rrc rach_heuristically testing
-2019,8,31,8_protocol stack_protocol_tcp_packet
-2019,9,34,9_dnn processor_dnn module_network dnn_neural processor
-2019,10,1,10_navigation application_map device_navigation_maps
-2019,11,5,11_multifunction device_multifunction_object device_input device
-2019,12,13,12_propeller_mechanism_aerial vehicles_blades
-2019,13,6,13_robotic manipulator_manipulator_robotic_data analyzed
-2019,14,15,14_fuel cell_control subsystem_subsystem provides_subsystem
-2019,15,4,15_storage devices_storage device_storage media_device synchronization
-2019,16,2,16_material melting_melting_melt_heating
-2019,17,5,17_aspects subject_aspects_aspect_presented notification
-2019,20,3,20_cooling mode_evaporative cooling_sub systems_cooling
-2019,23,3,23_metal oxides_metal oxide_oxides_oxide
-2019,24,3,24_precipitate_precursor_material cathode_relate manufacture
-2019,25,2,25_evolution lte_lte_lte network_lte lte
-2019,26,1,26_cluster_clusters_clustering_clustered
-2019,28,1,28_metal surface_layer surface_layer protects_surfaces
-2020,0,281,0_cellular network_communications_communication device_transmit
-2020,1,231,1_power management_computing environment_power consumption_computing device
-2020,2,125,2_battery cells_battery cell_cell battery_battery packs
-2020,3,116,3_device detects_device electronic_electronic device_device displays
-2020,4,36,4_converters_dc converter_power converter_converter includes
-2020,5,39,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
-2020,6,31,6_flexible hinge_flexible_hinge_input device
-2020,7,18,7_rach_harq_rrc rach_heuristically testing
-2020,8,16,8_protocol stack_protocol_tcp_packet
-2020,9,21,9_dnn processor_dnn module_network dnn_neural processor
-2020,10,2,10_navigation application_map device_navigation_maps
-2020,11,8,11_multifunction device_multifunction_object device_input device
-2020,12,18,12_propeller_mechanism_aerial vehicles_blades
-2020,13,7,13_robotic manipulator_manipulator_robotic_data analyzed
-2020,14,5,14_fuel cell_control subsystem_subsystem provides_subsystem
-2020,15,3,15_storage devices_storage device_storage media_device synchronization
-2020,16,2,16_material melting_melting_melt_heating
-2020,17,4,17_aspects subject_aspects_aspect_presented notification
-2020,18,1,18_environmental tracking_carbon_environmental impact_environment environmental
-2020,20,1,20_cooling mode_evaporative cooling_sub systems_cooling
-2020,21,2,21_provisioning_provider implement_provisioning server_module provisioning
-2020,22,1,22_context determined_context based_context using_contexts context
-2020,23,2,23_metal oxides_metal oxide_oxides_oxide
-2020,24,1,24_precipitate_precursor_material cathode_relate manufacture
-2021,0,236,0_cellular network_communications_communication device_transmit
-2021,1,245,1_power management_computing environment_power consumption_computing device
-2021,2,113,2_battery cells_battery cell_cell battery_battery packs
-2021,3,131,3_device detects_device electronic_electronic device_device displays
-2021,4,42,4_converters_dc converter_power converter_converter includes
-2021,5,50,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
-2021,6,23,6_flexible hinge_flexible_hinge_input device
-2021,7,19,7_rach_harq_rrc rach_heuristically testing
-2021,8,14,8_protocol stack_protocol_tcp_packet
-2021,9,24,9_dnn processor_dnn module_network dnn_neural processor
-2021,10,8,10_navigation application_map device_navigation_maps
-2021,11,2,11_multifunction device_multifunction_object device_input device
-2021,12,6,12_propeller_mechanism_aerial vehicles_blades
-2021,13,2,13_robotic manipulator_manipulator_robotic_data analyzed
-2021,14,7,14_fuel cell_control subsystem_subsystem provides_subsystem
-2021,15,2,15_storage devices_storage device_storage media_device synchronization
-2021,16,2,16_material melting_melting_melt_heating
-2021,17,3,17_aspects subject_aspects_aspect_presented notification
-2021,20,3,20_cooling mode_evaporative cooling_sub systems_cooling
-2021,21,3,21_provisioning_provider implement_provisioning server_module provisioning
-2021,23,3,23_metal oxides_metal oxide_oxides_oxide
-2021,25,1,25_evolution lte_lte_lte network_lte lte
-2021,27,5,27_power estimation_power consumption_power management_dynamic power
-2022,0,341,0_cellular network_communications_communication device_transmit
-2022,1,199,1_power management_computing environment_power consumption_computing device
-2022,2,109,2_battery cells_battery cell_cell battery_battery packs
-2022,3,94,3_device detects_device electronic_electronic device_device displays
-2022,4,35,4_converters_dc converter_power converter_converter includes
-2022,5,71,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
-2022,6,29,6_flexible hinge_flexible_hinge_input device
-2022,7,34,7_rach_harq_rrc rach_heuristically testing
-2022,8,13,8_protocol stack_protocol_tcp_packet
-2022,9,23,9_dnn processor_dnn module_network dnn_neural processor
-2022,10,1,10_navigation application_map device_navigation_maps
-2022,11,3,11_multifunction device_multifunction_object device_input device
-2022,12,2,12_propeller_mechanism_aerial vehicles_blades
-2022,13,1,13_robotic manipulator_manipulator_robotic_data analyzed
-2022,14,2,14_fuel cell_control subsystem_subsystem provides_subsystem
-2022,16,3,16_material melting_melting_melt_heating
-2022,17,2,17_aspects subject_aspects_aspect_presented notification
-2022,18,2,18_environmental tracking_carbon_environmental impact_environment environmental
-2022,21,3,21_provisioning_provider implement_provisioning server_module provisioning
-2022,27,2,27_power estimation_power consumption_power management_dynamic power
-2022,28,1,28_metal surface_layer surface_layer protects_surfaces
-2023,0,338,0_cellular network_communications_communication device_transmit
-2023,1,215,1_power management_computing environment_power consumption_computing device
-2023,2,138,2_battery cells_battery cell_cell battery_battery packs
-2023,3,104,3_device detects_device electronic_electronic device_device displays
-2023,4,46,4_converters_dc converter_power converter_converter includes
-2023,5,40,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
-2023,6,10,6_flexible hinge_flexible_hinge_input device
-2023,7,46,7_rach_harq_rrc rach_heuristically testing
-2023,8,17,8_protocol stack_protocol_tcp_packet
-2023,9,30,9_dnn processor_dnn module_network dnn_neural processor
-2023,10,3,10_navigation application_map device_navigation_maps
-2023,11,2,11_multifunction device_multifunction_object device_input device
-2023,12,1,12_propeller_mechanism_aerial vehicles_blades
-2023,13,1,13_robotic manipulator_manipulator_robotic_data analyzed
-2023,15,2,15_storage devices_storage device_storage media_device synchronization
-2023,16,1,16_material melting_melting_melt_heating
-2023,17,1,17_aspects subject_aspects_aspect_presented notification
-2023,19,4,19_adaptive channel_reception drx_channel state_drx cycles
-2023,20,2,20_cooling mode_evaporative cooling_sub systems_cooling
-2023,21,3,21_provisioning_provider implement_provisioning server_module provisioning
-2023,28,1,28_metal surface_layer surface_layer protects_surfaces
-2024,0,283,0_cellular network_communications_communication device_transmit
-2024,1,129,1_power management_computing environment_power consumption_computing device
-2024,2,110,2_battery cells_battery cell_cell battery_battery packs
-2024,3,63,3_device detects_device electronic_electronic device_device displays
-2024,4,21,4_converters_dc converter_power converter_converter includes
-2024,5,26,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
-2024,6,21,6_flexible hinge_flexible_hinge_input device
-2024,7,23,7_rach_harq_rrc rach_heuristically testing
-2024,8,9,8_protocol stack_protocol_tcp_packet
-2024,9,17,9_dnn processor_dnn module_network dnn_neural processor
-2024,11,4,11_multifunction device_multifunction_object device_input device
-2024,13,2,13_robotic manipulator_manipulator_robotic_data analyzed
-2024,15,2,15_storage devices_storage device_storage media_device synchronization
-2024,16,5,16_material melting_melting_melt_heating
-2024,20,1,20_cooling mode_evaporative cooling_sub systems_cooling
-2024,27,1,27_power estimation_power consumption_power management_dynamic power
+2010,0,142,0_communication device_communications_transmit_transmitting
+2010,7,1,7_fuel cells_fuel cell_device fuel_computing devices
+2010,10,6,10_headset_connectors_connectors provided_include connector
+2010,12,1,12_frequency clock_clock signal_clock gating_root clock
+2010,13,1,13_charging host_charging device_device charging_charging
+2010,19,1,19_tracking information_vehicle autonomously_inventory_vehicle vehicle
+2010,23,4,23_temperature superconducting_superconducting components_substrate superconducting_superconducting
+2010,25,1,25_inventory holder_inventory items_inventory_equipment method
+2010,30,1,30_service manages_constraints_provider implement_service provider
+2010,34,1,34_computing device_device computing_volatile memory_nonvolatile memory
+2010,40,2,40_integrated circuit_circuit integrated_integrated_device integrated
+2010,44,5,44_cluster_clusters_clustering_clustered
+2010,60,1,60_cooling mode_air cooling_evaporative cooling_sub systems
+2010,81,1,81_protocol tcp_tcp_control protocol_congestion control
+2010,82,1,82_navigation application_navigation presentation_navigation_application navigation
+2010,87,1,87_computing device_device computing_computing_disclosed computing
+2010,89,5,89_carbon_environmental impact_environmentally_comparison data
+2010,97,1,97_multiple threshold_device threshold_application operation_threshold values
+2010,99,1,99_rack power_individual psu_server rack_servers rack
+2010,105,1,105_virtual machines_virtualization_machines virtual_virtual machine
+2010,107,1,107_connector electrical_battery connector_coupling battery_electrical connection
+2010,112,1,112_crystal display_width modulation_illumination_backlight control
+2010,116,1,116_integrated circuits_device interface_inter chip_chip hsic
+2010,126,3,126_protocol used_protocol_protocol client_protocol example
+2010,136,1,136_portable music_connected portable_device receive_voltage power
+2010,138,2,138_data transmissions_transmitted data_transmit data_speed data
+2010,140,2,140_persistent storage_volatile memory_storage device_storage
+2010,148,1,148_data communication_communication protocol_protocol_client server
+2010,152,4,152_information tracking_tracking information_synchronizes_synchronisation
+2010,155,5,155_environmental tracking_tracking_environmental sensors_environment environmental
+2010,156,1,156_data center_mitigation operations_computer power_power grid
+2010,157,2,157_routing metric_based routing_multi hop_hop network
+2010,158,3,158_temperature superconducting_superconducting interconnect_superconducting_cooling electronic
+2010,172,1,172_processor operate_states processor_throttle processors_processors various
+2011,0,188,0_communication device_communications_transmit_transmitting
+2011,2,6,2_um dispositivo_se uma_configurado para_para dispositivo
+2011,4,3,4_device thermal_thermal control_thermal management_mitigate thermal
+2011,7,4,7_fuel cells_fuel cell_device fuel_computing devices
+2011,10,2,10_headset_connectors_connectors provided_include connector
+2011,13,2,13_charging host_charging device_device charging_charging
+2011,23,1,23_temperature superconducting_superconducting components_substrate superconducting_superconducting
+2011,26,1,26_multifunction device_multifunction_object device_input device
+2011,30,3,30_service manages_constraints_provider implement_service provider
+2011,32,1,32_sps activation_channel pdsch_channel pdcch_physical downlink
+2011,36,6,36_local device_device service_device local_device advertisement
+2011,40,4,40_integrated circuit_circuit integrated_integrated_device integrated
+2011,41,2,41_packet transmitted_virtual channels_data stream_type packet
+2011,44,2,44_cluster_clusters_clustering_clustered
+2011,48,1,48_device methods_adhesive_device components_magnetic adhesive
+2011,60,1,60_cooling mode_air cooling_evaporative cooling_sub systems
+2011,65,3,65_host accessory_host device_device host_devices host
+2011,66,1,66_packages_package package_package_packaged
+2011,69,2,69_background application_foreground application_application foreground_application service
+2011,79,7,79_memory interface_interface peripheral_interface control_peripheral component
+2011,81,4,81_protocol tcp_tcp_control protocol_congestion control
+2011,84,4,84_device locked_application device_application_locked
+2011,89,1,89_carbon_environmental impact_environmentally_comparison data
+2011,105,2,105_virtual machines_virtualization_machines virtual_virtual machine
+2011,107,6,107_connector electrical_battery connector_coupling battery_electrical connection
+2011,112,4,112_crystal display_width modulation_illumination_backlight control
+2011,114,2,114_switch disclosed_automatic_example automatic_light environment
+2011,116,1,116_integrated circuits_device interface_inter chip_chip hsic
+2011,126,1,126_protocol used_protocol_protocol client_protocol example
+2011,136,1,136_portable music_connected portable_device receive_voltage power
+2011,140,1,140_persistent storage_volatile memory_storage device_storage
+2011,148,1,148_data communication_communication protocol_protocol_client server
+2011,152,3,152_information tracking_tracking information_synchronizes_synchronisation
+2011,155,3,155_environmental tracking_tracking_environmental sensors_environment environmental
+2011,156,1,156_data center_mitigation operations_computer power_power grid
+2011,174,2,174_data reception_radio network_data buffering_latency
+2012,0,297,0_communication device_communications_transmit_transmitting
+2012,2,3,2_um dispositivo_se uma_configurado para_para dispositivo
+2012,4,6,4_device thermal_thermal control_thermal management_mitigate thermal
+2012,7,6,7_fuel cells_fuel cell_device fuel_computing devices
+2012,10,11,10_headset_connectors_connectors provided_include connector
+2012,12,1,12_frequency clock_clock signal_clock gating_root clock
+2012,25,1,25_inventory holder_inventory items_inventory_equipment method
+2012,26,1,26_multifunction device_multifunction_object device_input device
+2012,36,8,36_local device_device service_device local_device advertisement
+2012,37,1,37_memory decoder_memory corresponding_portion memory_decoder
+2012,40,5,40_integrated circuit_circuit integrated_integrated_device integrated
+2012,43,7,43_channel communication_communication channel_wireless computer_remote device
+2012,44,2,44_cluster_clusters_clustering_clustered
+2012,55,1,55_disclosed cache_indication cache_cache_includes cache
+2012,60,2,60_cooling mode_air cooling_evaporative cooling_sub systems
+2012,63,10,63_limiting power_nvm power_disclosed limiting_memory nvm
+2012,65,3,65_host accessory_host device_device host_devices host
+2012,67,1,67_coordinated lighting_wireless lighting_lighting wireless_lighting devices
+2012,69,8,69_background application_foreground application_application foreground_application service
+2012,79,4,79_memory interface_interface peripheral_interface control_peripheral component
+2012,81,7,81_protocol tcp_tcp_control protocol_congestion control
+2012,84,2,84_device locked_application device_application_locked
+2012,89,4,89_carbon_environmental impact_environmentally_comparison data
+2012,97,7,97_multiple threshold_device threshold_application operation_threshold values
+2012,105,4,105_virtual machines_virtualization_machines virtual_virtual machine
+2012,106,1,106_resource management_physical resource_computing resource_resource physical
+2012,107,2,107_connector electrical_battery connector_coupling battery_electrical connection
+2012,112,3,112_crystal display_width modulation_illumination_backlight control
+2012,114,1,114_switch disclosed_automatic_example automatic_light environment
+2012,118,8,118_power budgeting_allocating power_dynamic allocation_power budgets
+2012,125,2,125_modulated electricity_electrical devices_electrical device_second electrical
+2012,126,2,126_protocol used_protocol_protocol client_protocol example
+2012,134,1,134_multi antenna_wireless cellular_transmitter signals_antenna
+2012,136,5,136_portable music_connected portable_device receive_voltage power
+2012,138,1,138_data transmissions_transmitted data_transmit data_speed data
+2012,140,4,140_persistent storage_volatile memory_storage device_storage
+2012,143,1,143_execution software_program execution_executing programs_execution program
+2012,148,2,148_data communication_communication protocol_protocol_client server
+2012,152,1,152_information tracking_tracking information_synchronizes_synchronisation
+2012,157,1,157_routing metric_based routing_multi hop_hop network
+2012,160,2,160_background tasks_background task_device background_application background
+2012,174,2,174_data reception_radio network_data buffering_latency
+2012,175,5,175_device suspend_host device_suspending_devices communication
+2013,0,425,0_communication device_communications_transmit_transmitting
+2013,2,6,2_um dispositivo_se uma_configurado para_para dispositivo
+2013,3,1,3_das verfahren_einer zweiten_einem ersten_einer ersten
+2013,4,7,4_device thermal_thermal control_thermal management_mitigate thermal
+2013,6,17,6_touch controller_controller disclosed_stimulation_touch
+2013,7,4,7_fuel cells_fuel cell_device fuel_computing devices
+2013,9,1,9_rfid tag_rfid_activation wearable_wearable
+2013,10,6,10_headset_connectors_connectors provided_include connector
+2013,12,8,12_frequency clock_clock signal_clock gating_root clock
+2013,13,1,13_charging host_charging device_device charging_charging
+2013,16,3,16_environmental tracking_object tracking_tracking_device handheld
+2013,18,3,18_pressure sensors_keys pressure_pressure sensitive_contact sensor
+2013,23,1,23_temperature superconducting_superconducting components_substrate superconducting_superconducting
+2013,24,11,24_flexible hinge_device flexible_computing device_flexible
+2013,25,1,25_inventory holder_inventory items_inventory_equipment method
+2013,26,2,26_multifunction device_multifunction_object device_input device
+2013,30,1,30_service manages_constraints_provider implement_service provider
+2013,31,1,31_forming material_metallic glass_bulk metallic_forming component
+2013,33,2,33_mapping application_map view_view map_map based
+2013,35,2,35_control information_information broadcast_information blocks_bpch
+2013,36,2,36_local device_device service_device local_device advertisement
+2013,37,1,37_memory decoder_memory corresponding_portion memory_decoder
+2013,40,5,40_integrated circuit_circuit integrated_integrated_device integrated
+2013,43,2,43_channel communication_communication channel_wireless computer_remote device
+2013,44,3,44_cluster_clusters_clustering_clustered
+2013,46,4,46_navigation instructions_locked mode_navigation application_providing navigation
+2013,50,7,50_adaptive channel_reception cycles_reception cycle_reception drx
+2013,52,3,52_providing navigation_navigational_navigation_search results
+2013,54,3,54_synchronization stations_synchronization peer_devices synchronize_synchronization scheme
+2013,55,1,55_disclosed cache_indication cache_cache_includes cache
+2013,58,2,58_input device_inputs computing_hardware elements_hardware components
+2013,59,1,59_clock signal_output clock_signal synchronization_pulse control
+2013,60,2,60_cooling mode_air cooling_evaporative cooling_sub systems
+2013,63,3,63_limiting power_nvm power_disclosed limiting_memory nvm
+2013,64,4,64_wake pattern_monitored network_monitored traffic_monitoring network
+2013,65,1,65_host accessory_host device_device host_devices host
+2013,67,1,67_coordinated lighting_wireless lighting_lighting wireless_lighting devices
+2013,74,1,74_fabric conductive_conductive strands_conductive material_conductive strand
+2013,75,2,75_flux_device magnetic_coupling device_using magnetic
+2013,78,1,78_processors interrupt_interrupt processor_interrupt controller_interrupt requests
+2013,79,3,79_memory interface_interface peripheral_interface control_peripheral component
+2013,80,4,80_receiver diversity_channel quality_threshold channel_wireless communication
+2013,81,1,81_protocol tcp_tcp_control protocol_congestion control
+2013,82,3,82_navigation application_navigation presentation_navigation_application navigation
+2013,84,4,84_device locked_application device_application_locked
+2013,87,1,87_computing device_device computing_computing_disclosed computing
+2013,91,3,91_voice activated_device voice_provide voice_voice
+2013,96,2,96_leds based_leds operation_diodes leds_drives leds
+2013,97,1,97_multiple threshold_device threshold_application operation_threshold values
+2013,98,1,98_gaze_tracking method_user eye_device detects
+2013,102,1,102_powered processing_power generation_power generator_device self
+2013,103,2,103_device thermal_environment computer_operating data_implemented computer
+2013,105,2,105_virtual machines_virtualization_machines virtual_virtual machine
+2013,108,6,108_signal quality_signal strength_search cellular_cell neighbor
+2013,109,1,109_device aggregated_device wake_transmitted electronic_multicast
+2013,110,1,110_inventory materials_handling facility_packing_inventory
+2013,112,2,112_crystal display_width modulation_illumination_backlight control
+2013,125,4,125_modulated electricity_electrical devices_electrical device_second electrical
+2013,126,2,126_protocol used_protocol_protocol client_protocol example
+2013,136,4,136_portable music_connected portable_device receive_voltage power
+2013,138,1,138_data transmissions_transmitted data_transmit data_speed data
+2013,139,4,139_device orientation_device sensor_device relative_devices relative
+2013,140,2,140_persistent storage_volatile memory_storage device_storage
+2013,143,1,143_execution software_program execution_executing programs_execution program
+2013,144,2,144_qos classification_service qos_qos_qos class
+2013,147,1,147_integrated circuits_integrated circuit_integrated_interfaces
+2013,148,2,148_data communication_communication protocol_protocol_client server
+2013,149,1,149_business intelligence_data performance_performance metrics_trace data
+2013,150,3,150_communication device_mobile communication_ambient light_device detect
+2013,153,2,153_device monitored_device layer_peer wireless_wireless device
+2013,154,3,154_pattern transmitting_wireless communications_communications device_wireless resource
+2013,157,1,157_routing metric_based routing_multi hop_hop network
+2013,159,10,159_suspended process_suspended application_process based_application suspended
+2013,160,2,160_background tasks_background task_device background_application background
+2013,176,3,176_interference management_transmitter transmits_transmitter wireless_wireless transmitter
+2014,0,560,0_communication device_communications_transmit_transmitting
+2014,2,2,2_um dispositivo_se uma_configurado para_para dispositivo
+2014,3,2,3_das verfahren_einer zweiten_einem ersten_einer ersten
+2014,4,17,4_device thermal_thermal control_thermal management_mitigate thermal
+2014,6,15,6_touch controller_controller disclosed_stimulation_touch
+2014,7,3,7_fuel cells_fuel cell_device fuel_computing devices
+2014,9,2,9_rfid tag_rfid_activation wearable_wearable
+2014,10,3,10_headset_connectors_connectors provided_include connector
+2014,11,1,11_materials lithium_material lithium_lithium ion_lithium battery
+2014,12,2,12_frequency clock_clock signal_clock gating_root clock
+2014,13,6,13_charging host_charging device_device charging_charging
+2014,18,14,18_pressure sensors_keys pressure_pressure sensitive_contact sensor
+2014,23,1,23_temperature superconducting_superconducting components_substrate superconducting_superconducting
+2014,24,9,24_flexible hinge_device flexible_computing device_flexible
+2014,25,1,25_inventory holder_inventory items_inventory_equipment method
+2014,26,3,26_multifunction device_multifunction_object device_input device
+2014,29,1,29_performance counters_performance data_performance values_associated performance
+2014,33,1,33_mapping application_map view_view map_map based
+2014,35,2,35_control information_information broadcast_information blocks_bpch
+2014,36,3,36_local device_device service_device local_device advertisement
+2014,37,1,37_memory decoder_memory corresponding_portion memory_decoder
+2014,42,4,42_drive data_disk drive_hybrid_device synchronization
+2014,43,3,43_channel communication_communication channel_wireless computer_remote device
+2014,44,2,44_cluster_clusters_clustering_clustered
+2014,46,3,46_navigation instructions_locked mode_navigation application_providing navigation
+2014,47,2,47_power utilization_devices radio_device dynamic_device dynamically
+2014,48,3,48_device methods_adhesive_device components_magnetic adhesive
+2014,50,5,50_adaptive channel_reception cycles_reception cycle_reception drx
+2014,52,3,52_providing navigation_navigational_navigation_search results
+2014,53,2,53_scheduling sps_persistent scheduling_data transmission_sps activation
+2014,54,2,54_synchronization stations_synchronization peer_devices synchronize_synchronization scheme
+2014,55,1,55_disclosed cache_indication cache_cache_includes cache
+2014,56,7,56_device cover_cover_cover includes_covers
+2014,58,11,58_input device_inputs computing_hardware elements_hardware components
+2014,59,1,59_clock signal_output clock_signal synchronization_pulse control
+2014,60,1,60_cooling mode_air cooling_evaporative cooling_sub systems
+2014,63,1,63_limiting power_nvm power_disclosed limiting_memory nvm
+2014,64,2,64_wake pattern_monitored network_monitored traffic_monitoring network
+2014,65,1,65_host accessory_host device_device host_devices host
+2014,66,5,66_packages_package package_package_packaged
+2014,75,5,75_flux_device magnetic_coupling device_using magnetic
+2014,77,2,77_fence techniques_device detects_fence_detects signal
+2014,78,5,78_processors interrupt_interrupt processor_interrupt controller_interrupt requests
+2014,79,2,79_memory interface_interface peripheral_interface control_peripheral component
+2014,80,5,80_receiver diversity_channel quality_threshold channel_wireless communication
+2014,81,2,81_protocol tcp_tcp_control protocol_congestion control
+2014,82,3,82_navigation application_navigation presentation_navigation_application navigation
+2014,84,1,84_device locked_application device_application_locked
+2014,85,4,85_multiple sensors_remote sensors_sensor_multiple processing
+2014,87,1,87_computing device_device computing_computing_disclosed computing
+2014,89,3,89_carbon_environmental impact_environmentally_comparison data
+2014,96,1,96_leds based_leds operation_diodes leds_drives leds
+2014,97,2,97_multiple threshold_device threshold_application operation_threshold values
+2014,98,2,98_gaze_tracking method_user eye_device detects
+2014,100,4,100_latency data_latency_timeout_latencies
+2014,101,3,101_storage devices_storage device_storage systems_storage media
+2014,102,3,102_powered processing_power generation_power generator_device self
+2014,103,2,103_device thermal_environment computer_operating data_implemented computer
+2014,105,3,105_virtual machines_virtualization_machines virtual_virtual machine
+2014,107,2,107_connector electrical_battery connector_coupling battery_electrical connection
+2014,108,2,108_signal quality_signal strength_search cellular_cell neighbor
+2014,112,1,112_crystal display_width modulation_illumination_backlight control
+2014,116,4,116_integrated circuits_device interface_inter chip_chip hsic
+2014,117,3,117_coexistence wireless_wireless communication_device coexistence_interference data
+2014,118,2,118_power budgeting_allocating power_dynamic allocation_power budgets
+2014,123,5,123_cluster_clusters distributed_clusters_cluster data
+2014,126,3,126_protocol used_protocol_protocol client_protocol example
+2014,133,5,133_battery assembly_layers battery_battery stack_assembly battery
+2014,134,2,134_multi antenna_wireless cellular_transmitter signals_antenna
+2014,136,2,136_portable music_connected portable_device receive_voltage power
+2014,137,1,137_lithium polymer_batteriezellen und_batteriezelle_batteriezellen
+2014,138,2,138_data transmissions_transmitted data_transmit data_speed data
+2014,139,8,139_device orientation_device sensor_device relative_devices relative
+2014,143,3,143_execution software_program execution_executing programs_execution program
+2014,147,2,147_integrated circuits_integrated circuit_integrated_interfaces
+2014,148,1,148_data communication_communication protocol_protocol_client server
+2014,149,1,149_business intelligence_data performance_performance metrics_trace data
+2014,152,1,152_information tracking_tracking information_synchronizes_synchronisation
+2014,153,3,153_device monitored_device layer_peer wireless_wireless device
+2014,155,2,155_environmental tracking_tracking_environmental sensors_environment environmental
+2014,156,1,156_data center_mitigation operations_computer power_power grid
+2014,157,1,157_routing metric_based routing_multi hop_hop network
+2014,160,3,160_background tasks_background task_device background_application background
+2014,172,2,172_processor operate_states processor_throttle processors_processors various
+2014,173,6,173_material melting_materials melting_melting_melt
+2014,174,5,174_data reception_radio network_data buffering_latency
+2014,175,3,175_device suspend_host device_suspending_devices communication
+2014,176,3,176_interference management_transmitter transmits_transmitter wireless_wireless transmitter
+2015,0,497,0_communication device_communications_transmit_transmitting
+2015,1,16,1_multiple transmission_signal ue_rach_nr
+2015,2,4,2_um dispositivo_se uma_configurado para_para dispositivo
+2015,3,23,3_das verfahren_einer zweiten_einem ersten_einer ersten
+2015,4,10,4_device thermal_thermal control_thermal management_mitigate thermal
+2015,6,12,6_touch controller_controller disclosed_stimulation_touch
+2015,7,5,7_fuel cells_fuel cell_device fuel_computing devices
+2015,9,7,9_rfid tag_rfid_activation wearable_wearable
+2015,10,2,10_headset_connectors_connectors provided_include connector
+2015,12,2,12_frequency clock_clock signal_clock gating_root clock
+2015,13,1,13_charging host_charging device_device charging_charging
+2015,16,2,16_environmental tracking_object tracking_tracking_device handheld
+2015,18,3,18_pressure sensors_keys pressure_pressure sensitive_contact sensor
+2015,19,1,19_tracking information_vehicle autonomously_inventory_vehicle vehicle
+2015,21,5,21_various components_components electronic_components_component electronic
+2015,24,2,24_flexible hinge_device flexible_computing device_flexible
+2015,25,3,25_inventory holder_inventory items_inventory_equipment method
+2015,26,2,26_multifunction device_multifunction_object device_input device
+2015,29,3,29_performance counters_performance data_performance values_associated performance
+2015,30,2,30_service manages_constraints_provider implement_service provider
+2015,31,4,31_forming material_metallic glass_bulk metallic_forming component
+2015,32,6,32_sps activation_channel pdsch_channel pdcch_physical downlink
+2015,35,2,35_control information_information broadcast_information blocks_bpch
+2015,37,2,37_memory decoder_memory corresponding_portion memory_decoder
+2015,38,1,38_input mechanism_brightness_input display_user input
+2015,39,4,39_aspects subject_aspects_presented notification_notifications presented
+2015,40,2,40_integrated circuit_circuit integrated_integrated_device integrated
+2015,42,5,42_drive data_disk drive_hybrid_device synchronization
+2015,43,1,43_channel communication_communication channel_wireless computer_remote device
+2015,44,1,44_cluster_clusters_clustering_clustered
+2015,45,2,45_device magnetic_relates magnetic_portable computing_disclosed portable
+2015,46,4,46_navigation instructions_locked mode_navigation application_providing navigation
+2015,48,1,48_device methods_adhesive_device components_magnetic adhesive
+2015,50,3,50_adaptive channel_reception cycles_reception cycle_reception drx
+2015,52,1,52_providing navigation_navigational_navigation_search results
+2015,53,1,53_scheduling sps_persistent scheduling_data transmission_sps activation
+2015,55,1,55_disclosed cache_indication cache_cache_includes cache
+2015,56,4,56_device cover_cover_cover includes_covers
+2015,58,3,58_input device_inputs computing_hardware elements_hardware components
+2015,59,5,59_clock signal_output clock_signal synchronization_pulse control
+2015,63,1,63_limiting power_nvm power_disclosed limiting_memory nvm
+2015,64,2,64_wake pattern_monitored network_monitored traffic_monitoring network
+2015,66,3,66_packages_package package_package_packaged
+2015,68,3,68_circuit memory_soc powered_cpus powered_memory controller
+2015,70,1,70_network rat_cell network_radio access_network management
+2015,71,3,71_channel access_access channel_radio channels_channel using
+2015,75,1,75_flux_device magnetic_coupling device_using magnetic
+2015,77,1,77_fence techniques_device detects_fence_detects signal
+2015,78,1,78_processors interrupt_interrupt processor_interrupt controller_interrupt requests
+2015,79,1,79_memory interface_interface peripheral_interface control_peripheral component
+2015,80,3,80_receiver diversity_channel quality_threshold channel_wireless communication
+2015,82,3,82_navigation application_navigation presentation_navigation_application navigation
+2015,83,4,83_communication nfc_field communications_consumption nfc_field communication
+2015,85,5,85_multiple sensors_remote sensors_sensor_multiple processing
+2015,87,4,87_computing device_device computing_computing_disclosed computing
+2015,89,1,89_carbon_environmental impact_environmentally_comparison data
+2015,91,1,91_voice activated_device voice_provide voice_voice
+2015,92,3,92_circuit monitor_circuit instances_processor control_control circuit
+2015,95,5,95_radio operate_rat radio_tune radio_ue radio
+2015,98,1,98_gaze_tracking method_user eye_device detects
+2015,100,2,100_latency data_latency_timeout_latencies
+2015,101,1,101_storage devices_storage device_storage systems_storage media
+2015,102,3,102_powered processing_power generation_power generator_device self
+2015,105,2,105_virtual machines_virtualization_machines virtual_virtual machine
+2015,108,3,108_signal quality_signal strength_search cellular_cell neighbor
+2015,110,2,110_inventory materials_handling facility_packing_inventory
+2015,116,1,116_integrated circuits_device interface_inter chip_chip hsic
+2015,117,2,117_coexistence wireless_wireless communication_device coexistence_interference data
+2015,123,2,123_cluster_clusters distributed_clusters_cluster data
+2015,133,2,133_battery assembly_layers battery_battery stack_assembly battery
+2015,138,2,138_data transmissions_transmitted data_transmit data_speed data
+2015,143,1,143_execution software_program execution_executing programs_execution program
+2015,144,1,144_qos classification_service qos_qos_qos class
+2015,146,4,146_power feeds_power feed_interruption power_feed power
+2015,148,3,148_data communication_communication protocol_protocol_client server
+2015,149,4,149_business intelligence_data performance_performance metrics_trace data
+2015,150,3,150_communication device_mobile communication_ambient light_device detect
+2015,151,3,151_expansion_detector_device detects_detecting
+2015,152,1,152_information tracking_tracking information_synchronizes_synchronisation
+2015,156,1,156_data center_mitigation operations_computer power_power grid
+2015,157,1,157_routing metric_based routing_multi hop_hop network
+2015,160,1,160_background tasks_background task_device background_application background
+2015,169,4,169_prefetching_prefetch_cache hierarchy_prefetch request
+2015,172,1,172_processor operate_states processor_throttle processors_processors various
+2015,173,1,173_material melting_materials melting_melting_melt
+2015,174,1,174_data reception_radio network_data buffering_latency
+2015,175,3,175_device suspend_host device_suspending_devices communication
+2015,176,1,176_interference management_transmitter transmits_transmitter wireless_wireless transmitter
+2016,0,658,0_communication device_communications_transmit_transmitting
+2016,1,52,1_multiple transmission_signal ue_rach_nr
+2016,2,11,2_um dispositivo_se uma_configurado para_para dispositivo
+2016,3,14,3_das verfahren_einer zweiten_einem ersten_einer ersten
+2016,4,14,4_device thermal_thermal control_thermal management_mitigate thermal
+2016,6,6,6_touch controller_controller disclosed_stimulation_touch
+2016,7,5,7_fuel cells_fuel cell_device fuel_computing devices
+2016,8,1,8_virtual assistant_intelligent assistant_digital assistant_automated
+2016,9,2,9_rfid tag_rfid_activation wearable_wearable
+2016,10,1,10_headset_connectors_connectors provided_include connector
+2016,12,5,12_frequency clock_clock signal_clock gating_root clock
+2016,13,10,13_charging host_charging device_device charging_charging
+2016,15,4,15_flyback converters_converters operate_improved flyback_converter embodiments
+2016,18,2,18_pressure sensors_keys pressure_pressure sensitive_contact sensor
+2016,19,4,19_tracking information_vehicle autonomously_inventory_vehicle vehicle
+2016,24,1,24_flexible hinge_device flexible_computing device_flexible
+2016,25,3,25_inventory holder_inventory items_inventory_equipment method
+2016,26,2,26_multifunction device_multifunction_object device_input device
+2016,28,4,28_aerial vehicles_aerial vehicle_unmanned aerial_vehicle uav
+2016,29,1,29_performance counters_performance data_performance values_associated performance
+2016,30,5,30_service manages_constraints_provider implement_service provider
+2016,32,2,32_sps activation_channel pdsch_channel pdcch_physical downlink
+2016,33,4,33_mapping application_map view_view map_map based
+2016,35,3,35_control information_information broadcast_information blocks_bpch
+2016,36,3,36_local device_device service_device local_device advertisement
+2016,37,6,37_memory decoder_memory corresponding_portion memory_decoder
+2016,39,7,39_aspects subject_aspects_presented notification_notifications presented
+2016,40,4,40_integrated circuit_circuit integrated_integrated_device integrated
+2016,41,2,41_packet transmitted_virtual channels_data stream_type packet
+2016,42,5,42_drive data_disk drive_hybrid_device synchronization
+2016,43,3,43_channel communication_communication channel_wireless computer_remote device
+2016,46,3,46_navigation instructions_locked mode_navigation application_providing navigation
+2016,47,5,47_power utilization_devices radio_device dynamic_device dynamically
+2016,48,8,48_device methods_adhesive_device components_magnetic adhesive
+2016,50,4,50_adaptive channel_reception cycles_reception cycle_reception drx
+2016,51,6,51_electronic device_user interface_headset_electronic
+2016,52,3,52_providing navigation_navigational_navigation_search results
+2016,53,2,53_scheduling sps_persistent scheduling_data transmission_sps activation
+2016,54,2,54_synchronization stations_synchronization peer_devices synchronize_synchronization scheme
+2016,55,1,55_disclosed cache_indication cache_cache_includes cache
+2016,56,3,56_device cover_cover_cover includes_covers
+2016,57,1,57_memory architecture_chip interconnect_interconnect_interconnecting
+2016,58,2,58_input device_inputs computing_hardware elements_hardware components
+2016,59,3,59_clock signal_output clock_signal synchronization_pulse control
+2016,62,1,62_packet processing_packet based_packet virtual_device emulation
+2016,64,4,64_wake pattern_monitored network_monitored traffic_monitoring network
+2016,66,2,66_packages_package package_package_packaged
+2016,67,3,67_coordinated lighting_wireless lighting_lighting wireless_lighting devices
+2016,68,2,68_circuit memory_soc powered_cpus powered_memory controller
+2016,70,1,70_network rat_cell network_radio access_network management
+2016,71,3,71_channel access_access channel_radio channels_channel using
+2016,74,1,74_fabric conductive_conductive strands_conductive material_conductive strand
+2016,77,3,77_fence techniques_device detects_fence_detects signal
+2016,80,3,80_receiver diversity_channel quality_threshold channel_wireless communication
+2016,82,2,82_navigation application_navigation presentation_navigation_application navigation
+2016,83,1,83_communication nfc_field communications_consumption nfc_field communication
+2016,84,1,84_device locked_application device_application_locked
+2016,87,1,87_computing device_device computing_computing_disclosed computing
+2016,90,4,90_accessory device_docking stations_communication accessory_accessory determine
+2016,91,2,91_voice activated_device voice_provide voice_voice
+2016,92,1,92_circuit monitor_circuit instances_processor control_control circuit
+2016,93,2,93_virtualization_virtual machines_virtual machine_hypervisor
+2016,95,8,95_radio operate_rat radio_tune radio_ue radio
+2016,97,1,97_multiple threshold_device threshold_application operation_threshold values
+2016,100,3,100_latency data_latency_timeout_latencies
+2016,101,2,101_storage devices_storage device_storage systems_storage media
+2016,102,4,102_powered processing_power generation_power generator_device self
+2016,103,3,103_device thermal_environment computer_operating data_implemented computer
+2016,104,1,104_logging_user activity_monitored activity_user activities
+2016,105,1,105_virtual machines_virtualization_machines virtual_virtual machine
+2016,107,1,107_connector electrical_battery connector_coupling battery_electrical connection
+2016,108,2,108_signal quality_signal strength_search cellular_cell neighbor
+2016,109,1,109_device aggregated_device wake_transmitted electronic_multicast
+2016,110,4,110_inventory materials_handling facility_packing_inventory
+2016,112,1,112_crystal display_width modulation_illumination_backlight control
+2016,114,1,114_switch disclosed_automatic_example automatic_light environment
+2016,117,1,117_coexistence wireless_wireless communication_device coexistence_interference data
+2016,118,1,118_power budgeting_allocating power_dynamic allocation_power budgets
+2016,124,2,124_acceleration component_includes acceleration_memory processing_processing model
+2016,125,3,125_modulated electricity_electrical devices_electrical device_second electrical
+2016,126,2,126_protocol used_protocol_protocol client_protocol example
+2016,131,4,131_battery bus_bus converter_bus battery_second bus
+2016,134,2,134_multi antenna_wireless cellular_transmitter signals_antenna
+2016,140,2,140_persistent storage_volatile memory_storage device_storage
+2016,143,2,143_execution software_program execution_executing programs_execution program
+2016,146,1,146_power feeds_power feed_interruption power_feed power
+2016,148,2,148_data communication_communication protocol_protocol_client server
+2016,149,3,149_business intelligence_data performance_performance metrics_trace data
+2016,150,4,150_communication device_mobile communication_ambient light_device detect
+2016,151,2,151_expansion_detector_device detects_detecting
+2016,152,1,152_information tracking_tracking information_synchronizes_synchronisation
+2016,153,2,153_device monitored_device layer_peer wireless_wireless device
+2016,156,2,156_data center_mitigation operations_computer power_power grid
+2016,157,2,157_routing metric_based routing_multi hop_hop network
+2016,160,1,160_background tasks_background task_device background_application background
+2016,162,1,162_mg_li mg_mg al_ti zr
+2016,169,1,169_prefetching_prefetch_cache hierarchy_prefetch request
+2016,170,4,170_operating context_context computing_context information_context context
+2016,172,3,172_processor operate_states processor_throttle processors_processors various
+2016,173,1,173_material melting_materials melting_melting_melt
+2016,174,1,174_data reception_radio network_data buffering_latency
+2016,176,3,176_interference management_transmitter transmits_transmitter wireless_wireless transmitter
+2017,0,621,0_communication device_communications_transmit_transmitting
+2017,1,39,1_multiple transmission_signal ue_rach_nr
+2017,2,55,2_um dispositivo_se uma_configurado para_para dispositivo
+2017,3,14,3_das verfahren_einer zweiten_einem ersten_einer ersten
+2017,4,14,4_device thermal_thermal control_thermal management_mitigate thermal
+2017,6,2,6_touch controller_controller disclosed_stimulation_touch
+2017,7,7,7_fuel cells_fuel cell_device fuel_computing devices
+2017,8,1,8_virtual assistant_intelligent assistant_digital assistant_automated
+2017,9,10,9_rfid tag_rfid_activation wearable_wearable
+2017,10,3,10_headset_connectors_connectors provided_include connector
+2017,11,7,11_materials lithium_material lithium_lithium ion_lithium battery
+2017,12,2,12_frequency clock_clock signal_clock gating_root clock
+2017,13,3,13_charging host_charging device_device charging_charging
+2017,14,12,14_propellers_sounds generated_generated propeller_propeller blades
+2017,15,7,15_flyback converters_converters operate_improved flyback_converter embodiments
+2017,16,2,16_environmental tracking_object tracking_tracking_device handheld
+2017,17,8,17_voltage processing_operating voltage_operating voltages_voltage control
+2017,18,3,18_pressure sensors_keys pressure_pressure sensitive_contact sensor
+2017,19,3,19_tracking information_vehicle autonomously_inventory_vehicle vehicle
+2017,21,4,21_various components_components electronic_components_component electronic
+2017,22,1,22_peripheral coupled_coupled peripheral_device pairs_peripheral devices
+2017,23,1,23_temperature superconducting_superconducting components_substrate superconducting_superconducting
+2017,24,1,24_flexible hinge_device flexible_computing device_flexible
+2017,25,3,25_inventory holder_inventory items_inventory_equipment method
+2017,26,4,26_multifunction device_multifunction_object device_input device
+2017,28,3,28_aerial vehicles_aerial vehicle_unmanned aerial_vehicle uav
+2017,31,2,31_forming material_metallic glass_bulk metallic_forming component
+2017,32,4,32_sps activation_channel pdsch_channel pdcch_physical downlink
+2017,33,6,33_mapping application_map view_view map_map based
+2017,34,9,34_computing device_device computing_volatile memory_nonvolatile memory
+2017,35,5,35_control information_information broadcast_information blocks_bpch
+2017,37,5,37_memory decoder_memory corresponding_portion memory_decoder
+2017,38,1,38_input mechanism_brightness_input display_user input
+2017,41,2,41_packet transmitted_virtual channels_data stream_type packet
+2017,42,2,42_drive data_disk drive_hybrid_device synchronization
+2017,43,3,43_channel communication_communication channel_wireless computer_remote device
+2017,44,1,44_cluster_clusters_clustering_clustered
+2017,46,1,46_navigation instructions_locked mode_navigation application_providing navigation
+2017,47,1,47_power utilization_devices radio_device dynamic_device dynamically
+2017,50,1,50_adaptive channel_reception cycles_reception cycle_reception drx
+2017,51,1,51_electronic device_user interface_headset_electronic
+2017,53,1,53_scheduling sps_persistent scheduling_data transmission_sps activation
+2017,54,2,54_synchronization stations_synchronization peer_devices synchronize_synchronization scheme
+2017,55,1,55_disclosed cache_indication cache_cache_includes cache
+2017,56,1,56_device cover_cover_cover includes_covers
+2017,57,2,57_memory architecture_chip interconnect_interconnect_interconnecting
+2017,59,1,59_clock signal_output clock_signal synchronization_pulse control
+2017,60,1,60_cooling mode_air cooling_evaporative cooling_sub systems
+2017,62,2,62_packet processing_packet based_packet virtual_device emulation
+2017,63,3,63_limiting power_nvm power_disclosed limiting_memory nvm
+2017,64,3,64_wake pattern_monitored network_monitored traffic_monitoring network
+2017,65,3,65_host accessory_host device_device host_devices host
+2017,66,1,66_packages_package package_package_packaged
+2017,67,2,67_coordinated lighting_wireless lighting_lighting wireless_lighting devices
+2017,68,1,68_circuit memory_soc powered_cpus powered_memory controller
+2017,69,2,69_background application_foreground application_application foreground_application service
+2017,70,2,70_network rat_cell network_radio access_network management
+2017,71,2,71_channel access_access channel_radio channels_channel using
+2017,74,2,74_fabric conductive_conductive strands_conductive material_conductive strand
+2017,75,1,75_flux_device magnetic_coupling device_using magnetic
+2017,77,1,77_fence techniques_device detects_fence_detects signal
+2017,78,1,78_processors interrupt_interrupt processor_interrupt controller_interrupt requests
+2017,81,1,81_protocol tcp_tcp_control protocol_congestion control
+2017,82,1,82_navigation application_navigation presentation_navigation_application navigation
+2017,83,2,83_communication nfc_field communications_consumption nfc_field communication
+2017,84,2,84_device locked_application device_application_locked
+2017,85,2,85_multiple sensors_remote sensors_sensor_multiple processing
+2017,86,1,86_curved batteries_curved battery_substrate curved_batteries example
+2017,87,2,87_computing device_device computing_computing_disclosed computing
+2017,88,5,88_battery cells_cell stacks_lamination_laminating
+2017,90,2,90_accessory device_docking stations_communication accessory_accessory determine
+2017,91,1,91_voice activated_device voice_provide voice_voice
+2017,92,2,92_circuit monitor_circuit instances_processor control_control circuit
+2017,93,2,93_virtualization_virtual machines_virtual machine_hypervisor
+2017,95,1,95_radio operate_rat radio_tune radio_ue radio
+2017,96,1,96_leds based_leds operation_diodes leds_drives leds
+2017,99,3,99_rack power_individual psu_server rack_servers rack
+2017,100,2,100_latency data_latency_timeout_latencies
+2017,101,3,101_storage devices_storage device_storage systems_storage media
+2017,102,1,102_powered processing_power generation_power generator_device self
+2017,103,1,103_device thermal_environment computer_operating data_implemented computer
+2017,107,2,107_connector electrical_battery connector_coupling battery_electrical connection
+2017,109,1,109_device aggregated_device wake_transmitted electronic_multicast
+2017,110,2,110_inventory materials_handling facility_packing_inventory
+2017,114,2,114_switch disclosed_automatic_example automatic_light environment
+2017,116,3,116_integrated circuits_device interface_inter chip_chip hsic
+2017,117,2,117_coexistence wireless_wireless communication_device coexistence_interference data
+2017,122,1,122_gpu virtual_physical compute_virtualized_virtualized graphics
+2017,123,2,123_cluster_clusters distributed_clusters_cluster data
+2017,124,2,124_acceleration component_includes acceleration_memory processing_processing model
+2017,125,1,125_modulated electricity_electrical devices_electrical device_second electrical
+2017,127,4,127_token bucket_throttling_burst_tokens
+2017,129,2,129_power flow_fuel cell_fuel cells_power engineering
+2017,131,1,131_battery bus_bus converter_bus battery_second bus
+2017,132,1,132_ear_hearing_listening device_earbud
+2017,133,1,133_battery assembly_layers battery_battery stack_assembly battery
+2017,134,2,134_multi antenna_wireless cellular_transmitter signals_antenna
+2017,135,1,135_smart assistant_intelligent assistant_assistant_human intelligent
+2017,138,2,138_data transmissions_transmitted data_transmit data_speed data
+2017,139,1,139_device orientation_device sensor_device relative_devices relative
+2017,140,1,140_persistent storage_volatile memory_storage device_storage
+2017,144,2,144_qos classification_service qos_qos_qos class
+2017,145,2,145_ecm_motor controller_motors_controller control
+2017,146,2,146_power feeds_power feed_interruption power_feed power
+2017,149,3,149_business intelligence_data performance_performance metrics_trace data
+2017,150,2,150_communication device_mobile communication_ambient light_device detect
+2017,151,2,151_expansion_detector_device detects_detecting
+2017,152,1,152_information tracking_tracking information_synchronizes_synchronisation
+2017,153,3,153_device monitored_device layer_peer wireless_wireless device
+2017,154,1,154_pattern transmitting_wireless communications_communications device_wireless resource
+2017,155,1,155_environmental tracking_tracking_environmental sensors_environment environmental
+2017,157,1,157_routing metric_based routing_multi hop_hop network
+2017,159,1,159_suspended process_suspended application_process based_application suspended
+2017,160,2,160_background tasks_background task_device background_application background
+2017,166,2,166_location information_electronic device_device_information message
+2017,172,2,172_processor operate_states processor_throttle processors_processors various
+2017,173,3,173_material melting_materials melting_melting_melt
+2017,175,1,175_device suspend_host device_suspending_devices communication
+2017,176,2,176_interference management_transmitter transmits_transmitter wireless_wireless transmitter
+2018,0,621,0_communication device_communications_transmit_transmitting
+2018,1,23,1_multiple transmission_signal ue_rach_nr
+2018,2,20,2_um dispositivo_se uma_configurado para_para dispositivo
+2018,3,8,3_das verfahren_einer zweiten_einem ersten_einer ersten
+2018,4,16,4_device thermal_thermal control_thermal management_mitigate thermal
+2018,5,27,5_dnn processor_neuron dnn_decompress neuron_dnn module
+2018,6,4,6_touch controller_controller disclosed_stimulation_touch
+2018,7,2,7_fuel cells_fuel cell_device fuel_computing devices
+2018,8,10,8_virtual assistant_intelligent assistant_digital assistant_automated
+2018,9,6,9_rfid tag_rfid_activation wearable_wearable
+2018,11,9,11_materials lithium_material lithium_lithium ion_lithium battery
+2018,12,4,12_frequency clock_clock signal_clock gating_root clock
+2018,13,3,13_charging host_charging device_device charging_charging
+2018,14,7,14_propellers_sounds generated_generated propeller_propeller blades
+2018,15,5,15_flyback converters_converters operate_improved flyback_converter embodiments
+2018,16,10,16_environmental tracking_object tracking_tracking_device handheld
+2018,18,2,18_pressure sensors_keys pressure_pressure sensitive_contact sensor
+2018,19,6,19_tracking information_vehicle autonomously_inventory_vehicle vehicle
+2018,20,11,20_threads processor_threads processes_performance control_state processors
+2018,21,4,21_various components_components electronic_components_component electronic
+2018,22,6,22_peripheral coupled_coupled peripheral_device pairs_peripheral devices
+2018,23,4,23_temperature superconducting_superconducting components_substrate superconducting_superconducting
+2018,24,1,24_flexible hinge_device flexible_computing device_flexible
+2018,25,8,25_inventory holder_inventory items_inventory_equipment method
+2018,26,3,26_multifunction device_multifunction_object device_input device
+2018,28,3,28_aerial vehicles_aerial vehicle_unmanned aerial_vehicle uav
+2018,29,1,29_performance counters_performance data_performance values_associated performance
+2018,30,1,30_service manages_constraints_provider implement_service provider
+2018,31,2,31_forming material_metallic glass_bulk metallic_forming component
+2018,32,4,32_sps activation_channel pdsch_channel pdcch_physical downlink
+2018,33,6,33_mapping application_map view_view map_map based
+2018,34,4,34_computing device_device computing_volatile memory_nonvolatile memory
+2018,35,2,35_control information_information broadcast_information blocks_bpch
+2018,38,5,38_input mechanism_brightness_input display_user input
+2018,39,2,39_aspects subject_aspects_presented notification_notifications presented
+2018,41,2,41_packet transmitted_virtual channels_data stream_type packet
+2018,42,3,42_drive data_disk drive_hybrid_device synchronization
+2018,43,1,43_channel communication_communication channel_wireless computer_remote device
+2018,46,3,46_navigation instructions_locked mode_navigation application_providing navigation
+2018,47,2,47_power utilization_devices radio_device dynamic_device dynamically
+2018,48,2,48_device methods_adhesive_device components_magnetic adhesive
+2018,49,8,49_metal oxides_metal oxide_oxides_oxide
+2018,51,2,51_electronic device_user interface_headset_electronic
+2018,52,3,52_providing navigation_navigational_navigation_search results
+2018,54,2,54_synchronization stations_synchronization peer_devices synchronize_synchronization scheme
+2018,55,1,55_disclosed cache_indication cache_cache_includes cache
+2018,56,1,56_device cover_cover_cover includes_covers
+2018,60,2,60_cooling mode_air cooling_evaporative cooling_sub systems
+2018,61,2,61_coverage mode_mode wireless_mode wakeup_enhanced coverage
+2018,62,3,62_packet processing_packet based_packet virtual_device emulation
+2018,64,2,64_wake pattern_monitored network_monitored traffic_monitoring network
+2018,65,1,65_host accessory_host device_device host_devices host
+2018,66,3,66_packages_package package_package_packaged
+2018,67,2,67_coordinated lighting_wireless lighting_lighting wireless_lighting devices
+2018,68,2,68_circuit memory_soc powered_cpus powered_memory controller
+2018,69,3,69_background application_foreground application_application foreground_application service
+2018,70,2,70_network rat_cell network_radio access_network management
+2018,71,1,71_channel access_access channel_radio channels_channel using
+2018,73,7,73_execution environment_execution user_virtual machine_code execution
+2018,74,1,74_fabric conductive_conductive strands_conductive material_conductive strand
+2018,75,1,75_flux_device magnetic_coupling device_using magnetic
+2018,77,2,77_fence techniques_device detects_fence_detects signal
+2018,80,1,80_receiver diversity_channel quality_threshold channel_wireless communication
+2018,82,1,82_navigation application_navigation presentation_navigation_application navigation
+2018,85,2,85_multiple sensors_remote sensors_sensor_multiple processing
+2018,86,2,86_curved batteries_curved battery_substrate curved_batteries example
+2018,87,1,87_computing device_device computing_computing_disclosed computing
+2018,88,5,88_battery cells_cell stacks_lamination_laminating
+2018,90,1,90_accessory device_docking stations_communication accessory_accessory determine
+2018,91,4,91_voice activated_device voice_provide voice_voice
+2018,92,1,92_circuit monitor_circuit instances_processor control_control circuit
+2018,93,3,93_virtualization_virtual machines_virtual machine_hypervisor
+2018,94,9,94_devices concurrently_common memory_device multiple_clock domains
+2018,95,1,95_radio operate_rat radio_tune radio_ue radio
+2018,96,3,96_leds based_leds operation_diodes leds_drives leds
+2018,97,1,97_multiple threshold_device threshold_application operation_threshold values
+2018,98,1,98_gaze_tracking method_user eye_device detects
+2018,99,2,99_rack power_individual psu_server rack_servers rack
+2018,101,2,101_storage devices_storage device_storage systems_storage media
+2018,102,1,102_powered processing_power generation_power generator_device self
+2018,103,3,103_device thermal_environment computer_operating data_implemented computer
+2018,104,1,104_logging_user activity_monitored activity_user activities
+2018,106,6,106_resource management_physical resource_computing resource_resource physical
+2018,108,1,108_signal quality_signal strength_search cellular_cell neighbor
+2018,110,3,110_inventory materials_handling facility_packing_inventory
+2018,111,2,111_controller controller_lighting wireless_controllers_controller
+2018,114,1,114_switch disclosed_automatic_example automatic_light environment
+2018,115,4,115_device disclosed_disclosed electronic_electronic device_device electronic
+2018,116,1,116_integrated circuits_device interface_inter chip_chip hsic
+2018,117,1,117_coexistence wireless_wireless communication_device coexistence_interference data
+2018,120,4,120_gpu virtual_gpu gpu_gpus gpu_virtualized graphics
+2018,121,1,121_artificial reality_peripheral device_multi device_example device
+2018,122,2,122_gpu virtual_physical compute_virtualized_virtualized graphics
+2018,124,3,124_acceleration component_includes acceleration_memory processing_processing model
+2018,125,2,125_modulated electricity_electrical devices_electrical device_second electrical
+2018,129,1,129_power flow_fuel cell_fuel cells_power engineering
+2018,132,4,132_ear_hearing_listening device_earbud
+2018,133,3,133_battery assembly_layers battery_battery stack_assembly battery
+2018,135,6,135_smart assistant_intelligent assistant_assistant_human intelligent
+2018,145,2,145_ecm_motor controller_motors_controller control
+2018,151,2,151_expansion_detector_device detects_detecting
+2018,153,1,153_device monitored_device layer_peer wireless_wireless device
+2018,156,1,156_data center_mitigation operations_computer power_power grid
+2018,159,1,159_suspended process_suspended application_process based_application suspended
+2018,160,1,160_background tasks_background task_device background_application background
+2018,161,2,161_material cathode_cathode active_cathode solid_includes cathode
+2018,162,1,162_mg_li mg_mg al_ti zr
+2018,166,4,166_location information_electronic device_device_information message
+2018,169,1,169_prefetching_prefetch_cache hierarchy_prefetch request
+2018,170,1,170_operating context_context computing_context information_context context
+2018,174,1,174_data reception_radio network_data buffering_latency
+2019,0,643,0_communication device_communications_transmit_transmitting
+2019,1,23,1_multiple transmission_signal ue_rach_nr
+2019,2,19,2_um dispositivo_se uma_configurado para_para dispositivo
+2019,3,16,3_das verfahren_einer zweiten_einem ersten_einer ersten
+2019,4,11,4_device thermal_thermal control_thermal management_mitigate thermal
+2019,5,14,5_dnn processor_neuron dnn_decompress neuron_dnn module
+2019,6,3,6_touch controller_controller disclosed_stimulation_touch
+2019,7,3,7_fuel cells_fuel cell_device fuel_computing devices
+2019,8,12,8_virtual assistant_intelligent assistant_digital assistant_automated
+2019,9,4,9_rfid tag_rfid_activation wearable_wearable
+2019,10,1,10_headset_connectors_connectors provided_include connector
+2019,11,3,11_materials lithium_material lithium_lithium ion_lithium battery
+2019,13,2,13_charging host_charging device_device charging_charging
+2019,14,7,14_propellers_sounds generated_generated propeller_propeller blades
+2019,15,2,15_flyback converters_converters operate_improved flyback_converter embodiments
+2019,16,6,16_environmental tracking_object tracking_tracking_device handheld
+2019,17,8,17_voltage processing_operating voltage_operating voltages_voltage control
+2019,18,1,18_pressure sensors_keys pressure_pressure sensitive_contact sensor
+2019,19,9,19_tracking information_vehicle autonomously_inventory_vehicle vehicle
+2019,20,2,20_threads processor_threads processes_performance control_state processors
+2019,21,3,21_various components_components electronic_components_component electronic
+2019,22,3,22_peripheral coupled_coupled peripheral_device pairs_peripheral devices
+2019,23,3,23_temperature superconducting_superconducting components_substrate superconducting_superconducting
+2019,25,3,25_inventory holder_inventory items_inventory_equipment method
+2019,26,1,26_multifunction device_multifunction_object device_input device
+2019,27,12,27_protocol stack_protocol_packet_networking
+2019,28,2,28_aerial vehicles_aerial vehicle_unmanned aerial_vehicle uav
+2019,29,5,29_performance counters_performance data_performance values_associated performance
+2019,30,1,30_service manages_constraints_provider implement_service provider
+2019,31,1,31_forming material_metallic glass_bulk metallic_forming component
+2019,32,2,32_sps activation_channel pdsch_channel pdcch_physical downlink
+2019,33,1,33_mapping application_map view_view map_map based
+2019,34,3,34_computing device_device computing_volatile memory_nonvolatile memory
+2019,35,3,35_control information_information broadcast_information blocks_bpch
+2019,36,1,36_local device_device service_device local_device advertisement
+2019,37,5,37_memory decoder_memory corresponding_portion memory_decoder
+2019,38,1,38_input mechanism_brightness_input display_user input
+2019,39,3,39_aspects subject_aspects_presented notification_notifications presented
+2019,41,2,41_packet transmitted_virtual channels_data stream_type packet
+2019,42,1,42_drive data_disk drive_hybrid_device synchronization
+2019,43,1,43_channel communication_communication channel_wireless computer_remote device
+2019,44,1,44_cluster_clusters_clustering_clustered
+2019,46,2,46_navigation instructions_locked mode_navigation application_providing navigation
+2019,49,4,49_metal oxides_metal oxide_oxides_oxide
+2019,51,2,51_electronic device_user interface_headset_electronic
+2019,52,2,52_providing navigation_navigational_navigation_search results
+2019,54,4,54_synchronization stations_synchronization peer_devices synchronize_synchronization scheme
+2019,55,2,55_disclosed cache_indication cache_cache_includes cache
+2019,56,1,56_device cover_cover_cover includes_covers
+2019,60,1,60_cooling mode_air cooling_evaporative cooling_sub systems
+2019,61,5,61_coverage mode_mode wireless_mode wakeup_enhanced coverage
+2019,62,4,62_packet processing_packet based_packet virtual_device emulation
+2019,64,1,64_wake pattern_monitored network_monitored traffic_monitoring network
+2019,65,3,65_host accessory_host device_device host_devices host
+2019,66,1,66_packages_package package_package_packaged
+2019,67,3,67_coordinated lighting_wireless lighting_lighting wireless_lighting devices
+2019,68,4,68_circuit memory_soc powered_cpus powered_memory controller
+2019,71,3,71_channel access_access channel_radio channels_channel using
+2019,73,4,73_execution environment_execution user_virtual machine_code execution
+2019,74,2,74_fabric conductive_conductive strands_conductive material_conductive strand
+2019,75,2,75_flux_device magnetic_coupling device_using magnetic
+2019,76,1,76_advertisement broadcast_communication link_broadcast_operation paging
+2019,77,5,77_fence techniques_device detects_fence_detects signal
+2019,80,1,80_receiver diversity_channel quality_threshold channel_wireless communication
+2019,83,3,83_communication nfc_field communications_consumption nfc_field communication
+2019,86,3,86_curved batteries_curved battery_substrate curved_batteries example
+2019,88,1,88_battery cells_cell stacks_lamination_laminating
+2019,92,2,92_circuit monitor_circuit instances_processor control_control circuit
+2019,93,1,93_virtualization_virtual machines_virtual machine_hypervisor
+2019,96,8,96_leds based_leds operation_diodes leds_drives leds
+2019,98,2,98_gaze_tracking method_user eye_device detects
+2019,100,1,100_latency data_latency_timeout_latencies
+2019,101,3,101_storage devices_storage device_storage systems_storage media
+2019,102,2,102_powered processing_power generation_power generator_device self
+2019,103,2,103_device thermal_environment computer_operating data_implemented computer
+2019,104,1,104_logging_user activity_monitored activity_user activities
+2019,106,4,106_resource management_physical resource_computing resource_resource physical
+2019,109,5,109_device aggregated_device wake_transmitted electronic_multicast
+2019,110,1,110_inventory materials_handling facility_packing_inventory
+2019,111,3,111_controller controller_lighting wireless_controllers_controller
+2019,112,2,112_crystal display_width modulation_illumination_backlight control
+2019,114,3,114_switch disclosed_automatic_example automatic_light environment
+2019,115,2,115_device disclosed_disclosed electronic_electronic device_device electronic
+2019,116,2,116_integrated circuits_device interface_inter chip_chip hsic
+2019,117,3,117_coexistence wireless_wireless communication_device coexistence_interference data
+2019,120,4,120_gpu virtual_gpu gpu_gpus gpu_virtualized graphics
+2019,121,1,121_artificial reality_peripheral device_multi device_example device
+2019,122,3,122_gpu virtual_physical compute_virtualized_virtualized graphics
+2019,123,2,123_cluster_clusters distributed_clusters_cluster data
+2019,124,2,124_acceleration component_includes acceleration_memory processing_processing model
+2019,127,4,127_token bucket_throttling_burst_tokens
+2019,129,2,129_power flow_fuel cell_fuel cells_power engineering
+2019,132,3,132_ear_hearing_listening device_earbud
+2019,134,2,134_multi antenna_wireless cellular_transmitter signals_antenna
+2019,135,4,135_smart assistant_intelligent assistant_assistant_human intelligent
+2019,138,2,138_data transmissions_transmitted data_transmit data_speed data
+2019,140,1,140_persistent storage_volatile memory_storage device_storage
+2019,141,3,141_graphics unit_graphics_rendering process_display techniques
+2019,142,1,142_optical_described optical_photovoltaic_transformer
+2019,143,1,143_execution software_program execution_executing programs_execution program
+2019,145,5,145_ecm_motor controller_motors_controller control
+2019,146,2,146_power feeds_power feed_interruption power_feed power
+2019,153,1,153_device monitored_device layer_peer wireless_wireless device
+2019,154,2,154_pattern transmitting_wireless communications_communications device_wireless resource
+2019,156,2,156_data center_mitigation operations_computer power_power grid
+2019,158,4,158_temperature superconducting_superconducting interconnect_superconducting_cooling electronic
+2019,161,1,161_material cathode_cathode active_cathode solid_includes cathode
+2019,162,2,162_mg_li mg_mg al_ti zr
+2019,166,2,166_location information_electronic device_device_information message
+2019,169,3,169_prefetching_prefetch_cache hierarchy_prefetch request
+2019,170,1,170_operating context_context computing_context information_context context
+2019,172,2,172_processor operate_states processor_throttle processors_processors various
+2019,173,1,173_material melting_materials melting_melting_melt
+2020,0,628,0_communication device_communications_transmit_transmitting
+2020,1,19,1_multiple transmission_signal ue_rach_nr
+2020,2,25,2_um dispositivo_se uma_configurado para_para dispositivo
+2020,3,20,3_das verfahren_einer zweiten_einem ersten_einer ersten
+2020,4,13,4_device thermal_thermal control_thermal management_mitigate thermal
+2020,5,9,5_dnn processor_neuron dnn_decompress neuron_dnn module
+2020,6,3,6_touch controller_controller disclosed_stimulation_touch
+2020,7,3,7_fuel cells_fuel cell_device fuel_computing devices
+2020,8,5,8_virtual assistant_intelligent assistant_digital assistant_automated
+2020,9,5,9_rfid tag_rfid_activation wearable_wearable
+2020,11,1,11_materials lithium_material lithium_lithium ion_lithium battery
+2020,12,1,12_frequency clock_clock signal_clock gating_root clock
+2020,14,6,14_propellers_sounds generated_generated propeller_propeller blades
+2020,15,6,15_flyback converters_converters operate_improved flyback_converter embodiments
+2020,16,4,16_environmental tracking_object tracking_tracking_device handheld
+2020,17,2,17_voltage processing_operating voltage_operating voltages_voltage control
+2020,19,2,19_tracking information_vehicle autonomously_inventory_vehicle vehicle
+2020,20,3,20_threads processor_threads processes_performance control_state processors
+2020,21,3,21_various components_components electronic_components_component electronic
+2020,22,3,22_peripheral coupled_coupled peripheral_device pairs_peripheral devices
+2020,23,6,23_temperature superconducting_superconducting components_substrate superconducting_superconducting
+2020,25,1,25_inventory holder_inventory items_inventory_equipment method
+2020,26,3,26_multifunction device_multifunction_object device_input device
+2020,27,2,27_protocol stack_protocol_packet_networking
+2020,28,8,28_aerial vehicles_aerial vehicle_unmanned aerial_vehicle uav
+2020,29,2,29_performance counters_performance data_performance values_associated performance
+2020,30,4,30_service manages_constraints_provider implement_service provider
+2020,31,2,31_forming material_metallic glass_bulk metallic_forming component
+2020,32,3,32_sps activation_channel pdsch_channel pdcch_physical downlink
+2020,33,2,33_mapping application_map view_view map_map based
+2020,34,1,34_computing device_device computing_volatile memory_nonvolatile memory
+2020,37,1,37_memory decoder_memory corresponding_portion memory_decoder
+2020,38,4,38_input mechanism_brightness_input display_user input
+2020,39,3,39_aspects subject_aspects_presented notification_notifications presented
+2020,41,2,41_packet transmitted_virtual channels_data stream_type packet
+2020,42,1,42_drive data_disk drive_hybrid_device synchronization
+2020,45,5,45_device magnetic_relates magnetic_portable computing_disclosed portable
+2020,48,3,48_device methods_adhesive_device components_magnetic adhesive
+2020,49,4,49_metal oxides_metal oxide_oxides_oxide
+2020,51,1,51_electronic device_user interface_headset_electronic
+2020,52,3,52_providing navigation_navigational_navigation_search results
+2020,53,1,53_scheduling sps_persistent scheduling_data transmission_sps activation
+2020,54,1,54_synchronization stations_synchronization peer_devices synchronize_synchronization scheme
+2020,55,2,55_disclosed cache_indication cache_cache_includes cache
+2020,56,2,56_device cover_cover_cover includes_covers
+2020,58,1,58_input device_inputs computing_hardware elements_hardware components
+2020,60,2,60_cooling mode_air cooling_evaporative cooling_sub systems
+2020,61,4,61_coverage mode_mode wireless_mode wakeup_enhanced coverage
+2020,62,2,62_packet processing_packet based_packet virtual_device emulation
+2020,63,1,63_limiting power_nvm power_disclosed limiting_memory nvm
+2020,64,1,64_wake pattern_monitored network_monitored traffic_monitoring network
+2020,66,1,66_packages_package package_package_packaged
+2020,67,3,67_coordinated lighting_wireless lighting_lighting wireless_lighting devices
+2020,68,2,68_circuit memory_soc powered_cpus powered_memory controller
+2020,69,2,69_background application_foreground application_application foreground_application service
+2020,70,2,70_network rat_cell network_radio access_network management
+2020,73,1,73_execution environment_execution user_virtual machine_code execution
+2020,74,3,74_fabric conductive_conductive strands_conductive material_conductive strand
+2020,75,2,75_flux_device magnetic_coupling device_using magnetic
+2020,76,8,76_advertisement broadcast_communication link_broadcast_operation paging
+2020,77,2,77_fence techniques_device detects_fence_detects signal
+2020,83,1,83_communication nfc_field communications_consumption nfc_field communication
+2020,84,1,84_device locked_application device_application_locked
+2020,86,1,86_curved batteries_curved battery_substrate curved_batteries example
+2020,87,1,87_computing device_device computing_computing_disclosed computing
+2020,88,2,88_battery cells_cell stacks_lamination_laminating
+2020,90,3,90_accessory device_docking stations_communication accessory_accessory determine
+2020,94,4,94_devices concurrently_common memory_device multiple_clock domains
+2020,98,1,98_gaze_tracking method_user eye_device detects
+2020,99,2,99_rack power_individual psu_server rack_servers rack
+2020,103,1,103_device thermal_environment computer_operating data_implemented computer
+2020,106,1,106_resource management_physical resource_computing resource_resource physical
+2020,109,1,109_device aggregated_device wake_transmitted electronic_multicast
+2020,110,1,110_inventory materials_handling facility_packing_inventory
+2020,111,3,111_controller controller_lighting wireless_controllers_controller
+2020,115,1,115_device disclosed_disclosed electronic_electronic device_device electronic
+2020,116,1,116_integrated circuits_device interface_inter chip_chip hsic
+2020,117,1,117_coexistence wireless_wireless communication_device coexistence_interference data
+2020,118,1,118_power budgeting_allocating power_dynamic allocation_power budgets
+2020,120,3,120_gpu virtual_gpu gpu_gpus gpu_virtualized graphics
+2020,122,4,122_gpu virtual_physical compute_virtualized_virtualized graphics
+2020,123,2,123_cluster_clusters distributed_clusters_cluster data
+2020,124,2,124_acceleration component_includes acceleration_memory processing_processing model
+2020,127,2,127_token bucket_throttling_burst_tokens
+2020,128,1,128_user interfaces_audio_notifications described_interfaces managing
+2020,129,2,129_power flow_fuel cell_fuel cells_power engineering
+2020,132,1,132_ear_hearing_listening device_earbud
+2020,134,2,134_multi antenna_wireless cellular_transmitter signals_antenna
+2020,135,2,135_smart assistant_intelligent assistant_assistant_human intelligent
+2020,138,1,138_data transmissions_transmitted data_transmit data_speed data
+2020,141,5,141_graphics unit_graphics_rendering process_display techniques
+2020,143,1,143_execution software_program execution_executing programs_execution program
+2020,145,1,145_ecm_motor controller_motors_controller control
+2020,146,1,146_power feeds_power feed_interruption power_feed power
+2020,151,1,151_expansion_detector_device detects_detecting
+2020,154,5,154_pattern transmitting_wireless communications_communications device_wireless resource
+2020,155,1,155_environmental tracking_tracking_environmental sensors_environment environmental
+2020,156,2,156_data center_mitigation operations_computer power_power grid
+2020,157,2,157_routing metric_based routing_multi hop_hop network
+2020,158,3,158_temperature superconducting_superconducting interconnect_superconducting_cooling electronic
+2020,161,4,161_material cathode_cathode active_cathode solid_includes cathode
+2020,165,1,165_wirelessly locatable_locatable tag_tag transmit_locatable
+2020,169,1,169_prefetching_prefetch_cache hierarchy_prefetch request
+2020,170,3,170_operating context_context computing_context information_context context
+2020,171,8,171_wireless charging_wireless power_coil wireless_power wireless
+2021,0,601,0_communication device_communications_transmit_transmitting
+2021,1,21,1_multiple transmission_signal ue_rach_nr
+2021,2,28,2_um dispositivo_se uma_configurado para_para dispositivo
+2021,3,25,3_das verfahren_einer zweiten_einem ersten_einer ersten
+2021,4,13,4_device thermal_thermal control_thermal management_mitigate thermal
+2021,5,10,5_dnn processor_neuron dnn_decompress neuron_dnn module
+2021,6,2,6_touch controller_controller disclosed_stimulation_touch
+2021,7,4,7_fuel cells_fuel cell_device fuel_computing devices
+2021,8,10,8_virtual assistant_intelligent assistant_digital assistant_automated
+2021,9,2,9_rfid tag_rfid_activation wearable_wearable
+2021,10,2,10_headset_connectors_connectors provided_include connector
+2021,11,7,11_materials lithium_material lithium_lithium ion_lithium battery
+2021,12,6,12_frequency clock_clock signal_clock gating_root clock
+2021,13,1,13_charging host_charging device_device charging_charging
+2021,14,2,14_propellers_sounds generated_generated propeller_propeller blades
+2021,15,4,15_flyback converters_converters operate_improved flyback_converter embodiments
+2021,16,1,16_environmental tracking_object tracking_tracking_device handheld
+2021,17,3,17_voltage processing_operating voltage_operating voltages_voltage control
+2021,18,1,18_pressure sensors_keys pressure_pressure sensitive_contact sensor
+2021,19,2,19_tracking information_vehicle autonomously_inventory_vehicle vehicle
+2021,20,8,20_threads processor_threads processes_performance control_state processors
+2021,21,1,21_various components_components electronic_components_component electronic
+2021,22,7,22_peripheral coupled_coupled peripheral_device pairs_peripheral devices
+2021,23,3,23_temperature superconducting_superconducting components_substrate superconducting_superconducting
+2021,25,1,25_inventory holder_inventory items_inventory_equipment method
+2021,27,6,27_protocol stack_protocol_packet_networking
+2021,28,3,28_aerial vehicles_aerial vehicle_unmanned aerial_vehicle uav
+2021,29,3,29_performance counters_performance data_performance values_associated performance
+2021,30,2,30_service manages_constraints_provider implement_service provider
+2021,31,2,31_forming material_metallic glass_bulk metallic_forming component
+2021,32,2,32_sps activation_channel pdsch_channel pdcch_physical downlink
+2021,33,2,33_mapping application_map view_view map_map based
+2021,34,3,34_computing device_device computing_volatile memory_nonvolatile memory
+2021,35,1,35_control information_information broadcast_information blocks_bpch
+2021,39,2,39_aspects subject_aspects_presented notification_notifications presented
+2021,41,3,41_packet transmitted_virtual channels_data stream_type packet
+2021,44,3,44_cluster_clusters_clustering_clustered
+2021,45,4,45_device magnetic_relates magnetic_portable computing_disclosed portable
+2021,46,1,46_navigation instructions_locked mode_navigation application_providing navigation
+2021,47,6,47_power utilization_devices radio_device dynamic_device dynamically
+2021,48,2,48_device methods_adhesive_device components_magnetic adhesive
+2021,49,3,49_metal oxides_metal oxide_oxides_oxide
+2021,51,1,51_electronic device_user interface_headset_electronic
+2021,52,1,52_providing navigation_navigational_navigation_search results
+2021,53,2,53_scheduling sps_persistent scheduling_data transmission_sps activation
+2021,54,3,54_synchronization stations_synchronization peer_devices synchronize_synchronization scheme
+2021,59,5,59_clock signal_output clock_signal synchronization_pulse control
+2021,60,3,60_cooling mode_air cooling_evaporative cooling_sub systems
+2021,61,3,61_coverage mode_mode wireless_mode wakeup_enhanced coverage
+2021,62,2,62_packet processing_packet based_packet virtual_device emulation
+2021,65,2,65_host accessory_host device_device host_devices host
+2021,66,1,66_packages_package package_package_packaged
+2021,67,1,67_coordinated lighting_wireless lighting_lighting wireless_lighting devices
+2021,68,2,68_circuit memory_soc powered_cpus powered_memory controller
+2021,69,1,69_background application_foreground application_application foreground_application service
+2021,70,4,70_network rat_cell network_radio access_network management
+2021,73,2,73_execution environment_execution user_virtual machine_code execution
+2021,74,2,74_fabric conductive_conductive strands_conductive material_conductive strand
+2021,75,2,75_flux_device magnetic_coupling device_using magnetic
+2021,76,1,76_advertisement broadcast_communication link_broadcast_operation paging
+2021,83,1,83_communication nfc_field communications_consumption nfc_field communication
+2021,84,1,84_device locked_application device_application_locked
+2021,85,3,85_multiple sensors_remote sensors_sensor_multiple processing
+2021,88,1,88_battery cells_cell stacks_lamination_laminating
+2021,90,2,90_accessory device_docking stations_communication accessory_accessory determine
+2021,91,3,91_voice activated_device voice_provide voice_voice
+2021,92,2,92_circuit monitor_circuit instances_processor control_control circuit
+2021,93,2,93_virtualization_virtual machines_virtual machine_hypervisor
+2021,94,1,94_devices concurrently_common memory_device multiple_clock domains
+2021,97,2,97_multiple threshold_device threshold_application operation_threshold values
+2021,98,3,98_gaze_tracking method_user eye_device detects
+2021,99,1,99_rack power_individual psu_server rack_servers rack
+2021,100,3,100_latency data_latency_timeout_latencies
+2021,101,1,101_storage devices_storage device_storage systems_storage media
+2021,103,1,103_device thermal_environment computer_operating data_implemented computer
+2021,104,1,104_logging_user activity_monitored activity_user activities
+2021,106,1,106_resource management_physical resource_computing resource_resource physical
+2021,109,1,109_device aggregated_device wake_transmitted electronic_multicast
+2021,111,5,111_controller controller_lighting wireless_controllers_controller
+2021,113,4,113_sidelink communications_sidelink communication_frequency resource_communication transmitting
+2021,114,2,114_switch disclosed_automatic_example automatic_light environment
+2021,115,4,115_device disclosed_disclosed electronic_electronic device_device electronic
+2021,119,5,119_power estimation_power consumption_dynamic power_processor power
+2021,120,1,120_gpu virtual_gpu gpu_gpus gpu_virtualized graphics
+2021,121,2,121_artificial reality_peripheral device_multi device_example device
+2021,122,2,122_gpu virtual_physical compute_virtualized_virtualized graphics
+2021,127,3,127_token bucket_throttling_burst_tokens
+2021,128,2,128_user interfaces_audio_notifications described_interfaces managing
+2021,129,4,129_power flow_fuel cell_fuel cells_power engineering
+2021,141,1,141_graphics unit_graphics_rendering process_display techniques
+2021,142,2,142_optical_described optical_photovoltaic_transformer
+2021,144,1,144_qos classification_service qos_qos_qos class
+2021,145,2,145_ecm_motor controller_motors_controller control
+2021,146,2,146_power feeds_power feed_interruption power_feed power
+2021,151,1,151_expansion_detector_device detects_detecting
+2021,161,1,161_material cathode_cathode active_cathode solid_includes cathode
+2021,162,2,162_mg_li mg_mg al_ti zr
+2021,163,1,163_charger battery_battery switching_dc converter_charger
+2021,167,2,167_channel transmissions_physical uplink_transmissions repetition_shared channel
+2021,169,2,169_prefetching_prefetch_cache hierarchy_prefetch request
+2021,170,2,170_operating context_context computing_context information_context context
+2021,171,1,171_wireless charging_wireless power_coil wireless_power wireless
+2021,172,1,172_processor operate_states processor_throttle processors_processors various
+2022,0,581,0_communication device_communications_transmit_transmitting
+2022,1,40,1_multiple transmission_signal ue_rach_nr
+2022,2,51,2_um dispositivo_se uma_configurado para_para dispositivo
+2022,3,24,3_das verfahren_einer zweiten_einem ersten_einer ersten
+2022,4,7,4_device thermal_thermal control_thermal management_mitigate thermal
+2022,5,11,5_dnn processor_neuron dnn_decompress neuron_dnn module
+2022,7,1,7_fuel cells_fuel cell_device fuel_computing devices
+2022,8,4,8_virtual assistant_intelligent assistant_digital assistant_automated
+2022,9,1,9_rfid tag_rfid_activation wearable_wearable
+2022,10,1,10_headset_connectors_connectors provided_include connector
+2022,11,6,11_materials lithium_material lithium_lithium ion_lithium battery
+2022,12,3,12_frequency clock_clock signal_clock gating_root clock
+2022,13,1,13_charging host_charging device_device charging_charging
+2022,15,4,15_flyback converters_converters operate_improved flyback_converter embodiments
+2022,16,2,16_environmental tracking_object tracking_tracking_device handheld
+2022,17,3,17_voltage processing_operating voltage_operating voltages_voltage control
+2022,19,1,19_tracking information_vehicle autonomously_inventory_vehicle vehicle
+2022,20,4,20_threads processor_threads processes_performance control_state processors
+2022,21,2,21_various components_components electronic_components_component electronic
+2022,22,3,22_peripheral coupled_coupled peripheral_device pairs_peripheral devices
+2022,23,2,23_temperature superconducting_superconducting components_substrate superconducting_superconducting
+2022,24,2,24_flexible hinge_device flexible_computing device_flexible
+2022,26,1,26_multifunction device_multifunction_object device_input device
+2022,27,3,27_protocol stack_protocol_packet_networking
+2022,28,2,28_aerial vehicles_aerial vehicle_unmanned aerial_vehicle uav
+2022,29,1,29_performance counters_performance data_performance values_associated performance
+2022,30,1,30_service manages_constraints_provider implement_service provider
+2022,31,4,31_forming material_metallic glass_bulk metallic_forming component
+2022,35,2,35_control information_information broadcast_information blocks_bpch
+2022,38,6,38_input mechanism_brightness_input display_user input
+2022,39,1,39_aspects subject_aspects_presented notification_notifications presented
+2022,41,1,41_packet transmitted_virtual channels_data stream_type packet
+2022,44,1,44_cluster_clusters_clustering_clustered
+2022,45,2,45_device magnetic_relates magnetic_portable computing_disclosed portable
+2022,47,2,47_power utilization_devices radio_device dynamic_device dynamically
+2022,48,1,48_device methods_adhesive_device components_magnetic adhesive
+2022,49,1,49_metal oxides_metal oxide_oxides_oxide
+2022,51,1,51_electronic device_user interface_headset_electronic
+2022,52,1,52_providing navigation_navigational_navigation_search results
+2022,53,9,53_scheduling sps_persistent scheduling_data transmission_sps activation
+2022,55,1,55_disclosed cache_indication cache_cache_includes cache
+2022,59,3,59_clock signal_output clock_signal synchronization_pulse control
+2022,61,2,61_coverage mode_mode wireless_mode wakeup_enhanced coverage
+2022,62,1,62_packet processing_packet based_packet virtual_device emulation
+2022,65,1,65_host accessory_host device_device host_devices host
+2022,67,1,67_coordinated lighting_wireless lighting_lighting wireless_lighting devices
+2022,70,3,70_network rat_cell network_radio access_network management
+2022,71,3,71_channel access_access channel_radio channels_channel using
+2022,72,5,72_electrolytes lithium_batteries relates_relates battery_battery cells
+2022,73,2,73_execution environment_execution user_virtual machine_code execution
+2022,74,5,74_fabric conductive_conductive strands_conductive material_conductive strand
+2022,76,4,76_advertisement broadcast_communication link_broadcast_operation paging
+2022,78,2,78_processors interrupt_interrupt processor_interrupt controller_interrupt requests
+2022,83,1,83_communication nfc_field communications_consumption nfc_field communication
+2022,86,2,86_curved batteries_curved battery_substrate curved_batteries example
+2022,87,2,87_computing device_device computing_computing_disclosed computing
+2022,88,1,88_battery cells_cell stacks_lamination_laminating
+2022,89,2,89_carbon_environmental impact_environmentally_comparison data
+2022,90,2,90_accessory device_docking stations_communication accessory_accessory determine
+2022,92,1,92_circuit monitor_circuit instances_processor control_control circuit
+2022,98,2,98_gaze_tracking method_user eye_device detects
+2022,99,3,99_rack power_individual psu_server rack_servers rack
+2022,104,2,104_logging_user activity_monitored activity_user activities
+2022,109,3,109_device aggregated_device wake_transmitted electronic_multicast
+2022,111,1,111_controller controller_lighting wireless_controllers_controller
+2022,113,3,113_sidelink communications_sidelink communication_frequency resource_communication transmitting
+2022,114,2,114_switch disclosed_automatic_example automatic_light environment
+2022,115,2,115_device disclosed_disclosed electronic_electronic device_device electronic
+2022,118,1,118_power budgeting_allocating power_dynamic allocation_power budgets
+2022,119,2,119_power estimation_power consumption_dynamic power_processor power
+2022,120,1,120_gpu virtual_gpu gpu_gpus gpu_virtualized graphics
+2022,121,5,121_artificial reality_peripheral device_multi device_example device
+2022,122,1,122_gpu virtual_physical compute_virtualized_virtualized graphics
+2022,124,2,124_acceleration component_includes acceleration_memory processing_processing model
+2022,125,1,125_modulated electricity_electrical devices_electrical device_second electrical
+2022,128,4,128_user interfaces_audio_notifications described_interfaces managing
+2022,129,2,129_power flow_fuel cell_fuel cells_power engineering
+2022,130,5,130_leakage current_management engine_leakage_fem
+2022,131,2,131_battery bus_bus converter_bus battery_second bus
+2022,132,2,132_ear_hearing_listening device_earbud
+2022,133,1,133_battery assembly_layers battery_battery stack_assembly battery
+2022,137,6,137_lithium polymer_batteriezellen und_batteriezelle_batteriezellen
+2022,142,5,142_optical_described optical_photovoltaic_transformer
+2022,143,1,143_execution software_program execution_executing programs_execution program
+2022,144,1,144_qos classification_service qos_qos_qos class
+2022,147,3,147_integrated circuits_integrated circuit_integrated_interfaces
+2022,151,1,151_expansion_detector_device detects_detecting
+2022,156,1,156_data center_mitigation operations_computer power_power grid
+2022,162,1,162_mg_li mg_mg al_ti zr
+2022,163,3,163_charger battery_battery switching_dc converter_charger
+2022,165,6,165_wirelessly locatable_locatable tag_tag transmit_locatable
+2022,166,2,166_location information_electronic device_device_information message
+2022,167,3,167_channel transmissions_physical uplink_transmissions repetition_shared channel
+2022,171,2,171_wireless charging_wireless power_coil wireless_power wireless
+2023,0,650,0_communication device_communications_transmit_transmitting
+2023,1,53,1_multiple transmission_signal ue_rach_nr
+2023,2,22,2_um dispositivo_se uma_configurado para_para dispositivo
+2023,3,23,3_das verfahren_einer zweiten_einem ersten_einer ersten
+2023,4,13,4_device thermal_thermal control_thermal management_mitigate thermal
+2023,5,8,5_dnn processor_neuron dnn_decompress neuron_dnn module
+2023,6,1,6_touch controller_controller disclosed_stimulation_touch
+2023,7,1,7_fuel cells_fuel cell_device fuel_computing devices
+2023,8,1,8_virtual assistant_intelligent assistant_digital assistant_automated
+2023,9,1,9_rfid tag_rfid_activation wearable_wearable
+2023,11,2,11_materials lithium_material lithium_lithium ion_lithium battery
+2023,12,1,12_frequency clock_clock signal_clock gating_root clock
+2023,13,4,13_charging host_charging device_device charging_charging
+2023,15,2,15_flyback converters_converters operate_improved flyback_converter embodiments
+2023,16,1,16_environmental tracking_object tracking_tracking_device handheld
+2023,17,4,17_voltage processing_operating voltage_operating voltages_voltage control
+2023,20,1,20_threads processor_threads processes_performance control_state processors
+2023,21,2,21_various components_components electronic_components_component electronic
+2023,22,3,22_peripheral coupled_coupled peripheral_device pairs_peripheral devices
+2023,23,1,23_temperature superconducting_superconducting components_substrate superconducting_superconducting
+2023,26,1,26_multifunction device_multifunction_object device_input device
+2023,27,3,27_protocol stack_protocol_packet_networking
+2023,28,1,28_aerial vehicles_aerial vehicle_unmanned aerial_vehicle uav
+2023,29,6,29_performance counters_performance data_performance values_associated performance
+2023,30,4,30_service manages_constraints_provider implement_service provider
+2023,31,1,31_forming material_metallic glass_bulk metallic_forming component
+2023,34,1,34_computing device_device computing_volatile memory_nonvolatile memory
+2023,35,1,35_control information_information broadcast_information blocks_bpch
+2023,37,1,37_memory decoder_memory corresponding_portion memory_decoder
+2023,38,2,38_input mechanism_brightness_input display_user input
+2023,39,1,39_aspects subject_aspects_presented notification_notifications presented
+2023,41,3,41_packet transmitted_virtual channels_data stream_type packet
+2023,45,3,45_device magnetic_relates magnetic_portable computing_disclosed portable
+2023,47,2,47_power utilization_devices radio_device dynamic_device dynamically
+2023,51,6,51_electronic device_user interface_headset_electronic
+2023,55,3,55_disclosed cache_indication cache_cache_includes cache
+2023,57,6,57_memory architecture_chip interconnect_interconnect_interconnecting
+2023,60,2,60_cooling mode_air cooling_evaporative cooling_sub systems
+2023,61,3,61_coverage mode_mode wireless_mode wakeup_enhanced coverage
+2023,62,3,62_packet processing_packet based_packet virtual_device emulation
+2023,67,1,67_coordinated lighting_wireless lighting_lighting wireless_lighting devices
+2023,70,2,70_network rat_cell network_radio access_network management
+2023,71,1,71_channel access_access channel_radio channels_channel using
+2023,72,11,72_electrolytes lithium_batteries relates_relates battery_battery cells
+2023,73,1,73_execution environment_execution user_virtual machine_code execution
+2023,76,3,76_advertisement broadcast_communication link_broadcast_operation paging
+2023,78,4,78_processors interrupt_interrupt processor_interrupt controller_interrupt requests
+2023,82,2,82_navigation application_navigation presentation_navigation_application navigation
+2023,83,2,83_communication nfc_field communications_consumption nfc_field communication
+2023,86,5,86_curved batteries_curved battery_substrate curved_batteries example
+2023,87,2,87_computing device_device computing_computing_disclosed computing
+2023,88,1,88_battery cells_cell stacks_lamination_laminating
+2023,92,3,92_circuit monitor_circuit instances_processor control_control circuit
+2023,93,3,93_virtualization_virtual machines_virtual machine_hypervisor
+2023,94,1,94_devices concurrently_common memory_device multiple_clock domains
+2023,99,2,99_rack power_individual psu_server rack_servers rack
+2023,104,4,104_logging_user activity_monitored activity_user activities
+2023,113,3,113_sidelink communications_sidelink communication_frequency resource_communication transmitting
+2023,115,1,115_device disclosed_disclosed electronic_electronic device_device electronic
+2023,119,2,119_power estimation_power consumption_dynamic power_processor power
+2023,121,2,121_artificial reality_peripheral device_multi device_example device
+2023,128,4,128_user interfaces_audio_notifications described_interfaces managing
+2023,130,4,130_leakage current_management engine_leakage_fem
+2023,131,4,131_battery bus_bus converter_bus battery_second bus
+2023,133,1,133_battery assembly_layers battery_battery stack_assembly battery
+2023,134,2,134_multi antenna_wireless cellular_transmitter signals_antenna
+2023,137,5,137_lithium polymer_batteriezellen und_batteriezelle_batteriezellen
+2023,141,3,141_graphics unit_graphics_rendering process_display techniques
+2023,142,3,142_optical_described optical_photovoltaic_transformer
+2023,143,1,143_execution software_program execution_executing programs_execution program
+2023,144,5,144_qos classification_service qos_qos_qos class
+2023,147,3,147_integrated circuits_integrated circuit_integrated_interfaces
+2023,157,1,157_routing metric_based routing_multi hop_hop network
+2023,161,4,161_material cathode_cathode active_cathode solid_includes cathode
+2023,162,3,162_mg_li mg_mg al_ti zr
+2023,163,3,163_charger battery_battery switching_dc converter_charger
+2023,164,10,164_establishing communications_communications_user interfaces_methods
+2023,165,2,165_wirelessly locatable_locatable tag_tag transmit_locatable
+2023,167,3,167_channel transmissions_physical uplink_transmissions repetition_shared channel
+2023,168,7,168_power reduction_reduce power_power manager_circuit reduce
+2023,170,1,170_operating context_context computing_context information_context context
+2023,171,1,171_wireless charging_wireless power_coil wireless_power wireless
+2024,0,478,0_communication device_communications_transmit_transmitting
+2024,1,25,1_multiple transmission_signal ue_rach_nr
+2024,2,8,2_um dispositivo_se uma_configurado para_para dispositivo
+2024,3,16,3_das verfahren_einer zweiten_einem ersten_einer ersten
+2024,4,6,4_device thermal_thermal control_thermal management_mitigate thermal
+2024,5,3,5_dnn processor_neuron dnn_decompress neuron_dnn module
+2024,6,1,6_touch controller_controller disclosed_stimulation_touch
+2024,7,1,7_fuel cells_fuel cell_device fuel_computing devices
+2024,8,3,8_virtual assistant_intelligent assistant_digital assistant_automated
+2024,9,2,9_rfid tag_rfid_activation wearable_wearable
+2024,10,2,10_headset_connectors_connectors provided_include connector
+2024,11,2,11_materials lithium_material lithium_lithium ion_lithium battery
+2024,17,1,17_voltage processing_operating voltage_operating voltages_voltage control
+2024,21,4,21_various components_components electronic_components_component electronic
+2024,22,2,22_peripheral coupled_coupled peripheral_device pairs_peripheral devices
+2024,26,2,26_multifunction device_multifunction_object device_input device
+2024,29,2,29_performance counters_performance data_performance values_associated performance
+2024,31,5,31_forming material_metallic glass_bulk metallic_forming component
+2024,34,2,34_computing device_device computing_volatile memory_nonvolatile memory
+2024,38,3,38_input mechanism_brightness_input display_user input
+2024,41,2,41_packet transmitted_virtual channels_data stream_type packet
+2024,45,5,45_device magnetic_relates magnetic_portable computing_disclosed portable
+2024,47,1,47_power utilization_devices radio_device dynamic_device dynamically
+2024,53,2,53_scheduling sps_persistent scheduling_data transmission_sps activation
+2024,55,4,55_disclosed cache_indication cache_cache_includes cache
+2024,57,10,57_memory architecture_chip interconnect_interconnect_interconnecting
+2024,60,1,60_cooling mode_air cooling_evaporative cooling_sub systems
+2024,62,1,62_packet processing_packet based_packet virtual_device emulation
+2024,68,2,68_circuit memory_soc powered_cpus powered_memory controller
+2024,71,1,71_channel access_access channel_radio channels_channel using
+2024,72,1,72_electrolytes lithium_batteries relates_relates battery_battery cells
+2024,75,1,75_flux_device magnetic_coupling device_using magnetic
+2024,77,1,77_fence techniques_device detects_fence_detects signal
+2024,78,3,78_processors interrupt_interrupt processor_interrupt controller_interrupt requests
+2024,83,1,83_communication nfc_field communications_consumption nfc_field communication
+2024,86,2,86_curved batteries_curved battery_substrate curved_batteries example
+2024,90,2,90_accessory device_docking stations_communication accessory_accessory determine
+2024,91,2,91_voice activated_device voice_provide voice_voice
+2024,93,2,93_virtualization_virtual machines_virtual machine_hypervisor
+2024,98,2,98_gaze_tracking method_user eye_device detects
+2024,99,1,99_rack power_individual psu_server rack_servers rack
+2024,104,5,104_logging_user activity_monitored activity_user activities
+2024,106,1,106_resource management_physical resource_computing resource_resource physical
+2024,109,1,109_device aggregated_device wake_transmitted electronic_multicast
+2024,113,4,113_sidelink communications_sidelink communication_frequency resource_communication transmitting
+2024,119,4,119_power estimation_power consumption_dynamic power_processor power
+2024,121,2,121_artificial reality_peripheral device_multi device_example device
+2024,128,2,128_user interfaces_audio_notifications described_interfaces managing
+2024,130,4,130_leakage current_management engine_leakage_fem
+2024,131,2,131_battery bus_bus converter_bus battery_second bus
+2024,132,2,132_ear_hearing_listening device_earbud
+2024,137,1,137_lithium polymer_batteriezellen und_batteriezelle_batteriezellen
+2024,142,1,142_optical_described optical_photovoltaic_transformer
+2024,147,3,147_integrated circuits_integrated circuit_integrated_interfaces
+2024,154,1,154_pattern transmitting_wireless communications_communications device_wireless resource
+2024,158,2,158_temperature superconducting_superconducting interconnect_superconducting_cooling electronic
+2024,162,2,162_mg_li mg_mg al_ti zr
+2024,163,5,163_charger battery_battery switching_dc converter_charger
+2024,164,2,164_establishing communications_communications_user interfaces_methods
+2024,165,3,165_wirelessly locatable_locatable tag_tag transmit_locatable
+2024,166,2,166_location information_electronic device_device_information message
+2024,167,4,167_channel transmissions_physical uplink_transmissions repetition_shared channel
+2024,168,5,168_power reduction_reduce power_power manager_circuit reduce

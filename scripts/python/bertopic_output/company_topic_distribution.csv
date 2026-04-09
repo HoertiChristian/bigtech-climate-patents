@@ -1,73 +1,284 @@
 company,topic,count,topic_label
-Amazon,0,102,0_cellular network_communications_communication device_transmit
-Amazon,1,252,1_power management_computing environment_power consumption_computing device
-Amazon,2,60,2_battery cells_battery cell_cell battery_battery packs
-Amazon,3,40,3_device detects_device electronic_electronic device_device displays
-Amazon,4,34,4_converters_dc converter_power converter_converter includes
-Amazon,5,5,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
-Amazon,6,18,6_flexible hinge_flexible_hinge_input device
-Amazon,8,34,8_protocol stack_protocol_tcp_packet
-Amazon,9,10,9_dnn processor_dnn module_network dnn_neural processor
-Amazon,10,1,10_navigation application_map device_navigation_maps
-Amazon,11,45,11_multifunction device_multifunction_object device_input device
-Amazon,12,77,12_propeller_mechanism_aerial vehicles_blades
-Amazon,13,36,13_robotic manipulator_manipulator_robotic_data analyzed
-Amazon,14,42,14_fuel cell_control subsystem_subsystem provides_subsystem
-Amazon,15,3,15_storage devices_storage device_storage media_device synchronization
-Amazon,18,5,18_environmental tracking_carbon_environmental impact_environment environmental
-Amazon,20,11,20_cooling mode_evaporative cooling_sub systems_cooling
-Amazon,21,7,21_provisioning_provider implement_provisioning server_module provisioning
-Apple,0,2720,0_cellular network_communications_communication device_transmit
-Apple,1,1576,1_power management_computing environment_power consumption_computing device
-Apple,2,980,2_battery cells_battery cell_cell battery_battery packs
-Apple,3,895,3_device detects_device electronic_electronic device_device displays
-Apple,4,340,4_converters_dc converter_power converter_converter includes
-Apple,5,278,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
-Apple,6,273,6_flexible hinge_flexible_hinge_input device
-Apple,7,198,7_rach_harq_rrc rach_heuristically testing
-Apple,8,86,8_protocol stack_protocol_tcp_packet
-Apple,9,47,9_dnn processor_dnn module_network dnn_neural processor
-Apple,10,111,10_navigation application_map device_navigation_maps
-Apple,11,32,11_multifunction device_multifunction_object device_input device
-Apple,13,17,13_robotic manipulator_manipulator_robotic_data analyzed
-Apple,14,3,14_fuel cell_control subsystem_subsystem provides_subsystem
-Apple,15,3,15_storage devices_storage device_storage media_device synchronization
-Apple,16,37,16_material melting_melting_melt_heating
-Apple,17,9,17_aspects subject_aspects_aspect_presented notification
-Apple,19,28,19_adaptive channel_reception drx_channel state_drx cycles
-Apple,21,13,21_provisioning_provider implement_provisioning server_module provisioning
-Apple,22,6,22_context determined_context based_context using_contexts context
-Apple,23,13,23_metal oxides_metal oxide_oxides_oxide
-Apple,24,11,24_precipitate_precursor_material cathode_relate manufacture
-Apple,25,11,25_evolution lte_lte_lte network_lte lte
-Apple,27,8,27_power estimation_power consumption_power management_dynamic power
-Apple,28,8,28_metal surface_layer surface_layer protects_surfaces
-Meta,0,68,0_cellular network_communications_communication device_transmit
-Meta,1,55,1_power management_computing environment_power consumption_computing device
-Meta,2,20,2_battery cells_battery cell_cell battery_battery packs
-Meta,3,38,3_device detects_device electronic_electronic device_device displays
-Meta,4,23,4_converters_dc converter_power converter_converter includes
-Meta,6,4,6_flexible hinge_flexible_hinge_input device
-Meta,7,15,7_rach_harq_rrc rach_heuristically testing
-Meta,9,12,9_dnn processor_dnn module_network dnn_neural processor
-Microsoft,0,628,0_cellular network_communications_communication device_transmit
-Microsoft,1,1404,1_power management_computing environment_power consumption_computing device
-Microsoft,2,313,2_battery cells_battery cell_cell battery_battery packs
-Microsoft,3,351,3_device detects_device electronic_electronic device_device displays
-Microsoft,4,28,4_converters_dc converter_power converter_converter includes
-Microsoft,5,130,5_vielzahl von_vielzahl_konfiguriert ist_konfiguriert
-Microsoft,6,111,6_flexible hinge_flexible_hinge_input device
-Microsoft,7,59,7_rach_harq_rrc rach_heuristically testing
-Microsoft,8,104,8_protocol stack_protocol_tcp_packet
-Microsoft,9,129,9_dnn processor_dnn module_network dnn_neural processor
-Microsoft,10,5,10_navigation application_map device_navigation_maps
-Microsoft,11,7,11_multifunction device_multifunction_object device_input device
-Microsoft,13,14,13_robotic manipulator_manipulator_robotic_data analyzed
-Microsoft,14,7,14_fuel cell_control subsystem_subsystem provides_subsystem
-Microsoft,15,37,15_storage devices_storage device_storage media_device synchronization
-Microsoft,17,23,17_aspects subject_aspects_aspect_presented notification
-Microsoft,18,23,18_environmental tracking_carbon_environmental impact_environment environmental
-Microsoft,20,17,20_cooling mode_evaporative cooling_sub systems_cooling
-Microsoft,21,5,21_provisioning_provider implement_provisioning server_module provisioning
-Microsoft,22,10,22_context determined_context based_context using_contexts context
-Microsoft,26,8,26_cluster_clusters_clustering_clustered
+Amazon,0,387,0_communication device_communications_transmit_transmitting
+Amazon,2,2,2_um dispositivo_se uma_configurado para_para dispositivo
+Amazon,3,3,3_das verfahren_einer zweiten_einem ersten_einer ersten
+Amazon,4,12,4_device thermal_thermal control_thermal management_mitigate thermal
+Amazon,7,2,7_fuel cells_fuel cell_device fuel_computing devices
+Amazon,8,1,8_virtual assistant_intelligent assistant_digital assistant_automated
+Amazon,9,25,9_rfid tag_rfid_activation wearable_wearable
+Amazon,13,5,13_charging host_charging device_device charging_charging
+Amazon,14,34,14_propellers_sounds generated_generated propeller_propeller blades
+Amazon,16,2,16_environmental tracking_object tracking_tracking_device handheld
+Amazon,19,21,19_tracking information_vehicle autonomously_inventory_vehicle vehicle
+Amazon,25,19,25_inventory holder_inventory items_inventory_equipment method
+Amazon,28,26,28_aerial vehicles_aerial vehicle_unmanned aerial_vehicle uav
+Amazon,30,9,30_service manages_constraints_provider implement_service provider
+Amazon,33,11,33_mapping application_map view_view map_map based
+Amazon,40,1,40_integrated circuit_circuit integrated_integrated_device integrated
+Amazon,48,4,48_device methods_adhesive_device components_magnetic adhesive
+Amazon,53,2,53_scheduling sps_persistent scheduling_data transmission_sps activation
+Amazon,60,12,60_cooling mode_air cooling_evaporative cooling_sub systems
+Amazon,61,8,61_coverage mode_mode wireless_mode wakeup_enhanced coverage
+Amazon,62,13,62_packet processing_packet based_packet virtual_device emulation
+Amazon,63,1,63_limiting power_nvm power_disclosed limiting_memory nvm
+Amazon,67,10,67_coordinated lighting_wireless lighting_lighting wireless_lighting devices
+Amazon,73,7,73_execution environment_execution user_virtual machine_code execution
+Amazon,87,1,87_computing device_device computing_computing_disclosed computing
+Amazon,88,5,88_battery cells_cell stacks_lamination_laminating
+Amazon,89,5,89_carbon_environmental impact_environmentally_comparison data
+Amazon,98,3,98_gaze_tracking method_user eye_device detects
+Amazon,99,4,99_rack power_individual psu_server rack_servers rack
+Amazon,100,15,100_latency data_latency_timeout_latencies
+Amazon,101,2,101_storage devices_storage device_storage systems_storage media
+Amazon,102,1,102_powered processing_power generation_power generator_device self
+Amazon,106,1,106_resource management_physical resource_computing resource_resource physical
+Amazon,109,2,109_device aggregated_device wake_transmitted electronic_multicast
+Amazon,110,14,110_inventory materials_handling facility_packing_inventory
+Amazon,111,14,111_controller controller_lighting wireless_controllers_controller
+Amazon,112,2,112_crystal display_width modulation_illumination_backlight control
+Amazon,122,11,122_gpu virtual_physical compute_virtualized_virtualized graphics
+Amazon,123,13,123_cluster_clusters distributed_clusters_cluster data
+Amazon,124,2,124_acceleration component_includes acceleration_memory processing_processing model
+Amazon,127,7,127_token bucket_throttling_burst_tokens
+Amazon,128,1,128_user interfaces_audio_notifications described_interfaces managing
+Amazon,135,1,135_smart assistant_intelligent assistant_assistant_human intelligent
+Amazon,143,9,143_execution software_program execution_executing programs_execution program
+Amazon,145,12,145_ecm_motor controller_motors_controller control
+Amazon,146,10,146_power feeds_power feed_interruption power_feed power
+Apple,0,5028,0_communication device_communications_transmit_transmitting
+Apple,1,226,1_multiple transmission_signal ue_rach_nr
+Apple,2,128,2_um dispositivo_se uma_configurado para_para dispositivo
+Apple,3,182,3_das verfahren_einer zweiten_einem ersten_einer ersten
+Apple,4,83,4_device thermal_thermal control_thermal management_mitigate thermal
+Apple,6,66,6_touch controller_controller disclosed_stimulation_touch
+Apple,7,31,7_fuel cells_fuel cell_device fuel_computing devices
+Apple,8,25,8_virtual assistant_intelligent assistant_digital assistant_automated
+Apple,9,4,9_rfid tag_rfid_activation wearable_wearable
+Apple,10,39,10_headset_connectors_connectors provided_include connector
+Apple,11,38,11_materials lithium_material lithium_lithium ion_lithium battery
+Apple,12,36,12_frequency clock_clock signal_clock gating_root clock
+Apple,13,23,13_charging host_charging device_device charging_charging
+Apple,15,34,15_flyback converters_converters operate_improved flyback_converter embodiments
+Apple,16,3,16_environmental tracking_object tracking_tracking_device handheld
+Apple,17,5,17_voltage processing_operating voltage_operating voltages_voltage control
+Apple,19,7,19_tracking information_vehicle autonomously_inventory_vehicle vehicle
+Apple,20,29,20_threads processor_threads processes_performance control_state processors
+Apple,21,28,21_various components_components electronic_components_component electronic
+Apple,22,28,22_peripheral coupled_coupled peripheral_device pairs_peripheral devices
+Apple,23,8,23_temperature superconducting_superconducting components_substrate superconducting_superconducting
+Apple,25,7,25_inventory holder_inventory items_inventory_equipment method
+Apple,26,26,26_multifunction device_multifunction_object device_input device
+Apple,27,26,27_protocol stack_protocol_packet_networking
+Apple,29,6,29_performance counters_performance data_performance values_associated performance
+Apple,30,12,30_service manages_constraints_provider implement_service provider
+Apple,31,24,31_forming material_metallic glass_bulk metallic_forming component
+Apple,32,24,32_sps activation_channel pdsch_channel pdcch_physical downlink
+Apple,33,13,33_mapping application_map view_view map_map based
+Apple,35,23,35_control information_information broadcast_information blocks_bpch
+Apple,36,23,36_local device_device service_device local_device advertisement
+Apple,37,12,37_memory decoder_memory corresponding_portion memory_decoder
+Apple,38,18,38_input mechanism_brightness_input display_user input
+Apple,40,21,40_integrated circuit_circuit integrated_integrated_device integrated
+Apple,42,9,42_drive data_disk drive_hybrid_device synchronization
+Apple,43,4,43_channel communication_communication channel_wireless computer_remote device
+Apple,44,10,44_cluster_clusters_clustering_clustered
+Apple,45,21,45_device magnetic_relates magnetic_portable computing_disclosed portable
+Apple,46,21,46_navigation instructions_locked mode_navigation application_providing navigation
+Apple,47,11,47_power utilization_devices radio_device dynamic_device dynamically
+Apple,48,14,48_device methods_adhesive_device components_magnetic adhesive
+Apple,49,20,49_metal oxides_metal oxide_oxides_oxide
+Apple,50,20,50_adaptive channel_reception cycles_reception cycle_reception drx
+Apple,51,20,51_electronic device_user interface_headset_electronic
+Apple,52,20,52_providing navigation_navigational_navigation_search results
+Apple,53,15,53_scheduling sps_persistent scheduling_data transmission_sps activation
+Apple,54,10,54_synchronization stations_synchronization peer_devices synchronize_synchronization scheme
+Apple,55,8,55_disclosed cache_indication cache_cache_includes cache
+Apple,56,17,56_device cover_cover_cover includes_covers
+Apple,57,19,57_memory architecture_chip interconnect_interconnect_interconnecting
+Apple,58,1,58_input device_inputs computing_hardware elements_hardware components
+Apple,59,19,59_clock signal_output clock_signal synchronization_pulse control
+Apple,61,7,61_coverage mode_mode wireless_mode wakeup_enhanced coverage
+Apple,62,6,62_packet processing_packet based_packet virtual_device emulation
+Apple,63,15,63_limiting power_nvm power_disclosed limiting_memory nvm
+Apple,65,5,65_host accessory_host device_device host_devices host
+Apple,66,18,66_packages_package package_package_packaged
+Apple,67,4,67_coordinated lighting_wireless lighting_lighting wireless_lighting devices
+Apple,68,18,68_circuit memory_soc powered_cpus powered_memory controller
+Apple,70,16,70_network rat_cell network_radio access_network management
+Apple,71,4,71_channel access_access channel_radio channels_channel using
+Apple,72,17,72_electrolytes lithium_batteries relates_relates battery_battery cells
+Apple,74,14,74_fabric conductive_conductive strands_conductive material_conductive strand
+Apple,76,17,76_advertisement broadcast_communication link_broadcast_operation paging
+Apple,77,17,77_fence techniques_device detects_fence_detects signal
+Apple,78,17,78_processors interrupt_interrupt processor_interrupt controller_interrupt requests
+Apple,79,17,79_memory interface_interface peripheral_interface control_peripheral component
+Apple,80,17,80_receiver diversity_channel quality_threshold channel_wireless communication
+Apple,82,15,82_navigation application_navigation presentation_navigation_application navigation
+Apple,83,16,83_communication nfc_field communications_consumption nfc_field communication
+Apple,84,3,84_device locked_application device_application_locked
+Apple,85,3,85_multiple sensors_remote sensors_sensor_multiple processing
+Apple,87,7,87_computing device_device computing_computing_disclosed computing
+Apple,88,11,88_battery cells_cell stacks_lamination_laminating
+Apple,90,8,90_accessory device_docking stations_communication accessory_accessory determine
+Apple,91,13,91_voice activated_device voice_provide voice_voice
+Apple,92,15,92_circuit monitor_circuit instances_processor control_control circuit
+Apple,94,15,94_devices concurrently_common memory_device multiple_clock domains
+Apple,95,15,95_radio operate_rat radio_tune radio_ue radio
+Apple,96,13,96_leds based_leds operation_diodes leds_drives leds
+Apple,98,3,98_gaze_tracking method_user eye_device detects
+Apple,103,4,103_device thermal_environment computer_operating data_implemented computer
+Apple,104,15,104_logging_user activity_monitored activity_user activities
+Apple,108,14,108_signal quality_signal strength_search cellular_cell neighbor
+Apple,109,11,109_device aggregated_device wake_transmitted electronic_multicast
+Apple,112,12,112_crystal display_width modulation_illumination_backlight control
+Apple,113,14,113_sidelink communications_sidelink communication_frequency resource_communication transmitting
+Apple,114,14,114_switch disclosed_automatic_example automatic_light environment
+Apple,115,14,115_device disclosed_disclosed electronic_electronic device_device electronic
+Apple,116,12,116_integrated circuits_device interface_inter chip_chip hsic
+Apple,117,13,117_coexistence wireless_wireless communication_device coexistence_interference data
+Apple,118,13,118_power budgeting_allocating power_dynamic allocation_power budgets
+Apple,119,8,119_power estimation_power consumption_dynamic power_processor power
+Apple,122,2,122_gpu virtual_physical compute_virtualized_virtualized graphics
+Apple,125,6,125_modulated electricity_electrical devices_electrical device_second electrical
+Apple,128,12,128_user interfaces_audio_notifications described_interfaces managing
+Apple,130,8,130_leakage current_management engine_leakage_fem
+Apple,131,13,131_battery bus_bus converter_bus battery_second bus
+Apple,132,13,132_ear_hearing_listening device_earbud
+Apple,133,13,133_battery assembly_layers battery_battery stack_assembly battery
+Apple,134,13,134_multi antenna_wireless cellular_transmitter signals_antenna
+Apple,136,13,136_portable music_connected portable_device receive_voltage power
+Apple,137,13,137_lithium polymer_batteriezellen und_batteriezelle_batteriezellen
+Apple,138,10,138_data transmissions_transmitted data_transmit data_speed data
+Apple,140,2,140_persistent storage_volatile memory_storage device_storage
+Apple,141,9,141_graphics unit_graphics_rendering process_display techniques
+Apple,142,1,142_optical_described optical_photovoltaic_transformer
+Apple,144,7,144_qos classification_service qos_qos_qos class
+Apple,146,2,146_power feeds_power feed_interruption power_feed power
+Apple,147,9,147_integrated circuits_integrated circuit_integrated_interfaces
+Apple,151,6,151_expansion_detector_device detects_detecting
+Apple,154,7,154_pattern transmitting_wireless communications_communications device_wireless resource
+Apple,157,1,157_routing metric_based routing_multi hop_hop network
+Apple,158,3,158_temperature superconducting_superconducting interconnect_superconducting_cooling electronic
+Apple,161,12,161_material cathode_cathode active_cathode solid_includes cathode
+Apple,162,12,162_mg_li mg_mg al_ti zr
+Apple,163,12,163_charger battery_battery switching_dc converter_charger
+Apple,164,12,164_establishing communications_communications_user interfaces_methods
+Apple,165,12,165_wirelessly locatable_locatable tag_tag transmit_locatable
+Apple,166,12,166_location information_electronic device_device_information message
+Apple,167,12,167_channel transmissions_physical uplink_transmissions repetition_shared channel
+Apple,168,12,168_power reduction_reduce power_power manager_circuit reduce
+Apple,169,12,169_prefetching_prefetch_cache hierarchy_prefetch request
+Apple,170,12,170_operating context_context computing_context information_context context
+Apple,171,12,171_wireless charging_wireless power_coil wireless_power wireless
+Apple,172,12,172_processor operate_states processor_throttle processors_processors various
+Apple,173,12,173_material melting_materials melting_melting_melt
+Apple,174,12,174_data reception_radio network_data buffering_latency
+Apple,175,12,175_device suspend_host device_suspending_devices communication
+Apple,176,12,176_interference management_transmitter transmits_transmitter wireless_wireless transmitter
+Meta,0,158,0_communication device_communications_transmit_transmitting
+Meta,1,18,1_multiple transmission_signal ue_rach_nr
+Meta,4,7,4_device thermal_thermal control_thermal management_mitigate thermal
+Meta,10,1,10_headset_connectors_connectors provided_include connector
+Meta,16,4,16_environmental tracking_object tracking_tracking_device handheld
+Meta,61,4,61_coverage mode_mode wireless_mode wakeup_enhanced coverage
+Meta,74,3,74_fabric conductive_conductive strands_conductive material_conductive strand
+Meta,86,7,86_curved batteries_curved battery_substrate curved_batteries example
+Meta,98,3,98_gaze_tracking method_user eye_device detects
+Meta,121,11,121_artificial reality_peripheral device_multi device_example device
+Meta,124,1,124_acceleration component_includes acceleration_memory processing_processing model
+Meta,141,3,141_graphics unit_graphics_rendering process_display techniques
+Meta,142,11,142_optical_described optical_photovoltaic_transformer
+Meta,144,5,144_qos classification_service qos_qos_qos class
+Microsoft,0,2017,0_communication device_communications_transmit_transmitting
+Microsoft,1,67,1_multiple transmission_signal ue_rach_nr
+Microsoft,2,130,2_um dispositivo_se uma_configurado para_para dispositivo
+Microsoft,3,1,3_das verfahren_einer zweiten_einem ersten_einer ersten
+Microsoft,4,48,4_device thermal_thermal control_thermal management_mitigate thermal
+Microsoft,5,82,5_dnn processor_neuron dnn_decompress neuron_dnn module
+Microsoft,7,17,7_fuel cells_fuel cell_device fuel_computing devices
+Microsoft,8,21,8_virtual assistant_intelligent assistant_digital assistant_automated
+Microsoft,9,14,9_rfid tag_rfid_activation wearable_wearable
+Microsoft,13,7,13_charging host_charging device_device charging_charging
+Microsoft,16,22,16_environmental tracking_object tracking_tracking_device handheld
+Microsoft,17,24,17_voltage processing_operating voltage_operating voltages_voltage control
+Microsoft,18,29,18_pressure sensors_keys pressure_pressure sensitive_contact sensor
+Microsoft,19,1,19_tracking information_vehicle autonomously_inventory_vehicle vehicle
+Microsoft,23,19,23_temperature superconducting_superconducting components_substrate superconducting_superconducting
+Microsoft,24,27,24_flexible hinge_device flexible_computing device_flexible
+Microsoft,29,19,29_performance counters_performance data_performance values_associated performance
+Microsoft,30,4,30_service manages_constraints_provider implement_service provider
+Microsoft,34,24,34_computing device_device computing_volatile memory_nonvolatile memory
+Microsoft,37,11,37_memory decoder_memory corresponding_portion memory_decoder
+Microsoft,38,5,38_input mechanism_brightness_input display_user input
+Microsoft,39,23,39_aspects subject_aspects_presented notification_notifications presented
+Microsoft,41,21,41_packet transmitted_virtual channels_data stream_type packet
+Microsoft,42,12,42_drive data_disk drive_hybrid_device synchronization
+Microsoft,43,17,43_channel communication_communication channel_wireless computer_remote device
+Microsoft,44,11,44_cluster_clusters_clustering_clustered
+Microsoft,47,10,47_power utilization_devices radio_device dynamic_device dynamically
+Microsoft,48,3,48_device methods_adhesive_device components_magnetic adhesive
+Microsoft,53,3,53_scheduling sps_persistent scheduling_data transmission_sps activation
+Microsoft,54,9,54_synchronization stations_synchronization peer_devices synchronize_synchronization scheme
+Microsoft,55,11,55_disclosed cache_indication cache_cache_includes cache
+Microsoft,56,2,56_device cover_cover_cover includes_covers
+Microsoft,58,18,58_input device_inputs computing_hardware elements_hardware components
+Microsoft,60,7,60_cooling mode_air cooling_evaporative cooling_sub systems
+Microsoft,63,3,63_limiting power_nvm power_disclosed limiting_memory nvm
+Microsoft,64,19,64_wake pattern_monitored network_monitored traffic_monitoring network
+Microsoft,65,13,65_host accessory_host device_device host_devices host
+Microsoft,67,4,67_coordinated lighting_wireless lighting_lighting wireless_lighting devices
+Microsoft,69,18,69_background application_foreground application_application foreground_application service
+Microsoft,70,1,70_network rat_cell network_radio access_network management
+Microsoft,71,13,71_channel access_access channel_radio channels_channel using
+Microsoft,73,10,73_execution environment_execution user_virtual machine_code execution
+Microsoft,75,17,75_flux_device magnetic_coupling device_using magnetic
+Microsoft,81,16,81_protocol tcp_tcp_control protocol_congestion control
+Microsoft,82,1,82_navigation application_navigation presentation_navigation_application navigation
+Microsoft,84,13,84_device locked_application device_application_locked
+Microsoft,85,13,85_multiple sensors_remote sensors_sensor_multiple processing
+Microsoft,86,9,86_curved batteries_curved battery_substrate curved_batteries example
+Microsoft,87,8,87_computing device_device computing_computing_disclosed computing
+Microsoft,89,11,89_carbon_environmental impact_environmentally_comparison data
+Microsoft,90,8,90_accessory device_docking stations_communication accessory_accessory determine
+Microsoft,91,3,91_voice activated_device voice_provide voice_voice
+Microsoft,93,15,93_virtualization_virtual machines_virtual machine_hypervisor
+Microsoft,96,2,96_leds based_leds operation_diodes leds_drives leds
+Microsoft,97,15,97_multiple threshold_device threshold_application operation_threshold values
+Microsoft,98,6,98_gaze_tracking method_user eye_device detects
+Microsoft,99,11,99_rack power_individual psu_server rack_servers rack
+Microsoft,101,13,101_storage devices_storage device_storage systems_storage media
+Microsoft,102,14,102_powered processing_power generation_power generator_device self
+Microsoft,103,11,103_device thermal_environment computer_operating data_implemented computer
+Microsoft,105,15,105_virtual machines_virtualization_machines virtual_virtual machine
+Microsoft,106,13,106_resource management_physical resource_computing resource_resource physical
+Microsoft,107,14,107_connector electrical_battery connector_coupling battery_electrical connection
+Microsoft,109,1,109_device aggregated_device wake_transmitted electronic_multicast
+Microsoft,116,2,116_integrated circuits_device interface_inter chip_chip hsic
+Microsoft,119,5,119_power estimation_power consumption_dynamic power_processor power
+Microsoft,120,13,120_gpu virtual_gpu gpu_gpus gpu_virtualized graphics
+Microsoft,121,2,121_artificial reality_peripheral device_multi device_example device
+Microsoft,124,10,124_acceleration component_includes acceleration_memory processing_processing model
+Microsoft,125,7,125_modulated electricity_electrical devices_electrical device_second electrical
+Microsoft,126,13,126_protocol used_protocol_protocol client_protocol example
+Microsoft,127,6,127_token bucket_throttling_burst_tokens
+Microsoft,129,13,129_power flow_fuel cell_fuel cells_power engineering
+Microsoft,130,5,130_leakage current_management engine_leakage_fem
+Microsoft,135,12,135_smart assistant_intelligent assistant_assistant_human intelligent
+Microsoft,138,3,138_data transmissions_transmitted data_transmit data_speed data
+Microsoft,139,13,139_device orientation_device sensor_device relative_devices relative
+Microsoft,140,11,140_persistent storage_volatile memory_storage device_storage
+Microsoft,143,3,143_execution software_program execution_executing programs_execution program
+Microsoft,147,3,147_integrated circuits_integrated circuit_integrated_interfaces
+Microsoft,148,12,148_data communication_communication protocol_protocol_client server
+Microsoft,149,12,149_business intelligence_data performance_performance metrics_trace data
+Microsoft,150,12,150_communication device_mobile communication_ambient light_device detect
+Microsoft,151,6,151_expansion_detector_device detects_detecting
+Microsoft,152,12,152_information tracking_tracking information_synchronizes_synchronisation
+Microsoft,153,12,153_device monitored_device layer_peer wireless_wireless device
+Microsoft,154,5,154_pattern transmitting_wireless communications_communications device_wireless resource
+Microsoft,155,12,155_environmental tracking_tracking_environmental sensors_environment environmental
+Microsoft,156,12,156_data center_mitigation operations_computer power_power grid
+Microsoft,157,11,157_routing metric_based routing_multi hop_hop network
+Microsoft,158,9,158_temperature superconducting_superconducting interconnect_superconducting_cooling electronic
+Microsoft,159,12,159_suspended process_suspended application_process based_application suspended
+Microsoft,160,12,160_background tasks_background task_device background_application background

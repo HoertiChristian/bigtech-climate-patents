@@ -14,7 +14,7 @@ Repo structure:
     │   └── python/
     │       ├── lens_patent_query.py    ← this file
     │       └── data/                   ← output goes here
-    └── ...
+    └── ...qd
 
 Dependencies (install once):
     pip install requests rapidfuzz
