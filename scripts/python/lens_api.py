@@ -61,11 +61,15 @@ DEFAULT_FIRMS = {
 # Fields to include in the API response (these use the nested biblio structure)
 INCLUDE_FIELDS = [
     "lens_id",
+    "jurisdiction",
     "date_published",
+    "publication_type",
     "legal_status",
+    "families",
     "biblio.invention_title",
     "biblio.parties.applicants",
     "biblio.classifications_cpc",
+    "biblio.references_cited",
     "abstract",
 ]
 
