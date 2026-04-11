@@ -25,4 +25,4 @@ Thumbs.db
 
 #api key
 scripts/python/api-key.txt
-scripts/python/data/patents_raw.json
+scripts/python/data/*.json
