@@ -62,6 +62,7 @@ DEFAULT_FIRMS = {
 INCLUDE_FIELDS = [
     "lens_id",
     "date_published",
+    "legal_status",
     "biblio.invention_title",
     "biblio.parties.applicants",
     "biblio.classifications_cpc",
