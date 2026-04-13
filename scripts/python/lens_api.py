@@ -2,7 +2,7 @@
 Lens Patent API — Query Y02/Y04S climate patents for Big Tech firms (2010–2024).
 
 Reads applicant names from ../../subsidiaries.csv (repo root).
-Saves results to ./data/ as JSON and a summary CSV.
+Saves results to ./data/ as per-company JSON files and summary CSVs.
 
 Usage:
     python lens_patent_query.py YOUR_API_TOKEN
@@ -14,7 +14,7 @@ Repo structure:
     │   └── python/
     │       ├── lens_patent_query.py    ← this file
     │       └── data/                   ← output goes here
-    └── ...qd
+    └── ...
 
 Dependencies (install once):
     pip install requests rapidfuzz
@@ -312,6 +312,10 @@ def build_count_query(applicant_names: list[str], year: int) -> dict:
     Build a lightweight Lens API query to get the total patent count
     for a company in a single year (no CPC filter, no full data).
 
+    Uses group_by SIMPLE_FAMILY so the total reflects unique inventions,
+    not raw document counts. This keeps the denominator consistent with
+    family-deduplicated Y02 numerator for Climate Innovation Intensity.
+
     Returns size=1 so we only need the 'total' field from the response.
     """
     return {
@@ -337,6 +341,7 @@ def build_count_query(applicant_names: list[str], year: int) -> dict:
                 ],
             }
         },
+        "group_by": "SIMPLE_FAMILY",
         "include": ["lens_id"],
         "size": 1,
     }
@@ -403,7 +408,8 @@ def fetch_total_patent_counts(
 ) -> list[dict]:
     """
     For each company, query the total number of patents (no CPC filter)
-    for each year from 2010 to 2024. Only retrieves the count, not the
+    for each year from 2010 to 2024. Uses group_by SIMPLE_FAMILY so
+    counts reflect unique inventions. Only retrieves the count, not the
     patent data itself.
 
     Returns:
@@ -474,6 +480,21 @@ def get_abstract(patent: dict) -> str:
     if isinstance(abstract, list) and abstract:
         return abstract[0].get("text", "")
     return abstract if isinstance(abstract, str) else ""
+
+
+def strip_citation_details(patent: dict) -> None:
+    """
+    Strip full citation lists from references_cited, keeping only counts.
+    Reduces JSON file size significantly (citations can be 90%+ of payload).
+    Modifies patent dict in place.
+    """
+    refs = patent.get("biblio", {}).get("references_cited", {})
+    if refs:
+        patent["biblio"]["references_cited"] = {
+            "npl_count": refs.get("npl_count", 0),
+            "npl_resolved_count": refs.get("npl_resolved_count", 0),
+            "patent_count": refs.get("patent_count", 0),
+        }
 
 
 # ─── Reporting ────────────────────────────────────────────────────────────────
@@ -616,17 +637,22 @@ def main():
     print_patent_count_table(raw_counts, deduplicated)
 
     # ── Fetch total patent counts per company per year ────────────────────
-    print("Fetching total patent counts per company per year (no CPC filter)...")
+    print("Fetching total patent counts per company per year (group_by SIMPLE_FAMILY)...")
     total_counts = fetch_total_patent_counts(token, firms)
     print()
 
     # ── Save outputs ──────────────────────────────────────────────────────
 
-    # Raw JSON
-    json_path = DATA_DIR / "patents_raw.json"
-    with open(json_path, "w", encoding="utf-8") as f:
-        json.dump(all_results, f, indent=2, ensure_ascii=False)
-    print(f"Saved raw JSON         → {json_path}")
+    # Per-company JSON files (stripped of full citation lists to reduce size)
+    print("Saving per-company JSON files...")
+    for parent, patents in all_results.items():
+        for p in patents:
+            strip_citation_details(p)
+        company_path = DATA_DIR / f"{parent}_patents.json"
+        with open(company_path, "w", encoding="utf-8") as f:
+            json.dump(patents, f, indent=2, ensure_ascii=False)
+        size_mb = company_path.stat().st_size / (1024 * 1024)
+        print(f"  {company_path.name}: {len(patents)} patents ({size_mb:.1f} MB)")
 
     # Summary CSV (one row per patent, pre-dedup)
     csv_path = DATA_DIR / "patents_summary.csv"
@@ -657,7 +683,7 @@ def main():
             })
     print(f"Saved patent counts    → {count_path}")
 
-    # Total patent counts per company per year (no CPC filter)
+    # Total patent counts per company per year (family-grouped)
     total_count_path = DATA_DIR / "total_patent_counts.csv"
     with open(total_count_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=["company", "year", "total_patents"])
