@@ -497,6 +497,51 @@ def strip_citation_details(patent: dict) -> None:
         }
 
 
+# ─── Family deduplication ─────────────────────────────────────────────────────
+
+def get_simple_family_key(patent: dict) -> str:
+    """
+    Build a unique key for the simple family.
+    Uses sorted member lens_ids. Falls back to the patent's own lens_id.
+    """
+    families = patent.get("families", {})
+    if families:
+        simple = families.get("simple_family", {})
+        members = simple.get("members", [])
+        member_ids = sorted(
+            m.get("lens_id", "") for m in members if m.get("lens_id")
+        )
+        if member_ids:
+            return "|".join(member_ids)
+    return patent.get("lens_id", "")
+
+
+def pick_family_representative(patents: list[dict]) -> dict:
+    """
+    From a family group, pick the best representative.
+    Priority: granted > application > other, then earliest publication date.
+    """
+    type_priority = {"GRANTED_PATENT": 0, "PATENT_APPLICATION": 1}
+
+    def sort_key(p):
+        pub_type = p.get("publication_type", "UNKNOWN")
+        return (type_priority.get(pub_type, 2), p.get("date_published", "9999"))
+
+    return sorted(patents, key=sort_key)[0]
+
+
+def dedup_by_family(patents: list[dict]) -> list[dict]:
+    """
+    Deduplicate a list of patents by simple patent family.
+    Returns one representative per family.
+    """
+    families: dict[str, list[dict]] = defaultdict(list)
+    for p in patents:
+        key = get_simple_family_key(p)
+        families[key].append(p)
+    return [pick_family_representative(group) for group in families.values()]
+
+
 # ─── Reporting ────────────────────────────────────────────────────────────────
 
 def print_patent_count_table(
@@ -699,6 +744,94 @@ def main():
             writer.writeheader()
             writer.writerows(match_log)
     print(f"Saved fuzzy match log  → {log_path}")
+
+    # ── Family deduplication ──────────────────────────────────────────────
+    print()
+    print("Running simple family deduplication...")
+
+    # Flatten all patents into a single lens_id-deduplicated list
+    all_flat = {}
+    for parent, patents in all_results.items():
+        for p in patents:
+            lid = p.get("lens_id", "")
+            if lid and lid not in all_flat:
+                p["_company"] = parent
+                all_flat[lid] = p
+    flat_patents = list(all_flat.values())
+    print(f"  Unique documents (lens_id): {len(flat_patents)}")
+
+    # Dedup by family
+    deduped_patents = dedup_by_family(flat_patents)
+    family_removed = len(flat_patents) - len(deduped_patents)
+    print(f"  After family dedup:         {len(deduped_patents)} ({family_removed} family duplicates removed)")
+
+    # Per-company breakdown
+    dedup_by_company: dict[str, int] = defaultdict(int)
+    for p in deduped_patents:
+        dedup_by_company[p.get("_company", "Unknown")] += 1
+    for parent in sorted(dedup_by_company):
+        print(f"    {parent}: {dedup_by_company[parent]}")
+
+    # Save deduplicated JSON
+    output_patents = []
+    for p in deduped_patents:
+        clean = {k: v for k, v in p.items() if not k.startswith("_")}
+        clean["parent_company"] = p.get("_company", "")
+        output_patents.append(clean)
+
+    dedup_path = DATA_DIR / "patents_deduped.json"
+    with open(dedup_path, "w", encoding="utf-8") as f:
+        json.dump(output_patents, f, indent=2, ensure_ascii=False)
+    size_mb = dedup_path.stat().st_size / (1024 * 1024)
+    print(f"  Saved → {dedup_path} ({size_mb:.1f} MB)")
+
+    # Save deduplicated summary CSV
+    dedup_csv_path = DATA_DIR / "patents_deduped_summary.csv"
+    with open(dedup_csv_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=[
+            "parent_company", "lens_id", "date_published",
+            "publication_type", "patent_status",
+            "title", "applicants", "climate_codes", "abstract",
+        ])
+        writer.writeheader()
+        for p in deduped_patents:
+            status = (p.get("legal_status", {}) or {}).get("patent_status", "")
+            writer.writerow({
+                "parent_company": p.get("_company", ""),
+                "lens_id": p.get("lens_id", ""),
+                "date_published": p.get("date_published", ""),
+                "publication_type": p.get("publication_type", ""),
+                "patent_status": status,
+                "title": get_title(p),
+                "applicants": "; ".join(get_applicants(p)),
+                "climate_codes": "; ".join(extract_climate_codes(p)),
+                "abstract": get_abstract(p)[:500],
+            })
+    print(f"  Saved → {dedup_csv_path}")
+
+    # Save family-deduped Y02 patent counts per company per year
+    # This is the numerator for Climate Innovation Intensity,
+    # consistent with the family-grouped denominator in total_patent_counts.csv
+    y02_year_counts: dict[str, dict[int, int]] = defaultdict(lambda: defaultdict(int))
+    for p in deduped_patents:
+        date = p.get("date_published", "")
+        if date and len(date) >= 4:
+            year = int(date[:4])
+            if 2010 <= year <= 2024:
+                y02_year_counts[p.get("_company", "")][year] += 1
+
+    y02_count_path = DATA_DIR / "climate_patent_counts.csv"
+    with open(y02_count_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=["company", "year", "y02_patents"])
+        writer.writeheader()
+        for parent in sorted(y02_year_counts):
+            for year in range(2010, 2025):
+                writer.writerow({
+                    "company": parent,
+                    "year": year,
+                    "y02_patents": y02_year_counts[parent][year],
+                })
+    print(f"  Saved → {y02_count_path}")
 
     print()
     print("Done.")
