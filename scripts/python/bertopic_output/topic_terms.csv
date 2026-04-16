@@ -1,1771 +1,231 @@
 topic,rank,word,score
-0,1,communication device,0.49476
-0,2,communications,0.47272
-0,3,transmit,0.44681
-0,4,transmitting,0.43671
-0,5,wireless communication,0.43201
-0,6,control channel,0.4084
-0,7,wireless device,0.38919
-0,8,user equipment,0.38139
-0,9,radio,0.37806
-0,10,power management,0.36866
-1,1,multiple transmission,0.24538
-1,2,signal ue,0.13256
-1,3,rach,0.08828
-1,4,nr,0.08531
-1,5,mode nam,0.08512
-1,6,nr new,0.08113
-1,7,generation nr,0.07973
-1,8,rs,0.07515
-1,9,harq,0.06498
-1,10,heuristically testing,0.0531
-2,1,um dispositivo,0.48903
-2,2,se uma,0.42295
-2,3,configurado para,0.40367
-2,4,para dispositivo,0.40119
-2,5,em uma,0.38773
-2,6,exemplo um,0.38335
-2,7,dispositivo para,0.38269
-2,8,selecionado,0.38013
-2,9,um conjunto,0.36928
-2,10,configurado,0.36138
-3,1,das verfahren,0.28044
-3,2,einer zweiten,0.24904
-3,3,einem ersten,0.22541
-3,4,einer ersten,0.22528
-3,5,eine zweite,0.21778
-3,6,vielzahl von,0.19137
-3,7,und eine,0.19116
-3,8,unter verwendung,0.18877
-3,9,und,0.18384
-3,10,konfiguriert ist,0.18099
-4,1,device thermal,0.62945
-4,2,thermal control,0.62559
-4,3,thermal management,0.59345
-4,4,mitigate thermal,0.56373
-4,5,task device,0.54323
-4,6,temperature control,0.51962
-4,7,thermal,0.51175
-4,8,device manages,0.50667
-4,9,thermal threshold,0.50061
-4,10,cooling,0.4735
-5,1,dnn processor,0.61357
-5,2,neuron dnn,0.59029
-5,3,decompress neuron,0.56849
-5,4,dnn module,0.56846
-5,5,memory dnn,0.5495
-5,6,data decompression,0.50696
-5,7,network dnn,0.49476
-5,8,deep neural,0.48008
-5,9,module compression,0.46748
-5,10,compression unit,0.46694
-6,1,touch controller,0.59624
-6,2,controller disclosed,0.46082
-6,3,stimulation,0.44628
-6,4,touch,0.42363
-6,5,panel touch,0.40407
-6,6,controller selectively,0.40256
-6,7,controller include,0.35852
-6,8,demodulation,0.33726
-6,9,reduce power,0.33203
-6,10,sensor panel,0.33201
-7,1,fuel cells,0.54562
-7,2,fuel cell,0.54496
-7,3,device fuel,0.53655
-7,4,computing devices,0.48365
-7,5,throttle power,0.47689
-7,6,power consuming,0.47686
-7,7,instances power,0.43418
-7,8,cell fuel,0.42215
-7,9,provides power,0.4195
-7,10,power multiple,0.41901
-8,1,virtual assistant,0.70426
-8,2,intelligent assistant,0.61172
-8,3,digital assistant,0.59824
-8,4,automated,0.54327
-8,5,assistant,0.47809
-8,6,detecting input,0.44944
-8,7,process,0.43552
-8,8,user input,0.42965
-8,9,processes,0.41561
-8,10,audio input,0.4043
-9,1,rfid tag,0.58779
-9,2,rfid,0.58023
-9,3,activation wearable,0.49773
-9,4,wearable,0.44423
-9,5,devices worn,0.43723
-9,6,tag transmit,0.41054
-9,7,device manually,0.39193
-9,8,identifier tag,0.36196
-9,9,tags,0.3392
-9,10,identifier,0.3116
-10,1,headset,0.55538
-10,2,connectors,0.47691
-10,3,connectors provided,0.46706
-10,4,include connector,0.46062
-10,5,connector assembly,0.43378
-10,6,connector,0.42018
-10,7,microphone port,0.36071
-10,8,include magnetic,0.35024
-10,9,electrically couple,0.34672
-10,10,relates magnetic,0.33977
-11,1,materials lithium,0.70422
-11,2,material lithium,0.67041
-11,3,lithium ion,0.64722
-11,4,lithium battery,0.59881
-11,5,described lithium,0.57979
-11,6,lithium,0.54378
-11,7,ion batteries,0.54001
-11,8,lithium cobalt,0.52867
-11,9,cathode material,0.52115
-11,10,active materials,0.51085
-12,1,frequency clock,0.53722
-12,2,clock signal,0.50178
-12,3,clock gating,0.49349
-12,4,root clock,0.49163
-12,5,circuit clock,0.48185
-12,6,clock generation,0.47367
-12,7,clock cycles,0.45168
-12,8,cycle clock,0.43863
-12,9,clock,0.43464
-12,10,clock generator,0.43254
-13,1,charging host,0.67592
-13,2,charging device,0.67569
-13,3,device charging,0.6488
-13,4,charging,0.57144
-13,5,charging electronic,0.56066
-13,6,device accessory,0.53585
-13,7,host device,0.51816
-13,8,device methods,0.50262
-13,9,charger,0.49899
-13,10,charge,0.49789
-14,1,propellers,0.53673
-14,2,sounds generated,0.52102
-14,3,generated propeller,0.51884
-14,4,propeller blades,0.51868
-14,5,sounds operation,0.51543
-14,6,propellers aerial,0.51299
-14,7,generate sounds,0.51155
-14,8,sound generated,0.50516
-14,9,motors propellers,0.4724
-14,10,propeller blade,0.46665
-15,1,flyback converters,0.60036
-15,2,converters operate,0.48766
-15,3,improved flyback,0.46065
-15,4,converter embodiments,0.44048
-15,5,power converters,0.43657
-15,6,converters,0.42936
-15,7,buck converters,0.42145
-15,8,converter converter,0.39944
-15,9,converter operated,0.39714
-15,10,snubber capacitors,0.38039
-16,1,environmental tracking,0.46905
-16,2,object tracking,0.46289
-16,3,tracking,0.46137
-16,4,device handheld,0.44613
-16,5,device camera,0.42028
-16,6,exposures,0.41436
-16,7,based features,0.4112
-16,8,camera detect,0.40736
-16,9,based light,0.40183
-16,10,exposure,0.39856
-17,1,voltage processing,0.61514
-17,2,operating voltage,0.53725
-17,3,operating voltages,0.53432
-17,4,voltage control,0.48975
-17,5,voltage adjustment,0.48434
-17,6,device voltage,0.4519
-17,7,operating processing,0.42324
-17,8,voltage regulation,0.42292
-17,9,processing device,0.41752
-17,10,processing devices,0.41713
-18,1,pressure sensors,0.56631
-18,2,keys pressure,0.51416
-18,3,pressure sensitive,0.50115
-18,4,contact sensor,0.50009
-18,5,sensitive keyboard,0.46886
-18,6,sensitive key,0.44937
-18,7,flexible contact,0.4246
-18,8,input computing,0.42167
-18,9,keyboard,0.40914
-18,10,sensor substrate,0.37386
-19,1,tracking information,0.49345
-19,2,vehicle autonomously,0.49244
-19,3,inventory,0.46514
-19,4,vehicle vehicle,0.46424
-19,5,conveyance device,0.46266
-19,6,vehicle determine,0.46265
-19,7,vehicle,0.4375
-19,8,vehicles,0.43613
-19,9,autonomous,0.43506
-19,10,vehicle directed,0.42339
-20,1,threads processor,0.54934
-20,2,threads processes,0.53427
-20,3,performance control,0.50074
-20,4,state processors,0.44849
-20,5,processors,0.42455
-20,6,performance metrics,0.41839
-20,7,multiple core,0.41074
-20,8,performance state,0.40459
-20,9,various performance,0.39428
-20,10,disclosed scheduling,0.38736
-21,1,various components,0.55385
-21,2,components electronic,0.55238
-21,3,components,0.54137
-21,4,component electronic,0.52504
-21,5,device housing,0.50351
-21,6,device methods,0.48537
-21,7,portions coupling,0.48077
-21,8,electronic device,0.4753
-21,9,structural portion,0.47249
-21,10,portion coupling,0.47155
-22,1,peripheral coupled,0.61072
-22,2,coupled peripheral,0.57498
-22,3,device pairs,0.56081
-22,4,peripheral devices,0.55064
-22,5,peripheral device,0.5469
-22,6,device peripheral,0.52526
-22,7,device display,0.52235
-22,8,devices displays,0.51189
-22,9,device displays,0.50869
-22,10,device determines,0.50336
-23,1,temperature superconducting,0.60697
-23,2,superconducting components,0.53811
-23,3,substrate superconducting,0.5327
-23,4,superconducting,0.4999
-23,5,superconducting interconnect,0.48982
-23,6,temperature example,0.47235
-23,7,components heat,0.47224
-23,8,temperature,0.40514
-23,9,interconnects,0.39797
-23,10,includes substrate,0.38796
-24,1,flexible hinge,0.64028
-24,2,device flexible,0.61603
-24,3,computing device,0.48684
-24,4,flexible,0.468
-24,5,hinge,0.46353
-24,6,device facilitate,0.45947
-24,7,device implement,0.44189
-24,8,input device,0.43297
-24,9,device computing,0.40978
-24,10,figure flexible,0.37664
-25,1,inventory holder,0.60446
-25,2,inventory items,0.59692
-25,3,inventory,0.55378
-25,4,equipment method,0.45033
-25,5,carrying,0.40631
-25,6,carrying multiple,0.36938
-25,7,equipment subject,0.3535
-25,8,moving mobile,0.34835
-25,9,drive unit,0.34313
-25,10,mobile drive,0.33311
-26,1,multifunction device,0.63127
-26,2,multifunction,0.51004
-26,3,object device,0.47707
-26,4,input device,0.40821
-26,5,user interface,0.3941
-26,6,device displays,0.38715
-26,7,device moves,0.36298
-26,8,spatial,0.34798
-26,9,second object,0.34562
-26,10,interface,0.34435
-27,1,protocol stack,0.64554
-27,2,protocol,0.46135
-27,3,packet,0.40373
-27,4,networking,0.39819
-27,5,data transfer,0.39816
-27,6,platform,0.39301
-27,7,stacks,0.38355
-27,8,stack memory,0.37484
-27,9,communication user,0.36443
-27,10,socket,0.35991
-28,1,aerial vehicles,0.61069
-28,2,aerial vehicle,0.6084
-28,3,unmanned aerial,0.59138
-28,4,vehicle uav,0.59104
-28,5,uav,0.55974
-28,6,aerial,0.52602
-28,7,acting aerial,0.49658
-28,8,unmanned,0.46593
-28,9,motors,0.43559
-28,10,thrust lift,0.42832
-29,1,performance counters,0.62004
-29,2,performance data,0.50447
-29,3,performance values,0.491
-29,4,associated performance,0.48147
-29,5,counters,0.47955
-29,6,specified performance,0.45892
-29,7,performance attribute,0.4589
-29,8,performance value,0.45574
-29,9,metrics memory,0.43299
-29,10,memory address,0.43083
-30,1,service manages,0.52049
-30,2,constraints,0.5107
-30,3,provider implement,0.45945
-30,4,service provider,0.45162
-30,5,resource instances,0.39419
-30,6,accounts service,0.37671
-30,7,management platform,0.36981
-30,8,enterprise,0.36804
-30,9,software,0.3648
-30,10,restrictions,0.36443
-31,1,forming material,0.60086
-31,2,metallic glass,0.57922
-31,3,bulk metallic,0.53244
-31,4,forming component,0.52051
-31,5,alloy,0.48274
-31,6,alloys,0.47742
-31,7,component surface,0.4356
-31,8,metallic,0.43014
-31,9,material include,0.42965
-31,10,methods manufacture,0.42863
-32,1,sps activation,0.47704
-32,2,channel pdsch,0.47038
-32,3,channel pdcch,0.46536
-32,4,physical downlink,0.42139
-32,5,configured transmission,0.4082
-32,6,sps pdsch,0.39647
-32,7,shared channel,0.39331
-32,8,downlink control,0.38897
-32,9,control channel,0.38714
-32,10,scheduling sps,0.37562
-33,1,mapping application,0.56964
-33,2,map view,0.55522
-33,3,view map,0.52386
-33,4,map based,0.51804
-33,5,map navigation,0.51606
-33,6,mapping,0.511
-33,7,map,0.50326
-33,8,map second,0.47225
-33,9,provide mapping,0.46932
-33,10,paths map,0.43748
-34,1,computing device,0.60438
-34,2,device computing,0.56403
-34,3,volatile memory,0.56
-34,4,nonvolatile memory,0.53747
-34,5,device processor,0.53164
-34,6,memory nonvolatile,0.50901
-34,7,device memory,0.50556
-34,8,device operating,0.49881
-34,9,volatile storage,0.47912
-34,10,memory pages,0.47043
-35,1,control information,0.53098
-35,2,information broadcast,0.46687
-35,3,information blocks,0.42207
-35,4,bpch,0.4215
-35,5,control signaling,0.40667
-35,6,information block,0.39988
-35,7,various control,0.39703
-35,8,blocks control,0.39579
-35,9,corresponding control,0.39527
-35,10,pointer,0.36483
-36,1,local device,0.58217
-36,2,device service,0.57722
-36,3,device local,0.57325
-36,4,device advertisement,0.49667
-36,5,device broadcasts,0.4946
-36,6,network service,0.4672
-36,7,device advertise,0.4642
-36,8,device response,0.45836
-36,9,associated services,0.4494
-36,10,service request,0.43323
-37,1,memory decoder,0.54585
-37,2,memory corresponding,0.51785
-37,3,portion memory,0.4938
-37,4,decoder,0.48446
-37,5,transparent,0.44349
-37,6,decode,0.43365
-37,7,transparent portion,0.43343
-37,8,decoder decode,0.42938
-37,9,non transparent,0.42317
-37,10,embodiment memory,0.41646
-38,1,input mechanism,0.5084
-38,2,brightness,0.46519
-38,3,input display,0.45611
-38,4,user input,0.43632
-38,5,motion input,0.43072
-38,6,receiving input,0.42868
-38,7,increases brightness,0.42151
-38,8,determination input,0.40603
-38,9,input,0.40513
-38,10,brightness level,0.40009
-39,1,aspects subject,0.63687
-39,2,aspects,0.62186
-39,3,presented notification,0.48912
-39,4,notifications presented,0.48336
-39,5,notifications based,0.47064
-39,6,notification based,0.46644
-39,7,features,0.46054
-39,8,notification provides,0.45985
-39,9,notifications determining,0.44095
-39,10,subject matter,0.44053
-40,1,integrated circuit,0.54419
-40,2,circuit integrated,0.52772
-40,3,integrated,0.46939
-40,4,device integrated,0.44188
-40,5,circuit embodiment,0.43754
-40,6,voltage integrated,0.4303
-40,7,operation integrated,0.41933
-40,8,includes integrated,0.38127
-40,9,embodiment integrated,0.37869
-40,10,logic circuit,0.37732
-41,1,packet transmitted,0.49953
-41,2,virtual channels,0.47741
-41,3,data stream,0.47275
-41,4,type packet,0.46859
-41,5,node transmits,0.46181
-41,6,virtual channel,0.44927
-41,7,packet,0.43036
-41,8,data traffic,0.41812
-41,9,channel selection,0.40186
-41,10,control data,0.38855
-42,1,drive data,0.46388
-42,2,disk drive,0.45914
-42,3,hybrid,0.44038
-42,4,device synchronization,0.40431
-42,5,memory device,0.39097
-42,6,device operating,0.3839
-42,7,relates synchronization,0.38199
-42,8,drive includes,0.38191
-42,9,access technology,0.37288
-42,10,disk,0.35214
-43,1,channel communication,0.57376
-43,2,communication channel,0.5705
-43,3,wireless computer,0.55153
-43,4,remote device,0.52784
-43,5,device communications,0.51139
-43,6,use wireless,0.50031
-43,7,audio video,0.49671
-43,8,control audio,0.49596
-43,9,audio,0.48777
-43,10,digital television,0.48079
-44,1,cluster,0.5464
-44,2,clusters,0.54426
-44,3,clustering,0.47204
-44,4,clustered,0.43315
-44,5,shots,0.33299
-44,6,nodes,0.3258
-44,7,screen processing,0.31926
-44,8,spanning,0.31499
-44,9,similarity,0.26726
-44,10,edges,0.25901
-45,1,device magnetic,0.46551
-45,2,relates magnetic,0.44271
-45,3,portable computing,0.43784
-45,4,disclosed portable,0.43422
-45,5,portable electronic,0.41453
-45,6,device portable,0.41142
-45,7,sensor portable,0.40078
-45,8,associated audio,0.3992
-45,9,electronic device,0.39091
-45,10,audio,0.38554
-46,1,navigation instructions,0.48201
-46,2,locked mode,0.47678
-46,3,navigation application,0.47631
-46,4,providing navigation,0.47172
-46,5,navigational,0.46824
-46,6,navigation,0.45918
-46,7,device method,0.43048
-46,8,device locked,0.42787
-46,9,mode method,0.42181
-46,10,mode device,0.40121
-47,1,power utilization,0.44567
-47,2,devices radio,0.44459
-47,3,device dynamic,0.4257
-47,4,device dynamically,0.39091
-47,5,device power,0.38995
-47,6,frequency rf,0.38104
-47,7,radio frequency,0.35724
-47,8,rf,0.35117
-47,9,emissions,0.33025
-47,10,average power,0.32268
-48,1,device methods,0.51777
-48,2,adhesive,0.51006
-48,3,device components,0.48316
-48,4,magnetic adhesive,0.47223
-48,5,adhesively,0.47125
-48,6,components device,0.46724
-48,7,device substrate,0.46304
-48,8,handheld device,0.44714
-48,9,adhesive phase,0.4416
-48,10,electronic component,0.43505
-49,1,metal oxides,0.55357
-49,2,metal oxide,0.48816
-49,3,oxides,0.46234
-49,4,oxide,0.39927
-49,5,compounds,0.37897
-49,6,crystalline,0.36087
-49,7,mixture,0.32825
-49,8,density,0.32809
-49,9,compound represented,0.32111
-49,10,mg al,0.32061
-50,1,adaptive channel,0.49639
-50,2,reception cycles,0.47851
-50,3,reception cycle,0.45856
-50,4,reception drx,0.44695
-50,5,channel state,0.40855
-50,6,drx cycles,0.39702
-50,7,station channel,0.39074
-50,8,drx cycle,0.38474
-50,9,reception scenario,0.37562
-50,10,providing adaptive,0.37298
-51,1,electronic device,0.57194
-51,2,user interface,0.53674
-51,3,headset,0.49815
-51,4,electronic,0.46909
-51,5,device,0.4524
-51,6,device used,0.44423
-51,7,interface invention,0.41716
-51,8,interface,0.40428
-51,9,discloses electronic,0.38856
-51,10,phone,0.38385
-52,1,providing navigation,0.47164
-52,2,navigational,0.46161
-52,3,navigation,0.45334
-52,4,search results,0.4368
-52,5,search,0.41723
-52,6,electronic device,0.40808
-52,7,verbal request,0.40722
-52,8,search result,0.38092
-52,9,method processing,0.38035
-52,10,verbal,0.36778
-53,1,scheduling sps,0.49548
-53,2,persistent scheduling,0.47652
-53,3,data transmission,0.46148
-53,4,sps activation,0.45885
-53,5,data transmitted,0.44388
-53,6,drx duration,0.41667
-53,7,semi persistent,0.41519
-53,8,communications using,0.39567
-53,9,sps connected,0.37963
-53,10,duration period,0.37837
-54,1,synchronization stations,0.71553
-54,2,synchronization peer,0.68603
-54,3,devices synchronize,0.66221
-54,4,synchronization scheme,0.65457
-54,5,synchronization,0.65162
-54,6,sync station,0.61296
-54,7,synchronize,0.60463
-54,8,discoverability synchronization,0.5916
-54,9,synchronization module,0.55062
-54,10,periodic synchronization,0.54694
-55,1,disclosed cache,0.62615
-55,2,indication cache,0.57803
-55,3,cache,0.56186
-55,4,includes cache,0.49864
-55,5,cache store,0.49698
-55,6,cache line,0.48766
-55,7,prediction circuit,0.48651
-55,8,cache tag,0.48542
-55,9,cache lines,0.46843
-55,10,subsystem disclosed,0.41304
-56,1,device cover,0.61582
-56,2,cover,0.51558
-56,3,cover includes,0.51036
-56,4,covers,0.48628
-56,5,includes magnetic,0.45757
-56,6,case magnetic,0.44845
-56,7,tablet,0.43992
-56,8,cover used,0.43737
-56,9,magnetically attached,0.43222
-56,10,cover closed,0.4309
-57,1,memory architecture,0.53639
-57,2,chip interconnect,0.53031
-57,3,interconnect,0.51615
-57,4,interconnecting,0.5049
-57,5,integrated,0.49493
-57,6,processor,0.4935
-57,7,provides processor,0.47998
-57,8,interconnect topology,0.4761
-57,9,architecture,0.47543
-57,10,circuits memory,0.47181
-58,1,input device,0.57523
-58,2,inputs computing,0.51517
-58,3,hardware elements,0.47125
-58,4,hardware components,0.46959
-58,5,implementations input,0.44888
-58,6,hardware,0.4482
-58,7,inputs,0.44603
-58,8,surface input,0.42531
-58,9,implementations apparatus,0.42391
-58,10,assembly techniques,0.42165
-59,1,clock signal,0.51657
-59,2,output clock,0.50136
-59,3,signal synchronization,0.48749
-59,4,pulse control,0.44743
-59,5,signal display,0.43895
-59,6,synchronization block,0.42703
-59,7,clock rate,0.42584
-59,8,external clock,0.41287
-59,9,input clock,0.39977
-59,10,pulse signal,0.38581
-60,1,cooling mode,0.49078
-60,2,air cooling,0.48204
-60,3,evaporative cooling,0.44422
-60,4,sub systems,0.41741
-60,5,cooling,0.38486
-60,6,air flow,0.35847
-60,7,adiabatic,0.35104
-60,8,cooling computer,0.34338
-60,9,hybrid,0.33076
-60,10,mode includes,0.32608
-61,1,coverage mode,0.55922
-61,2,mode wireless,0.51055
-61,3,mode wakeup,0.47966
-61,4,enhanced coverage,0.47099
-61,5,wireless device,0.45916
-61,6,occasion wireless,0.44905
-61,7,idle mode,0.44218
-61,8,wireless devices,0.43675
-61,9,communication wireless,0.38284
-61,10,coverage,0.38232
-62,1,packet processing,0.55856
-62,2,packet based,0.53532
-62,3,packet virtual,0.51623
-62,4,device emulation,0.50771
-62,5,emulation,0.49538
-62,6,protocols,0.47675
-62,7,bus interface,0.47512
-62,8,bus interfaces,0.47206
-62,9,protocol,0.46653
-62,10,pcie,0.44731
-63,1,limiting power,0.54511
-63,2,nvm power,0.51278
-63,3,disclosed limiting,0.48827
-63,4,memory nvm,0.48337
-63,5,limit current,0.47202
-63,6,limiting,0.44134
-63,7,current consumption,0.43622
-63,8,power consumption,0.42524
-63,9,limiter,0.40467
-63,10,volatile memory,0.40059
-64,1,wake pattern,0.64298
-64,2,monitored network,0.4865
-64,3,monitored traffic,0.48539
-64,4,monitoring network,0.47605
-64,5,device monitored,0.47473
-64,6,traffic pattern,0.45399
-64,7,network traffic,0.4356
-64,8,waking,0.4355
-64,9,wake,0.41792
-64,10,device computing,0.40863
-65,1,host accessory,0.66
-65,2,host device,0.65153
-65,3,device host,0.60575
-65,4,devices host,0.59085
-65,5,host peripheral,0.58895
-65,6,host connector,0.58635
-65,7,device accessory,0.55801
-65,8,connector host,0.55415
-65,9,accessory device,0.54007
-65,10,accessory devices,0.53465
-66,1,packages,0.45012
-66,2,package package,0.4362
-66,3,package,0.4156
-66,4,packaged,0.37152
-66,5,package includes,0.36565
-66,6,includes package,0.34881
-66,7,components attached,0.3144
-66,8,components stacked,0.3079
-66,9,terminals,0.29661
-66,10,attached printed,0.29057
-67,1,coordinated lighting,0.67392
-67,2,wireless lighting,0.57241
-67,3,lighting wireless,0.5677
-67,4,lighting devices,0.49413
-67,5,groups wireless,0.47057
-67,6,lighting,0.4389
-67,7,coordinated,0.42937
-67,8,provide illumination,0.40467
-67,9,control wireless,0.39557
-67,10,illumination,0.39295
-68,1,circuit memory,0.48664
-68,2,soc powered,0.4809
-68,3,cpus powered,0.45845
-68,4,memory controller,0.41565
-68,5,cpus memory,0.40537
-68,6,audio,0.38541
-68,7,memory memory,0.37603
-68,8,circuit cause,0.36478
-68,9,cpus,0.36189
-68,10,audio samples,0.35924
-69,1,background application,0.59914
-69,2,foreground application,0.55965
-69,3,application foreground,0.53352
-69,4,application service,0.49692
-69,5,data transfers,0.4831
-69,6,transfer requests,0.4564
-69,7,data transfer,0.45151
-69,8,run background,0.44946
-69,9,application described,0.43312
-69,10,applications,0.42341
-70,1,network rat,0.50691
-70,2,cell network,0.49417
-70,3,radio access,0.48769
-70,4,network management,0.46998
-70,5,energy saving,0.45803
-70,6,terrestrial radio,0.41373
-70,7,energy,0.34894
-70,8,lte,0.34731
-70,9,networks,0.34415
-70,10,include energy,0.33594
-71,1,channel access,0.66989
-71,2,access channel,0.64118
-71,3,radio channels,0.59998
-71,4,channel using,0.55325
-71,5,use channel,0.55052
-71,6,priority access,0.54582
-71,7,channels,0.5401
-71,8,channel channel,0.53169
-71,9,channels provide,0.52605
-71,10,access priority,0.52603
-72,1,electrolytes lithium,0.57948
-72,2,batteries relates,0.52239
-72,3,relates battery,0.5062
-72,4,battery cells,0.49399
-72,5,lithium ion,0.48166
-72,6,ion batteries,0.45811
-72,7,electrolyte,0.45633
-72,8,use lithium,0.44834
-72,9,electrolytes,0.44794
-72,10,lithium,0.4466
-73,1,execution environment,0.49925
-73,2,execution user,0.48063
-73,3,virtual machine,0.4619
-73,4,code execution,0.44424
-73,5,concurrent,0.42429
-73,6,machine instances,0.40398
-73,7,utilization computing,0.3988
-73,8,enable execution,0.38547
-73,9,user demand,0.376
-73,10,number concurrent,0.34134
-74,1,fabric conductive,0.5857
-74,2,conductive strands,0.53329
-74,3,conductive material,0.5326
-74,4,conductive strand,0.47843
-74,5,including conductive,0.47641
-74,6,electrically conductive,0.46724
-74,7,electrical components,0.46248
-74,8,electrical device,0.46144
-74,9,electrical component,0.45447
-74,10,fabric,0.43506
-75,1,flux,0.51819
-75,2,device magnetic,0.47674
-75,3,coupling device,0.4683
-75,4,using magnetic,0.44118
-75,5,magnetic fields,0.41083
-75,6,portion magnetic,0.40954
-75,7,field magnet,0.40871
-75,8,magnet,0.39861
-75,9,magnetic,0.39317
-75,10,magnets,0.39183
-76,1,advertisement broadcast,0.55463
-76,2,communication link,0.49888
-76,3,broadcast,0.49453
-76,4,operation paging,0.4843
-76,5,associated paging,0.47344
-76,6,broadcasts,0.46713
-76,7,advertisement,0.46491
-76,8,communication protocol,0.46371
-76,9,protocol,0.45783
-76,10,advertising,0.45648
-77,1,fence techniques,0.50338
-77,2,device detects,0.44896
-77,3,fence,0.44798
-77,4,detects signal,0.41527
-77,5,mobile device,0.38554
-77,6,signal,0.37757
-77,7,locations mobile,0.37418
-77,8,signal source,0.3659
-77,9,device execute,0.3353
-77,10,mobile,0.33165
-78,1,processors interrupt,0.56599
-78,2,interrupt processor,0.54208
-78,3,interrupt controller,0.49459
-78,4,interrupt requests,0.48766
-78,5,interrupt request,0.47317
-78,6,interrupt,0.46763
-78,7,includes interrupt,0.46542
-78,8,embodiment interrupt,0.45725
-78,9,transmit interrupt,0.44629
-78,10,processors embodiment,0.4201
-79,1,memory interface,0.56414
-79,2,interface peripheral,0.52143
-79,3,interface control,0.51274
-79,4,peripheral component,0.48312
-79,5,peripheral device,0.46266
-79,6,peripherals,0.4537
-79,7,interface,0.45018
-79,8,command queue,0.44993
-79,9,embodiment control,0.43867
-79,10,interface unit,0.43675
-80,1,receiver diversity,0.64878
-80,2,channel quality,0.49941
-80,3,threshold channel,0.48157
-80,4,wireless communication,0.43704
-80,5,receive diversity,0.40128
-80,6,channel,0.37407
-80,7,diversity,0.35839
-80,8,receiver,0.34387
-80,9,quality threshold,0.32959
-80,10,data traffic,0.32792
-81,1,protocol tcp,0.51653
-81,2,tcp,0.48714
-81,3,control protocol,0.48138
-81,4,congestion control,0.48109
-81,5,data packet,0.46288
-81,6,data packets,0.45684
-81,7,mechanisms congestion,0.45129
-81,8,protocols,0.44242
-81,9,transmission control,0.40594
-81,10,tunnel,0.40353
-82,1,navigation application,0.57087
-82,2,navigation presentation,0.50578
-82,3,navigation,0.50533
-82,4,application navigation,0.47681
-82,5,navigation instructions,0.46754
-82,6,novel navigation,0.46555
-82,7,displaying navigation,0.45775
-82,8,device application,0.42842
-82,9,texture,0.41583
-82,10,location device,0.40343
-83,1,communication nfc,0.65217
-83,2,field communications,0.55732
-83,3,consumption nfc,0.5436
-83,4,field communication,0.53661
-83,5,nfc component,0.52591
-83,6,communications using,0.46598
-83,7,nfc,0.45134
-83,8,electronic device,0.42265
-83,9,near field,0.42218
-83,10,communications low,0.40742
-84,1,device locked,0.49614
-84,2,application device,0.48858
-84,3,application,0.457
-84,4,locked,0.42949
-84,5,saving mode,0.41128
-84,6,displayed device,0.40623
-84,7,mode device,0.4045
-84,8,display application,0.38921
-84,9,device,0.38659
-84,10,mode user,0.3741
-85,1,multiple sensors,0.48052
-85,2,remote sensors,0.47474
-85,3,sensor,0.46726
-85,4,multiple processing,0.46317
-85,5,remote sensor,0.45449
-85,6,processing subsystem,0.45169
-85,7,sensor data,0.44442
-85,8,data sensor,0.43646
-85,9,processing,0.4318
-85,10,provided sensor,0.42836
-86,1,curved batteries,0.6021
-86,2,curved battery,0.57733
-86,3,substrate curved,0.53238
-86,4,batteries example,0.50423
-86,5,battery shaped,0.50038
-86,6,thickness anode,0.47195
-86,7,anode substrate,0.46998
-86,8,cell curved,0.46272
-86,9,curved surface,0.45096
-86,10,surface curved,0.4443
-87,1,computing device,0.69331
-87,2,device computing,0.60182
-87,3,computing,0.60082
-87,4,disclosed computing,0.585
-87,5,light based,0.49206
-87,6,light sensor,0.48191
-87,7,output light,0.47163
-87,8,device disclosed,0.46842
-87,9,surface computing,0.4596
-87,10,light source,0.44679
-88,1,battery cells,0.52061
-88,2,cell stacks,0.47847
-88,3,lamination,0.45092
-88,4,laminating,0.43664
-88,5,cell stack,0.43411
-88,6,electrolyte,0.42768
-88,7,methods laminating,0.42205
-88,8,cathode anode,0.40861
-88,9,material anode,0.40553
-88,10,laminated,0.40275
-89,1,carbon,0.4193
-89,2,environmental impact,0.40347
-89,3,environmentally,0.35103
-89,4,comparison data,0.34017
-89,5,credit,0.33416
-89,6,environmental,0.32568
-89,7,provided environmental,0.32009
-89,8,data used,0.31795
-89,9,probabilistic,0.3151
-89,10,empirical data,0.30928
-90,1,accessory device,0.55097
-90,2,docking stations,0.49867
-90,3,communication accessory,0.47888
-90,4,accessory determine,0.4665
-90,5,docking,0.46481
-90,6,accessory,0.45791
-90,7,charging electronic,0.439
-90,8,interface provides,0.42015
-90,9,charging,0.41715
-90,10,interface,0.41285
-91,1,voice activated,0.51166
-91,2,device voice,0.51058
-91,3,provide voice,0.48689
-91,4,voice,0.44035
-91,5,audible,0.43886
-91,6,user context,0.42384
-91,7,audio,0.42326
-91,8,guidance,0.42222
-91,9,speech,0.39978
-91,10,verbal request,0.35432
-92,1,circuit monitor,0.49759
-92,2,circuit instances,0.44514
-92,3,processor control,0.42711
-92,4,control circuit,0.40013
-92,5,mode change,0.38935
-92,6,supply control,0.38856
-92,7,integrated circuit,0.3843
-92,8,circuit cause,0.38203
-92,9,mode,0.36545
-92,10,modes,0.36311
-93,1,virtualization,0.53895
-93,2,virtual machines,0.5202
-93,3,virtual machine,0.51756
-93,4,hypervisor,0.49068
-93,5,running virtual,0.35168
-93,6,service application,0.34663
-93,7,virtual,0.33162
-93,8,cloud based,0.3286
-93,9,partition,0.32557
-93,10,cloud,0.31929
-94,1,devices concurrently,0.53581
-94,2,common memory,0.44388
-94,3,device multiple,0.43999
-94,4,clock domains,0.4291
-94,5,device cellular,0.41599
-94,6,operating clock,0.40906
-94,7,mobile devices,0.38663
-94,8,memory,0.38234
-94,9,architecture,0.3793
-94,10,architectures,0.36882
-95,1,radio operate,0.57553
-95,2,rat radio,0.57474
-95,3,tune radio,0.53328
-95,4,ue radio,0.52254
-95,5,simultaneously radio,0.51161
-95,6,radio access,0.47444
-95,7,rat ue,0.46087
-95,8,radio frequency,0.4582
-95,9,radio,0.4451
-95,10,rat measurement,0.44418
-96,1,leds based,0.62479
-96,2,leds operation,0.60485
-96,3,diodes leds,0.60118
-96,4,drives leds,0.58371
-96,5,leds optical,0.57788
-96,6,diode led,0.53372
-96,7,led sequencing,0.53232
-96,8,leds,0.51959
-96,9,multiple led,0.51829
-96,10,control circuitry,0.5182
-97,1,multiple threshold,0.56711
-97,2,device threshold,0.54261
-97,3,application operation,0.48568
-97,4,threshold values,0.45724
-97,5,associated threshold,0.4563
-97,6,satisfies threshold,0.45473
-97,7,multiple applications,0.44958
-97,8,application disclosed,0.44261
-97,9,threshold value,0.44054
-97,10,computing device,0.43973
-98,1,gaze,0.57442
-98,2,tracking method,0.50158
-98,3,user eye,0.47844
-98,4,device detects,0.47773
-98,5,detection,0.46305
-98,6,tracking,0.45941
-98,7,detects,0.41674
-98,8,eye,0.39907
-98,9,device implement,0.386
-98,10,display device,0.3636
-99,1,rack power,0.54432
-99,2,individual psu,0.51111
-99,3,server rack,0.48558
-99,4,servers rack,0.47996
-99,5,rack computing,0.45065
-99,6,devices rack,0.4374
-99,7,power supplies,0.43683
-99,8,power monitoring,0.42379
-99,9,psu,0.39559
-99,10,power feeds,0.38459
-100,1,latency data,0.60252
-100,2,latency,0.54323
-100,3,timeout,0.44111
-100,4,latencies,0.43501
-100,5,time interval,0.4123
-100,6,device timeout,0.40605
-100,7,services computing,0.3878
-100,8,capacity,0.3729
-100,9,management application,0.34091
-100,10,used service,0.33486
-101,1,storage devices,0.59013
-101,2,storage device,0.57716
-101,3,storage systems,0.53206
-101,4,storage media,0.5318
-101,5,used detecting,0.44864
-101,6,device device,0.44854
-101,7,devices,0.44493
-101,8,host storage,0.42983
-101,9,determine storage,0.42982
-101,10,storage component,0.42294
-102,1,powered processing,0.54971
-102,2,power generation,0.51301
-102,3,power generator,0.51122
-102,4,device self,0.49511
-102,5,processing devices,0.48453
-102,6,processing device,0.48226
-102,7,energy storage,0.47977
-102,8,power generate,0.47779
-102,9,energy harvester,0.47695
-102,10,device power,0.47438
-103,1,device thermal,0.52326
-103,2,environment computer,0.45994
-103,3,operating data,0.45683
-103,4,implemented computer,0.44513
-103,5,determines thermal,0.44039
-103,6,operating environment,0.43197
-103,7,computer determines,0.42169
-103,8,regarding computing,0.41665
-103,9,thermal,0.41264
-103,10,data processing,0.40863
-104,1,logging,0.59226
-104,2,user activity,0.51804
-104,3,monitored activity,0.50343
-104,4,user activities,0.49802
-104,5,recurring time,0.48773
-104,6,activity data,0.46294
-104,7,recurring,0.40965
-104,8,monitored,0.39794
-104,9,periods based,0.37993
-104,10,time periods,0.37983
-105,1,virtual machines,0.61171
-105,2,virtualization,0.61014
-105,3,machines virtual,0.5935
-105,4,virtual machine,0.58428
-105,5,operating virtual,0.54903
-105,6,migrating virtual,0.5017
-105,7,corresponding virtual,0.46585
-105,8,physical host,0.43263
-105,9,content physical,0.4304
-105,10,multiple virtual,0.42046
-106,1,resource management,0.65803
-106,2,physical resource,0.56507
-106,3,computing resource,0.55518
-106,4,resource physical,0.54652
-106,5,physical resources,0.50763
-106,6,management infrastructure,0.5059
-106,7,management datacenter,0.50456
-106,8,implementing resource,0.50449
-106,9,power management,0.49288
-106,10,management resource,0.49114
-107,1,connector electrical,0.49597
-107,2,battery connector,0.48816
-107,3,coupling battery,0.48021
-107,4,electrical connection,0.46433
-107,5,connection battery,0.46205
-107,6,connector,0.43668
-107,7,battery terminals,0.42804
-107,8,contacts electrically,0.42441
-107,9,connector includes,0.41811
-107,10,device connector,0.39763
-108,1,signal quality,0.47933
-108,2,signal strength,0.4712
-108,3,search cellular,0.4525
-108,4,cell neighbor,0.44315
-108,5,reception based,0.42654
-108,6,neighbor cell,0.4149
-108,7,station signal,0.40323
-108,8,discontinuous reception,0.39635
-108,9,cellular,0.39305
-108,10,signal receive,0.38519
-109,1,device aggregated,0.44241
-109,2,device wake,0.44195
-109,3,transmitted electronic,0.43223
-109,4,multicast,0.42776
-109,5,multicast service,0.41833
-109,6,receive multicast,0.41691
-109,7,recipient electronic,0.41643
-109,8,based transmission,0.41519
-109,9,transmission schedule,0.41144
-109,10,interface devices,0.40528
-110,1,inventory materials,0.48164
-110,2,handling facility,0.47152
-110,3,packing,0.45809
-110,4,inventory,0.45792
-110,5,container example,0.41522
-110,6,packaging material,0.4065
-110,7,containers,0.40613
-110,8,packaging,0.40275
-110,9,shipping container,0.40011
-110,10,materials handling,0.36257
-111,1,controller controller,0.4116
-111,2,lighting wireless,0.40443
-111,3,controllers,0.39835
-111,4,controller,0.38785
-111,5,lighting devices,0.38595
-111,6,wireless lighting,0.36872
-111,7,controller provide,0.34823
-111,8,output switch,0.33655
-111,9,controller includes,0.32183
-111,10,coordinated lighting,0.305
-112,1,crystal display,0.53201
-112,2,width modulation,0.48963
-112,3,illumination,0.46162
-112,4,backlight control,0.44569
-112,5,modulation,0.44508
-112,6,liquid crystal,0.44017
-112,7,backlight according,0.43111
-112,8,dimming,0.42991
-112,9,backlight,0.41535
-112,10,modulation signal,0.4127
-113,1,sidelink communications,0.61316
-113,2,sidelink communication,0.57906
-113,3,frequency resource,0.51877
-113,4,communication transmitting,0.4828
-113,5,physical sidelink,0.45419
-113,6,resource indication,0.43645
-113,7,channels,0.43604
-113,8,sub channels,0.42827
-113,9,sidelink control,0.41774
-113,10,transmitting,0.41503
-114,1,switch disclosed,0.39169
-114,2,automatic,0.3494
-114,3,example automatic,0.34525
-114,4,light environment,0.34144
-114,5,electronic device,0.33842
-114,6,hold,0.33182
-114,7,electronic,0.32046
-114,8,device light,0.31783
-114,9,control,0.31323
-114,10,switch,0.30674
-115,1,device disclosed,0.61329
-115,2,disclosed electronic,0.61258
-115,3,electronic device,0.60904
-115,4,device electronic,0.59239
-115,5,sensing touch,0.58587
-115,6,device touch,0.5671
-115,7,touch sensing,0.55965
-115,8,sensing,0.54775
-115,9,sensing case,0.51629
-115,10,electronic,0.51378
-116,1,integrated circuits,0.51469
-116,2,device interface,0.50601
-116,3,inter chip,0.46625
-116,4,chip hsic,0.44814
-116,5,disconnection,0.43402
-116,6,integrated,0.42764
-116,7,hsic,0.4254
-116,8,interface disclosed,0.42037
-116,9,device initiated,0.41496
-116,10,device connector,0.40282
-117,1,coexistence wireless,0.63854
-117,2,wireless communication,0.57564
-117,3,device coexistence,0.54866
-117,4,interference data,0.54576
-117,5,communication device,0.49687
-117,6,communication technology,0.49505
-117,7,transmitting data,0.48936
-117,8,communication technologies,0.48245
-117,9,interference,0.4815
-117,10,data communication,0.47862
-118,1,power budgeting,0.61819
-118,2,allocating power,0.61794
-118,3,dynamic allocation,0.59747
-118,4,power budgets,0.57924
-118,5,budget allocated,0.53188
-118,6,dynamically allocating,0.52603
-118,7,disclosed allocating,0.52587
-118,8,memory power,0.51343
-118,9,power budget,0.50873
-118,10,allocating,0.48063
-119,1,power estimation,0.61882
-119,2,power consumption,0.51314
-119,3,dynamic power,0.50651
-119,4,processor power,0.47629
-119,5,unit power,0.38435
-119,6,consumption estimate,0.36776
-119,7,consumption estimates,0.35125
-119,8,neural processor,0.34884
-119,9,uses power,0.33901
-119,10,dynamic,0.33418
-120,1,gpu virtual,0.64363
-120,2,gpu gpu,0.52766
-120,3,gpus gpu,0.52322
-120,4,virtualized graphics,0.51789
-120,5,gpu,0.50465
-120,6,unit gpu,0.49371
-120,7,virtualization,0.4739
-120,8,gpus,0.45311
-120,9,virtual machines,0.42514
-120,10,graphics processing,0.42379
-121,1,artificial reality,0.47857
-121,2,peripheral device,0.45832
-121,3,multi device,0.43461
-121,4,example device,0.43301
-121,5,multiple devices,0.41652
-121,6,device peripheral,0.41637
-121,7,hierarchical power,0.41317
-121,8,systems techniques,0.39896
-121,9,device generate,0.39013
-121,10,manage power,0.38796
-122,1,gpu virtual,0.54182
-122,2,physical compute,0.54001
-122,3,virtualized,0.51156
-122,4,virtualized graphics,0.48455
-122,5,instance virtual,0.45177
-122,6,location virtual,0.44669
-122,7,processor apparatus,0.42597
-122,8,instance location,0.42543
-122,9,placement,0.40966
-122,10,processors,0.4076
-123,1,cluster,0.57355
-123,2,clusters distributed,0.56777
-123,3,clusters,0.55946
-123,4,cluster data,0.54278
-123,5,computing cluster,0.50285
-123,6,scaling,0.4872
-123,7,cluster multiple,0.46382
-123,8,nodes distributed,0.45471
-123,9,scaled,0.42559
-123,10,nodes,0.41441
-124,1,acceleration component,0.57944
-124,2,includes acceleration,0.51802
-124,3,memory processing,0.51745
-124,4,processing model,0.50422
-124,5,network accelerator,0.50016
-124,6,acceleration,0.48763
-124,7,stack memory,0.47109
-124,8,memory stack,0.45935
-124,9,accelerator,0.4592
-124,10,learning model,0.43419
-125,1,modulated electricity,0.62945
-125,2,electrical devices,0.47643
-125,3,electrical device,0.45845
-125,4,second electrical,0.45691
-125,5,using modulated,0.44823
-125,6,electrical,0.44761
-125,7,electricity,0.43227
-125,8,electrical power,0.42732
-125,9,multiple power,0.41849
-125,10,alternating current,0.40926
-126,1,protocol used,0.64642
-126,2,protocol,0.62539
-126,3,protocol client,0.61613
-126,4,protocol example,0.61342
-126,5,communication protocol,0.61162
-126,6,based protocol,0.55356
-126,7,data communication,0.52472
-126,8,communicate data,0.51601
-126,9,used communicate,0.44742
-126,10,data remote,0.41595
-127,1,token bucket,0.50357
-127,2,throttling,0.44851
-127,3,burst,0.42388
-127,4,tokens,0.40858
-127,5,service token,0.38266
-127,6,storage service,0.38201
-127,7,tokens token,0.37876
-127,8,capacity data,0.37577
-127,9,token,0.36652
-127,10,data storage,0.36368
-128,1,user interfaces,0.62306
-128,2,audio,0.5792
-128,3,notifications described,0.48644
-128,4,interfaces managing,0.46051
-128,5,voice commands,0.45869
-128,6,receiving audio,0.45418
-128,7,messages,0.44926
-128,8,messages user,0.43941
-128,9,device communicatively,0.43318
-128,10,notifications,0.42495
-129,1,power flow,0.55439
-129,2,fuel cell,0.53506
-129,3,fuel cells,0.5104
-129,4,power engineering,0.48172
-129,5,power controller,0.47786
-129,6,fuel fuel,0.44063
-129,7,power demand,0.43733
-129,8,load power,0.43446
-129,9,cell power,0.40748
-129,10,reduced power,0.37205
-130,1,leakage current,0.43182
-130,2,management engine,0.42207
-130,3,leakage,0.41819
-130,4,fem,0.38974
-130,5,digital controller,0.36736
-130,6,signal monitoring,0.36446
-130,7,power delivery,0.36061
-130,8,control described,0.33255
-130,9,monitor power,0.32725
-130,10,device transceiver,0.32438
-131,1,battery bus,0.5643
-131,2,bus converter,0.51684
-131,3,bus battery,0.50731
-131,4,second bus,0.49209
-131,5,second converter,0.48356
-131,6,converter second,0.46537
-131,7,second battery,0.46177
-131,8,bus second,0.45301
-131,9,controller control,0.40702
-131,10,battery cells,0.40586
-132,1,ear,0.51046
-132,2,hearing,0.49837
-132,3,listening device,0.4545
-132,4,earbud,0.43686
-132,5,interfacing,0.38867
-132,6,microphone,0.387
-132,7,acoustic,0.37932
-132,8,sound acoustic,0.37148
-132,9,speaker,0.3682
-132,10,acoustic port,0.36763
-133,1,battery assembly,0.55146
-133,2,layers battery,0.53192
-133,3,battery stack,0.50583
-133,4,assembly battery,0.50055
-133,5,battery battery,0.42254
-133,6,battery,0.39393
-133,7,battery electrical,0.39122
-133,8,film battery,0.39022
-133,9,layer electrolyte,0.32248
-133,10,electrolyte layer,0.30328
-134,1,multi antenna,0.54123
-134,2,wireless cellular,0.4782
-134,3,transmitter signals,0.45868
-134,4,antenna,0.44419
-134,5,output mimo,0.43999
-134,6,signals receiver,0.42377
-134,7,signal processing,0.37148
-134,8,mimo,0.36557
-134,9,spectral efficiency,0.34864
-134,10,signals,0.34118
-135,1,smart assistant,0.70264
-135,2,intelligent assistant,0.65325
-135,3,assistant,0.50626
-135,4,human intelligent,0.42353
-135,5,recognition,0.41117
-135,6,signal intelligent,0.41009
-135,7,data computer,0.38539
-135,8,detection,0.37623
-135,9,user determined,0.37619
-135,10,user identified,0.37428
-136,1,portable music,0.42965
-136,2,connected portable,0.40349
-136,3,device receive,0.39115
-136,4,voltage power,0.39113
-136,5,circuits,0.3794
-136,6,circuit invention,0.37661
-136,7,voltage,0.37655
-136,8,cable,0.37529
-136,9,supply signal,0.37475
-136,10,providing device,0.368
-137,1,lithium polymer,0.56933
-137,2,batteriezellen und,0.53296
-137,3,batteriezelle,0.4384
-137,4,batteriezellen,0.43673
-137,5,lithium,0.43036
-137,6,batteriezelle bereit,0.4279
-137,7,batteriezelle umfasst,0.41183
-137,8,der kathode,0.37378
-137,9,eine kathode,0.36648
-137,10,eine anode,0.34134
-138,1,data transmissions,0.60467
-138,2,transmitted data,0.55858
-138,3,transmit data,0.54625
-138,4,speed data,0.51169
-138,5,data rate,0.48702
-138,6,transmit,0.47731
-138,7,retransmissions,0.46732
-138,8,efficient communication,0.4598
-138,9,transmitting,0.45364
-138,10,channels,0.43527
-139,1,device orientation,0.59643
-139,2,device sensor,0.56831
-139,3,device relative,0.49009
-139,4,devices relative,0.48881
-139,5,host device,0.48638
-139,6,computing device,0.46469
-139,7,device accessory,0.44727
-139,8,accessory device,0.43631
-139,9,accessory devices,0.42717
-139,10,using sensors,0.41759
-140,1,persistent storage,0.66922
-140,2,volatile memory,0.65657
-140,3,storage device,0.58303
-140,4,storage,0.56374
-140,5,memory write,0.56213
-140,6,memory device,0.56099
-140,7,storage media,0.55295
-140,8,device stored,0.53583
-140,9,memory devices,0.5301
-140,10,memory types,0.50962
-141,1,graphics unit,0.53398
-141,2,graphics,0.53021
-141,3,rendering process,0.49283
-141,4,display techniques,0.48812
-141,5,rendering,0.48566
-141,6,image quality,0.44703
-141,7,techniques disclosed,0.43177
-141,8,transform,0.42572
-141,9,distortion,0.40031
-141,10,transformation,0.39197
-142,1,optical,0.52743
-142,2,described optical,0.52352
-142,3,photovoltaic,0.4966
-142,4,transformer,0.49344
-142,5,methods optical,0.46386
-142,6,optically,0.44708
-142,7,output light,0.44315
-142,8,photovoltaic cells,0.4359
-142,9,photovoltaic cell,0.43108
-142,10,light emitters,0.42982
-143,1,execution software,0.6368
-143,2,program execution,0.59974
-143,3,executing programs,0.58864
-143,4,execution program,0.57284
-143,5,execution various,0.55284
-143,6,scheduling execution,0.53451
-143,7,execution capacity,0.51243
-143,8,execution information,0.48798
-143,9,execution,0.45835
-143,10,multiple computing,0.43931
-144,1,qos classification,0.75145
-144,2,service qos,0.68582
-144,3,qos,0.67899
-144,4,qos class,0.66097
-144,5,data processing,0.4607
-144,6,classification,0.41525
-144,7,priority,0.4052
-144,8,qoe,0.40232
-144,9,media systems,0.39974
-144,10,quality service,0.38736
-145,1,ecm,0.52697
-145,2,motor controller,0.51672
-145,3,motors,0.4135
-145,4,controller control,0.40655
-145,5,motor,0.35297
-145,6,commands control,0.34734
-145,7,control unit,0.34726
-145,8,controls operation,0.34172
-145,9,controller,0.31974
-145,10,controls,0.31705
-146,1,power feeds,0.6548
-146,2,power feed,0.63716
-146,3,interruption power,0.53275
-146,4,feed power,0.49716
-146,5,monitoring,0.47573
-146,6,managing power,0.46923
-146,7,power meter,0.44399
-146,8,power event,0.42489
-146,9,includes monitoring,0.42421
-146,10,indication power,0.42027
-147,1,integrated circuits,0.58148
-147,2,integrated circuit,0.53185
-147,3,integrated,0.52319
-147,4,interfaces,0.51855
-147,5,circuit integrated,0.51664
-147,6,interface,0.50268
-147,7,interface device,0.48373
-147,8,devices interfaces,0.48129
-147,9,interfaces physical,0.4798
-147,10,instance integrated,0.44818
-148,1,data communication,0.52355
-148,2,communication protocol,0.50627
-148,3,protocol,0.48616
-148,4,client server,0.48568
-148,5,sequence numbers,0.47609
-148,6,sequence number,0.45853
-148,7,server,0.41996
-148,8,client,0.39747
-148,9,sequence,0.38249
-148,10,communication,0.37873
-149,1,business intelligence,0.58618
-149,2,data performance,0.54525
-149,3,performance metrics,0.53689
-149,4,trace data,0.4757
-149,5,determine performance,0.45378
-149,6,data captured,0.43887
-149,7,network performance,0.43232
-149,8,intelligence data,0.42341
-149,9,data collected,0.42177
-149,10,collecting data,0.41223
-150,1,communication device,0.5389
-150,2,mobile communication,0.53172
-150,3,ambient light,0.52754
-150,4,device detect,0.5202
-150,5,device environmental,0.51424
-150,6,condition device,0.50245
-150,7,ambient,0.47204
-150,8,mobile,0.45455
-150,9,screen,0.45149
-150,10,device,0.44995
-151,1,expansion,0.49858
-151,2,detector,0.44076
-151,3,device detects,0.41105
-151,4,detecting,0.40793
-151,5,battery monitor,0.39132
-151,6,battery instances,0.39056
-151,7,charging discharging,0.38894
-151,8,device detecting,0.37957
-151,9,recharging,0.37666
-151,10,battery example,0.37466
-152,1,information tracking,0.52492
-152,2,tracking information,0.49217
-152,3,synchronizes,0.48755
-152,4,synchronisation,0.47831
-152,5,tracking,0.47466
-152,6,based tracking,0.43961
-152,7,scheduling,0.42534
-152,8,computer implemented,0.38763
-152,9,performs task,0.37987
-152,10,information architecture,0.35543
-153,1,device monitored,0.58532
-153,2,device layer,0.57984
-153,3,peer wireless,0.55283
-153,4,wireless device,0.54283
-153,5,layer device,0.54146
-153,6,device discovery,0.53305
-153,7,remote device,0.52905
-153,8,connection device,0.50433
-153,9,remote wireless,0.488
-153,10,device maintaining,0.46346
-154,1,pattern transmitting,0.52982
-154,2,wireless communications,0.51853
-154,3,communications device,0.50397
-154,4,wireless resource,0.49828
-154,5,described technology,0.43768
-154,6,pattern device,0.43764
-154,7,tti,0.43751
-154,8,transmitting network,0.41429
-154,9,device network,0.39125
-154,10,device obtain,0.3893
-155,1,environmental tracking,0.69796
-155,2,tracking,0.50287
-155,3,environmental sensors,0.49609
-155,4,environment environmental,0.4484
-155,5,process based,0.44115
-155,6,processes,0.41541
-155,7,environmental,0.41511
-155,8,environmental impact,0.40196
-155,9,source process,0.3758
-155,10,environment,0.37325
-156,1,data center,0.45693
-156,2,mitigation operations,0.42551
-156,3,computer power,0.41525
-156,4,power grid,0.41063
-156,5,store power,0.38749
-156,6,causing data,0.37356
-156,7,mitigation,0.37042
-156,8,monitored,0.36976
-156,9,recall,0.3595
-156,10,operational characteristics,0.32828
-157,1,routing metric,0.54391
-157,2,based routing,0.50006
-157,3,multi hop,0.48373
-157,4,hop network,0.48306
-157,5,network multi,0.45735
-157,6,multiple nodes,0.44786
-157,7,routing,0.44644
-157,8,link aggregation,0.41499
-157,9,nodes,0.41371
-157,10,path selection,0.40726
-158,1,temperature superconducting,0.58738
-158,2,superconducting interconnect,0.55957
-158,3,superconducting,0.55027
-158,4,cooling electronic,0.53778
-158,5,cooling,0.53032
-158,6,devices cooling,0.52624
-158,7,air cooling,0.502
-158,8,apparatus thermal,0.49586
-158,9,thermal communication,0.45673
-158,10,substrate superconducting,0.453
-159,1,suspended process,0.64374
-159,2,suspended application,0.5938
-159,3,process based,0.56273
-159,4,application suspended,0.52558
-159,5,processes associated,0.5122
-159,6,suspended based,0.50693
-159,7,processes,0.49627
-159,8,suspending,0.48066
-159,9,processes identified,0.45736
-159,10,process,0.43218
-160,1,background tasks,0.67139
-160,2,background task,0.65369
-160,3,device background,0.49022
-160,4,application background,0.47548
-160,5,mobile computing,0.38741
-160,6,background,0.38546
-160,7,power management,0.37777
-160,8,device applications,0.36177
-160,9,tasks,0.36147
-160,10,device executed,0.3606
-161,1,material cathode,0.68254
-161,2,cathode active,0.65824
-161,3,cathode solid,0.61083
-161,4,includes cathode,0.60319
-161,5,cathode,0.5999
-161,6,include cathode,0.59269
-161,7,state cathode,0.5612
-161,8,active materials,0.53742
-161,9,disposed cathode,0.52546
-161,10,active material,0.50237
-162,1,mg,0.13117
-162,2,li mg,0.10514
-162,3,mg al,0.10169
-162,4,ti zr,0.09479
-162,5,cu zn,0.07282
-162,6,zn ru,0.06669
-162,7,ni cu,0.05982
-162,8,zr,0.0551
-162,9,zr cr,0.05324
-162,10,ca ti,0.05114
-163,1,charger battery,0.46727
-163,2,battery switching,0.45636
-163,3,dc converter,0.44345
-163,4,charger,0.4425
-163,5,converters operate,0.43791
-163,6,battery electrical,0.43552
-163,7,converter battery,0.43546
-163,8,transformer rectifier,0.43372
-163,9,multi battery,0.42973
-163,10,charging mode,0.42192
-164,1,establishing communications,0.6858
-164,2,communications,0.605
-164,3,user interfaces,0.5751
-164,4,methods,0.49071
-164,5,relates methods,0.46437
-164,6,methods user,0.46207
-164,7,interfaces establishing,0.45104
-164,8,interfaces,0.39235
-164,9,establishing,0.36266
-164,10,generally relates,0.28279
-165,1,wirelessly locatable,0.67989
-165,2,locatable tag,0.57677
-165,3,tag transmit,0.53157
-165,4,locatable,0.50505
-165,5,device wirelessly,0.47432
-165,6,wireless signal,0.47009
-165,7,transmit wireless,0.46796
-165,8,wireless protocol,0.46707
-165,9,signal wirelessly,0.45989
-165,10,surface wirelessly,0.45741
-166,1,location information,0.47827
-166,2,electronic device,0.46985
-166,3,device,0.44733
-166,4,information message,0.44325
-166,5,device enables,0.40563
-166,6,conversation,0.40219
-166,7,device detects,0.40097
-166,8,messages,0.38219
-166,9,interaction,0.36641
-166,10,electronic,0.35296
-167,1,channel transmissions,0.53108
-167,2,physical uplink,0.51671
-167,3,transmissions repetition,0.49092
-167,4,shared channel,0.45695
-167,5,uplink power,0.44883
-167,6,transmitting,0.44242
-167,7,methods uplink,0.43816
-167,8,transmit,0.42816
-167,9,used transmitting,0.4215
-167,10,uplink shared,0.42004
-168,1,power reduction,0.62876
-168,2,reduce power,0.54189
-168,3,power manager,0.51184
-168,4,circuit reduce,0.511
-168,5,power integrated,0.50115
-168,6,power control,0.483
-168,7,circuits implemented,0.48091
-168,8,manager circuit,0.46909
-168,9,circuits control,0.44703
-168,10,circuits various,0.445
-169,1,prefetching,0.52598
-169,2,prefetch,0.49222
-169,3,cache hierarchy,0.46378
-169,4,prefetch request,0.45356
-169,5,corresponding cache,0.45318
-169,6,cache levels,0.43429
-169,7,access patterns,0.41857
-169,8,cache access,0.40619
-169,9,ampm,0.40401
-169,10,cache blocks,0.39902
-170,1,operating context,0.58725
-170,2,context computing,0.51309
-170,3,context information,0.49561
-170,4,context context,0.4906
-170,5,context user,0.446
-170,6,resources memory,0.44272
-170,7,context,0.42955
-170,8,current context,0.4188
-170,9,software state,0.39783
-170,10,context example,0.39121
-171,1,wireless charging,0.53499
-171,2,wireless power,0.51472
-171,3,coil wireless,0.50625
-171,4,power wireless,0.50358
-171,5,battery case,0.48598
-171,6,relates wireless,0.47976
-171,7,power wirelessly,0.4793
-171,8,battery switching,0.46965
-171,9,coil battery,0.44356
-171,10,transmitted wireless,0.42953
-172,1,processor operate,0.49718
-172,2,states processor,0.49574
-172,3,throttle processors,0.49324
-172,4,processors various,0.45411
-172,5,information processor,0.4438
-172,6,multiple processors,0.43373
-172,7,operating points,0.43065
-172,8,processors,0.4306
-172,9,performance power,0.4259
-172,10,digital power,0.42564
-173,1,material melting,0.51589
-173,2,materials melting,0.49877
-173,3,melting,0.47007
-173,4,melt,0.45016
-173,5,forming material,0.41009
-173,6,induction coil,0.38334
-173,7,bulk solidifying,0.36813
-173,8,provided apparatus,0.36455
-173,9,heated,0.36247
-173,10,coil,0.34572
-174,1,data reception,0.50416
-174,2,radio network,0.47759
-174,3,data buffering,0.47748
-174,4,latency,0.46376
-174,5,lte drx,0.45909
-174,6,data transmission,0.44122
-174,7,lte,0.43217
-174,8,radio power,0.43057
-174,9,cellular networks,0.42283
-174,10,radio,0.41583
-175,1,device suspend,0.57149
-175,2,host device,0.49542
-175,3,suspending,0.48596
-175,4,devices communication,0.47256
-175,5,suspended based,0.47246
-175,6,suspend,0.47242
-175,7,communication link,0.47192
-175,8,device host,0.45075
-175,9,client device,0.44083
-175,10,device client,0.43557
-176,1,interference management,0.60899
-176,2,transmitter transmits,0.57572
-176,3,transmitter wireless,0.56761
-176,4,wireless transmitter,0.56562
-176,5,simultaneous transmission,0.55846
-176,6,interference signal,0.54755
-176,7,wireless networks,0.54308
-176,8,signals wireless,0.5397
-176,9,signal wireless,0.53913
-176,10,transmitting signals,0.53518
+0,1,transmit,0.41173
+0,2,radio,0.35629
+0,3,monitoring,0.30836
+0,4,frequency,0.29168
+0,5,channel,0.27046
+0,6,transmission,0.26186
+0,7,power management,0.26172
+0,8,receiving,0.25178
+0,9,power consumption,0.24941
+0,10,sensor,0.24075
+1,1,sensors detecting,0.54072
+1,2,lidar,0.46594
+1,3,detecting,0.45315
+1,4,onboard sensors,0.44024
+1,5,sensors,0.43948
+1,6,sensors provided,0.42446
+1,7,weather conditions,0.40871
+1,8,vehicle vehicle,0.39992
+1,9,using vehicle,0.39522
+1,10,vehicle control,0.36704
+2,1,navigation application,0.628
+2,2,map,0.59822
+2,3,maps,0.59542
+2,4,mapping,0.58493
+2,5,providing navigation,0.52798
+2,6,navigation,0.51997
+2,7,client map,0.46713
+2,8,application,0.42425
+2,9,application presents,0.39156
+2,10,application identifies,0.38965
+3,1,solar panel,0.62417
+3,2,solar panels,0.62257
+3,3,solar power,0.54929
+3,4,solar energy,0.52953
+3,5,solar,0.52053
+3,6,photovoltaic,0.51288
+3,7,photovoltaic power,0.45725
+3,8,panels,0.41626
+3,9,panel,0.36019
+3,10,stratospheric,0.33199
+4,1,power aerial,0.63749
+4,2,aerial vehicle,0.62942
+4,3,aerial vehicles,0.61315
+4,4,wind turbine,0.59929
+4,5,aerial,0.5741
+4,6,airborne power,0.54934
+4,7,airborne wind,0.54475
+4,8,secured aerial,0.54094
+4,9,coupled aerial,0.51909
+4,10,wind energy,0.51649
+5,1,fuel cell,0.66252
+5,2,fuel cells,0.63707
+5,3,cell fuel,0.52541
+5,4,provide fuel,0.45319
+5,5,power controller,0.4526
+5,6,fuel delivery,0.44158
+5,7,source fuel,0.42683
+5,8,operation fuel,0.41086
+5,9,design energy,0.40959
+5,10,fuel,0.40696
+6,1,sem fio,0.27902
+6,2,digital,0.24225
+6,3,para,0.22815
+6,4,fio,0.22124
+6,5,und,0.21236
+6,6,uma,0.20472
+6,7,terminal,0.15848
+6,8,base,0.12235
+6,9,sem,0.11892
+6,10,einer,0.07954
+7,1,automated fabrication,0.62808
+7,2,manufacturing process,0.54897
+7,3,machining,0.50453
+7,4,fabrication,0.50193
+7,5,manufacturing,0.44824
+7,6,tools,0.43526
+7,7,printing,0.42846
+7,8,fabricating,0.40475
+7,9,printer,0.36675
+7,10,automated,0.35758
+8,1,propeller blades,0.5826
+8,2,propellers,0.57629
+8,3,propellers aerial,0.55255
+8,4,generated propeller,0.54017
+8,5,propeller design,0.53136
+8,6,propeller blade,0.52735
+8,7,motors propellers,0.51954
+8,8,position propeller,0.50426
+8,9,multiple propeller,0.4931
+8,10,different propeller,0.49262
+9,1,layer material,0.51865
+9,2,forming layer,0.51681
+9,3,melt material,0.48293
+9,4,alloy,0.46917
+9,5,alloys,0.46796
+9,6,non metallic,0.39737
+9,7,forming,0.38653
+9,8,material include,0.37504
+9,9,metallic,0.37291
+9,10,glass,0.3678
+10,1,vorrichtung,0.37216
+10,2,verfahren zum,0.29219
+10,3,und,0.26272
+10,4,einer,0.25393
+10,5,tune,0.23
+10,6,einem,0.22667
+10,7,verfahren,0.21978
+10,8,tune away,0.21157
+10,9,der,0.20474
+10,10,zum,0.16817
+11,1,radar,0.56582
+11,2,second radar,0.50872
+11,3,gesture application,0.47645
+11,4,gestures,0.41165
+11,5,gesture,0.4003
+11,6,context equipment,0.39053
+11,7,sensor proximity,0.38266
+11,8,sensor,0.37802
+11,9,enabling equipment,0.37534
+11,10,equipment techniques,0.34762
+12,1,second robotic,0.63136
+12,2,robotic,0.61873
+12,3,robotic robotic,0.60539
+12,4,robotic control,0.59283
+12,5,robots,0.5504
+12,6,robot,0.54848
+12,7,task processing,0.54291
+12,8,task distributing,0.51356
+12,9,robot receive,0.50356
+12,10,location task,0.49545
+13,1,tethered aerial,0.62366
+13,2,energy aerial,0.55507
+13,3,wind turbine,0.54005
+13,4,wind energy,0.53078
+13,5,wind turbines,0.52073
+13,6,vehicle tethered,0.48165
+13,7,awt aerial,0.47059
+13,8,energy airborne,0.46929
+13,9,turbine awt,0.46259
+13,10,conductive tether,0.45287
+14,1,classifier,0.50565
+14,2,prediction using,0.47153
+14,3,machine learned,0.46051
+14,4,prediction model,0.45017
+14,5,learned prediction,0.40243
+14,6,models,0.40168
+14,7,model predict,0.39771
+14,8,diseases,0.378
+14,9,prediction,0.37737
+14,10,model machine,0.36681
+15,1,uav charge,0.67132
+15,2,vehicles uavs,0.64751
+15,3,battery uav,0.64179
+15,4,vehicle uav,0.6365
+15,5,uav transport,0.63465
+15,6,uavs determining,0.60872
+15,7,uav second,0.59628
+15,8,charge unmanned,0.59058
+15,9,second uav,0.58784
+15,10,uav,0.58337
+16,1,neural programs,0.58683
+16,2,trained neural,0.57031
+16,3,deep neural,0.49447
+16,4,learning models,0.47878
+16,5,neural,0.47225
+16,6,learning techniques,0.45005
+16,7,learning,0.44582
+16,8,second neural,0.4413
+16,9,neural generating,0.41429
+16,10,machine learning,0.41281
+17,1,audio receiver,0.53185
+17,2,audio recording,0.52669
+17,3,audio input,0.51005
+17,4,integrated audio,0.50552
+17,5,audio,0.49996
+17,6,speaker microphone,0.4928
+17,7,receives audio,0.49048
+17,8,recording audio,0.4904
+17,9,audio content,0.49034
+17,10,input audio,0.48925
+18,1,propellers aerial,0.61138
+18,2,rotor blades,0.55823
+18,3,blades aerial,0.5575
+18,4,generated aerial,0.5369
+18,5,propellers,0.53685
+18,6,aerial vehicles,0.53654
+18,7,aerial vehicle,0.52025
+18,8,operation rotor,0.51333
+18,9,propeller blades,0.51227
+18,10,generate sounds,0.49871
+19,1,nfc enabled,0.56298
+19,2,field nfc,0.46202
+19,3,low power,0.44911
+19,4,nfc,0.4277
+19,5,power mode,0.41183
+19,6,power modes,0.38562
+19,7,low battery,0.38093
+19,8,authentication management,0.37319
+19,9,prevent battery,0.35964
+19,10,battery near,0.3579
+20,1,operating voltages,0.54443
+20,2,operating voltage,0.54387
+20,3,voltage control,0.5407
+20,4,voltage adjustment,0.53501
+20,5,controlling voltage,0.53418
+20,6,voltage regulation,0.45726
+20,7,lower voltage,0.43607
+20,8,operating processing,0.42037
+20,9,voltage integrated,0.41886
+20,10,voltage level,0.40294
+21,1,controlling lighting,0.61246
+21,2,lighting,0.49646
+21,3,lighting source,0.48896
+21,4,controlled power,0.44594
+21,5,power module,0.42897
+21,6,light source,0.42595
+21,7,interface control,0.41994
+21,8,bridge communicate,0.41412
+21,9,power source,0.40058
+21,10,electrical,0.39078
+22,1,magnetically attached,0.54797
+22,2,magnetic,0.53756
+22,3,detect magnetic,0.50824
+22,4,magnetically,0.50667
+22,5,magnetic element,0.49783
+22,6,magnetic field,0.49739
+22,7,second magnetic,0.48509
+22,8,field magnet,0.48124
+22,9,magnets,0.48105
+22,10,electrically,0.47403

@@ -43,6 +43,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 from matplotlib.colors import to_rgba
+from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 
 # ---------------------------------------------------------------------------
 # 1. CONFIGURATION
@@ -51,10 +52,28 @@ from matplotlib.colors import to_rgba
 # so it works whether you run from repo root or the python/ dir.
 SCRIPT_DIR = Path(__file__).resolve().parent
 DATA_DIR = SCRIPT_DIR / "data"
-INPUT_FILE = DATA_DIR / "patents_raw.json"
+INPUT_FILE = DATA_DIR / "patents_deduped.json"
 TOTAL_COUNTS_FILE = DATA_DIR / "total_patent_counts.csv"
 OUTPUT_DIR = SCRIPT_DIR / "bertopic_output"
 OUTPUT_DIR.mkdir(exist_ok=True)
+
+PATENT_STOP_WORDS = list(ENGLISH_STOP_WORDS) + [
+    # Generic device/system vocabulary
+    "device", "devices", "apparatus", "system", "systems",
+    "method", "methods", "circuit", "circuits", "circuitry",
+    "signal", "signals", "component", "components",
+    # Generic electronics that swamp real topics
+    "electronic", "electronics", "wireless", "computing",
+    "processor", "processors", "mobile", "computer",
+    # Patent-speak survivors
+    "invention", "disclosure", "embodiment", "embodiments",
+    "aspect", "aspects", "example", "examples",
+    "includes", "including", "comprising", "comprise",
+    "configured", "based", "associated", "plurality",
+    # Generic data/network terms
+    "data", "information", "network", "networks",
+    "communication", "communications", "user", "users",
+]
 
 # =====================================================================
 #  PRESET SELECTOR — change this one variable to switch configurations
@@ -71,11 +90,11 @@ PRESETS = {
     "A": {
         "name": "Balanced",
         "embedding_model": "all-MiniLM-L6-v2",
-        "umap_n_neighbors": 10,
-        "umap_n_components": 10,
+        "umap_n_neighbors": 8,        # was 10 — more local structure
+        "umap_n_components": 15,      # was 10 — more room to separate
         "umap_min_dist": 0.0,
-        "hdbscan_min_cluster_size": 12,
-        "hdbscan_min_samples": 5,
+        "hdbscan_min_cluster_size": 8,  # was 12 — smaller real topics allowed
+        "hdbscan_min_samples": 3,       # was 5 — less conservative about density
         "nr_topics": "auto",
     },
     "B": {
@@ -97,16 +116,6 @@ PRESETS = {
         "hdbscan_min_cluster_size": 10,
         "hdbscan_min_samples": 3,
         "nr_topics": "auto",
-    },
-    "D": {
-        "name": "Forced-30 (discovers topics then merges to 30)",
-        "embedding_model": "all-MiniLM-L6-v2",
-        "umap_n_neighbors": 8,
-        "umap_n_components": 15,
-        "umap_min_dist": 0.0,
-        "hdbscan_min_cluster_size": 8,
-        "hdbscan_min_samples": 2,
-        "nr_topics": 30,           # hierarchically merge down to 30
     },
 }
 
@@ -195,18 +204,33 @@ print("=" * 60)
 
 print("\n[1/8] Loading patent data...")
 with open(INPUT_FILE, "r", encoding="utf-8") as f:
-    raw = json.load(f)
+    data = json.load(f)
+
+# patents_deduped.json may be either:
+#   (a) a {company: [patents, ...]} dict (same shape as patents_raw.json), or
+#   (b) a flat list of patent records with a "company" field
+if isinstance(data, dict):
+    raw = data
+elif isinstance(data, list):
+    raw = {}
+    for p in data:
+        comp = p.get("company") or p.get("assignee_company") or "Unknown"
+        raw.setdefault(comp, []).append(p)
+else:
+    raise RuntimeError(f"Unexpected JSON structure in {INPUT_FILE.name}")
+
+print(f"  Loaded {sum(len(v) for v in raw.values())} patents across {len(raw)} companies from {INPUT_FILE.name}")
 
 records = []
 for company, patents in raw.items():
     for p in patents:
         abstract_text = ""
         if p.get("abstract"):
+            # Prefer English
             for ab in p["abstract"]:
-                if ab.get("text"):
+                if ab.get("text") and ab.get("lang", "en") == "en":
                     abstract_text = ab["text"].strip()
-                    if ab.get("lang", "en") == "en":
-                        break
+                    break
 
         title = ""
         titles = p.get("biblio", {}).get("invention_title", [])
@@ -235,7 +259,7 @@ for company, patents in raw.items():
             "company": company,
             "year": year,
             "title": title,
-            "abstract": abstract_text,
+            "abstract": (title + ". " + abstract_text).strip(". ") if title else abstract_text,
             "cpc_climate_codes": "; ".join(cpc_codes),
             "n_climate_codes": len(cpc_codes),
         })
@@ -375,11 +399,11 @@ hdbscan_model = HDBSCAN(
 )
 
 vectorizer_model = CountVectorizer(
-    stop_words="english",
+    stop_words=PATENT_STOP_WORDS,
     min_df=2,
-    max_df=0.95,
+    max_df=0.85,               
     ngram_range=(1, 2),
-    token_pattern=r"(?u)\b[a-zA-Z][a-zA-Z0-9]{1,}\b",
+    token_pattern=r"(?u)\b[a-zA-Z][a-zA-Z0-9]{2,}\b",  
 )
 
 ctfidf_model = ClassTfidfTransformer(reduce_frequent_words=True)

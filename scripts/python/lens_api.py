@@ -355,6 +355,7 @@ def search_patents(token: str, query: dict) -> dict:
     }
     response = requests.post(API_URL, headers=headers, json=query)
 
+
     if response.status_code == 200:
         return response.json()
     elif response.status_code == 204:
@@ -431,6 +432,13 @@ def fetch_total_patent_counts(
             })
             print(".", end="", flush=True)
         print(f" done")
+
+    for year in years:
+        query = build_count_query(subs, year)
+        result = search_patents(token, query)
+        total = result.get("total", 0)
+        if year == 2020:  # spot-check one year
+            print(f"\n  DEBUG [{parent} {year}]: total={total}, query has group_by={query.get('group_by')}")
 
     return rows
 
