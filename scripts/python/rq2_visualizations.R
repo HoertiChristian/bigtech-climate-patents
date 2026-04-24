@@ -342,7 +342,7 @@ message("Saved fig5_firm_topic_heatmap.png")
 
 TOP_N_FIRM_STREAM    <- 6   # number of topics shown per panel
 ROLL_WINDOW          <- 3   # trailing-years window for the rolling sum
-MIN_PATENTS_PER_WIN  <- 5   # drop firm-years where the rolling total is below this
+MIN_PATENTS_PER_WIN  <- 10   # drop firm-years where the rolling total is below this
 
 top_firm_stream_topics <- topic_info_sub %>%
   slice_max(count, n = TOP_N_FIRM_STREAM) %>%
@@ -539,7 +539,7 @@ message("Saved fig7_cpc_heatmap.png")
 # reference view.
 # -----------------------------------------------------------------------------
 
-TOP_N_FIG8   <- 15   # number of named topics to show; rest go into "Other"
+TOP_N_FIG8   <- 10   # number of named topics to show; rest go into "Other"
 LABEL_MIN    <- 0.03  # label only segments whose share is at least this
 
 top_fig8_topics <- topic_info_sub %>%
@@ -606,7 +606,8 @@ fill_palette <- setNames(c(named_colours, "grey70"), legend_order8)
 
 fig8 <- ggplot(firm_topic_shares,
                aes(x = share, y = company, fill = display_label)) +
-  geom_col(width = 0.75, colour = "white", linewidth = 0.3) +
+  geom_col(width = 0.75, colour = "white", linewidth = 0.3,
+           position = position_stack(reverse = TRUE)) +
   geom_text(
     data = firm_topic_shares %>% filter(share >= LABEL_MIN),
     aes(x = x_mid, y = company, label = percent(share, accuracy = 1)),
