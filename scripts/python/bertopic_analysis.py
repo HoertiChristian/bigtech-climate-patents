@@ -88,15 +88,15 @@ PRESET = "A"
 
 PRESETS = {
     "A": {
-        "name": "Balanced",
-        "embedding_model": "all-MiniLM-L6-v2",
-        "umap_n_neighbors": 8,        # was 10 — more local structure
-        "umap_n_components": 15,      # was 10 — more room to separate
-        "umap_min_dist": 0.0,
-        "hdbscan_min_cluster_size": 8,  # was 12 — smaller real topics allowed
-        "hdbscan_min_samples": 3,       # was 5 — less conservative about density
-        "nr_topics": "auto",
-    },
+    "name": "Balanced",
+    "embedding_model": "all-MiniLM-L6-v2",
+    "umap_n_neighbors": 8,
+    "umap_n_components": 15,
+    "umap_min_dist": 0.0,
+    "hdbscan_min_cluster_size": 25,   # was 8
+    "hdbscan_min_samples": 5,         # was 3
+    "nr_topics": "auto",
+},
     "B": {
         "name": "Granular",
         "embedding_model": "all-MiniLM-L6-v2",
@@ -235,10 +235,9 @@ for company, patents in raw.items():
         title = ""
         titles = p.get("biblio", {}).get("invention_title", [])
         for t in titles:
-            if t.get("text"):
+            if t.get("text") and t.get("lang", "en") == "en":
                 title = t["text"].strip()
-                if t.get("lang", "en") == "en":
-                    break
+                break
 
         date_pub = p.get("date_published", "")
         year = int(date_pub[:4]) if date_pub and len(date_pub) >= 4 else None
@@ -582,48 +581,68 @@ umap_2d = UMAP(
     metric="cosine",
     random_state=SEED,
 )
-
-# Re-use the pre-computed embeddings from step 4
+# Re-use the embeddings from the fitted model
+embeddings = topic_model._extract_embeddings(
+    docs, method="document", verbose=False
+)
 coords_2d = umap_2d.fit_transform(embeddings)
 
-fig, ax = plt.subplots(figsize=(12, 9), dpi=DPI)
+# Build a palette with enough distinct colors for all topics.
+# tab20 + tab20b + tab20c = 60 perceptually distinct colors, no repeats.
+from matplotlib import colormaps
+palette = (
+    list(colormaps["tab20"].colors)
+    + list(colormaps["tab20b"].colors)
+    + list(colormaps["tab20c"].colors)
+)
 
-# Plot outliers faintly
+# Order topics by size (largest first) so the biggest clusters lead the legend.
+topic_sizes = df[df["topic"] != -1]["topic"].value_counts()
+unique_topics = topic_sizes.index.tolist()
+
+# Wider figure to accommodate a one-column legend on the right.
+fig, ax = plt.subplots(figsize=(16, 9), dpi=DPI)
+
+# Plot outliers faintly first so they sit behind everything else.
 outlier_mask = df["topic"] == -1
 ax.scatter(
     coords_2d[outlier_mask, 0], coords_2d[outlier_mask, 1],
-    c="lightgray", s=6, alpha=0.25, label="Outliers", zorder=1,
+    c="lightgray", s=6, alpha=0.25,
+    label=f"Outliers (n={outlier_mask.sum()})", zorder=1,
 )
 
-# Plot each topic
-unique_topics = sorted([t for t in df["topic"].unique() if t != -1])
-for tid in unique_topics:
+# Plot each topic with its own distinct color.
+for i, tid in enumerate(unique_topics):
     mask = df["topic"] == tid
-    color = TOPIC_CMAP(tid % 20)
-    label_str = short_label(topic_label_map.get(tid, f"Topic {tid}"), 30)
+    color = palette[i % len(palette)]  # only wraps if >60 topics
+    label_str = f"{tid}: {short_label(topic_label_map.get(tid, f'Topic {tid}'), 30)} (n={mask.sum()})"
     ax.scatter(
         coords_2d[mask, 0], coords_2d[mask, 1],
-        c=[color], s=12, alpha=0.55, label=label_str, zorder=2,
+        c=[color], s=14, alpha=0.65,
+        edgecolors="white", linewidths=0.2,
+        label=label_str, zorder=2,
     )
 
 ax.set_xlabel("UMAP 1", fontsize=11)
 ax.set_ylabel("UMAP 2", fontsize=11)
-ax.set_title("Technological Landscape Map — Climate Patent Clusters", fontsize=13, fontweight="bold")
+ax.set_title(
+    "Technological Landscape Map — Climate Patent Clusters",
+    fontsize=13, fontweight="bold",
+)
 
-# Legend: show top 15 topics only to keep it readable
-handles, labels = ax.get_legend_handles_labels()
-max_legend = min(16, len(handles))  # outliers + 15 topics
+# Full legend, one column, outside the plot on the right.
 ax.legend(
-    handles[:max_legend], labels[:max_legend],
-    fontsize=7, loc="upper right", framealpha=0.9,
-    ncol=1, markerscale=2,
+    fontsize=7, loc="center left",
+    bbox_to_anchor=(1.02, 0.5),
+    framealpha=0.9, ncol=1, markerscale=2,
+    borderaxespad=0,
 )
 ax.spines["top"].set_visible(False)
 ax.spines["right"].set_visible(False)
 fig.tight_layout()
-fig.savefig(OUTPUT_DIR / "fig_landscape_map.png")
+fig.savefig(OUTPUT_DIR / "fig_landscape_map.png", bbox_inches="tight", dpi=DPI)
 plt.close(fig)
-print("  Saved fig_landscape_map.png")
+print(f"  Saved fig_landscape_map.png ({len(unique_topics)} topics, full legend)")
 
 
 # --- Fig 5: Topic Relevance Over Time (streamgraph / stacked area) ---

@@ -26,3 +26,4 @@ Thumbs.db
 #api key
 scripts/python/api-key.txt
 scripts/python/data/*.json
+scripts/python/bertopic_output (Copy)

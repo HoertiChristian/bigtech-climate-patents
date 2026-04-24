@@ -151,7 +151,7 @@ def fuzzy_match_assignee(
     raw_lower = raw_name.strip().lower()
 
     # Build flat list of (subsidiary, parent) pairs for matching
-    candidates = []  # list of (subsidiary_name, parent_name)
+    candidates = []  
     for parent, subs in firms.items():
         for s in subs:
             candidates.append((s, parent))

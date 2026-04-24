@@ -167,12 +167,12 @@ def main():
     print(f"  {'─' * 48}")
     print(f"  {'TOTAL':<14} {total_b:>8} {total_a:>8} {total_r:>8} {total_pct:>9.1f}%")
 
-    # ── Save deduplicated JSON ────────────────────────────────────────────
-    output = []
+    # ── Save deduplicated JSON (keyed by company) ─────────────────────────
+    output: dict[str, list[dict]] = {company: [] for company in COMPANIES}
     for p in deduped:
+        company = p["_company"]
         clean = {k: v for k, v in p.items() if not k.startswith("_")}
-        clean["_company"] = p["_company"]
-        output.append(clean)
+        output[company].append(clean)
 
     json_path = DATA_DIR / "patents_deduped.json"
     with open(json_path, "w", encoding="utf-8") as f:

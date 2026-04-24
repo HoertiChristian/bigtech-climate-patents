@@ -1,24 +1,158 @@
 company,topic,count,topic_label
-Unknown,0,3020,0_transmit_radio_monitoring_frequency
-Unknown,1,46,1_sensors detecting_lidar_detecting_onboard sensors
-Unknown,2,29,2_navigation application_map_maps_mapping
-Unknown,3,28,3_solar panel_solar panels_solar power_solar energy
-Unknown,4,28,4_power aerial_aerial vehicle_aerial vehicles_wind turbine
-Unknown,5,21,5_fuel cell_fuel cells_cell fuel_provide fuel
-Unknown,6,21,6_sem fio_digital_para_fio
-Unknown,7,20,7_automated fabrication_manufacturing process_machining_fabrication
-Unknown,8,15,8_propeller blades_propellers_propellers aerial_generated propeller
-Unknown,9,14,9_layer material_forming layer_melt material_alloy
-Unknown,10,13,10_vorrichtung_verfahren zum_und_einer
-Unknown,11,12,11_radar_second radar_gesture application_gestures
-Unknown,12,11,12_second robotic_robotic_robotic robotic_robotic control
-Unknown,13,10,13_tethered aerial_energy aerial_wind turbine_wind energy
-Unknown,14,10,14_classifier_prediction using_machine learned_prediction model
-Unknown,15,9,15_uav charge_vehicles uavs_battery uav_vehicle uav
-Unknown,16,8,16_neural programs_trained neural_deep neural_learning models
-Unknown,17,8,17_audio receiver_audio recording_audio input_integrated audio
-Unknown,18,8,18_propellers aerial_rotor blades_blades aerial_generated aerial
-Unknown,19,8,19_nfc enabled_field nfc_low power_nfc
-Unknown,20,8,20_operating voltages_operating voltage_voltage control_voltage adjustment
-Unknown,21,8,21_controlling lighting_lighting_lighting source_controlled power
-Unknown,22,8,22_magnetically attached_magnetic_detect magnetic_magnetically
+Alphabet,0,68,0_radio access_transmit_transmitting_radio resource
+Alphabet,1,138,1_power management_power consumption_power mode_throttling
+Alphabet,2,46,2_battery cells_anode cathode_battery cell_cathode anode
+Alphabet,3,125,3_aerial vehicles_aerial vehicle_unmanned aerial_aerial
+Alphabet,4,42,4_cooling_thermal control_liquid cooling_thermal management
+Alphabet,5,19,5_boost converter_power converters_power converter_converters
+Alphabet,6,20,6_memory management_memory banks_memory controller_memory blocks
+Alphabet,7,2,7_wake monitoring_wake receiver_monitoring radio_wake radio
+Alphabet,8,15,8_battery management_battery operation_dynamic battery_battery charging
+Alphabet,9,6,9_electrolyte lithium_electrochemical cell_cells electrolyte_battery cells
+Alphabet,10,11,10_packet processing_tcp_datagram protocol_protocol
+Alphabet,11,4,11_memory cache_cache memory_instruction cache_cache cache
+Alphabet,12,15,12_ambient light_ambient lighting_sensor ambient_light sensors
+Alphabet,13,10,13_power wirelessly_power transmitting_power receiving_transmitting power
+Alphabet,14,5,14_display substrate_substrate display_flexible substrate_substrate flexible
+Alphabet,15,17,15_voice activated_voice commands_speech recognition_voice guidance
+Alphabet,16,16,16_trained neural_deep neural_neural_hardware accelerator
+Alphabet,17,4,17_thread scheduling_thread scheduler_multiprocessor_cores
+Alphabet,18,8,18_printed boards_printed board_electrically_conductive layers
+Alphabet,19,4,19_storage control_storage controller_storage power_state storage
+Alphabet,21,2,21_resource control_resource management_resource service_resource usage
+Alphabet,22,11,22_protocols_routing_multi hop_packet core
+Alphabet,23,1,23_surface glass_glass substrate_glass_automated fabrication
+Alphabet,24,7,24_messages processing_processing core_processing cores_chip architecture
+Alphabet,25,3,25_resource management_datacenter power_datacenter_physical resource
+Alphabet,27,6,27_display processing_image display_processing display_managing display
+Alphabet,29,5,29_energy usage_consumption hardware_energy utilization_power consumption
+Alphabet,30,4,30_mapping navigation_navigation application_map_maps
+Alphabet,31,10,31_connection managing_background connections_cellular telephone_communicate cellular
+Alphabet,32,7,32_light control_control light_light emitters_light sensor
+Alphabet,33,10,33_fuel cell_fuel cells_cell fuel_power controller
+Alphabet,34,6,34_film transistors_film transistor_pixels_transistors
+Alphabet,35,9,35_backup power_power grid_grid power_power main
+Amazon,0,20,0_radio access_transmit_transmitting_radio resource
+Amazon,1,40,1_power management_power consumption_power mode_throttling
+Amazon,2,23,2_battery cells_anode cathode_battery cell_cathode anode
+Amazon,3,63,3_aerial vehicles_aerial vehicle_unmanned aerial_aerial
+Amazon,4,15,4_cooling_thermal control_liquid cooling_thermal management
+Amazon,5,2,5_boost converter_power converters_power converter_converters
+Amazon,6,5,6_memory management_memory banks_memory controller_memory blocks
+Amazon,8,9,8_battery management_battery operation_dynamic battery_battery charging
+Amazon,9,1,9_electrolyte lithium_electrochemical cell_cells electrolyte_battery cells
+Amazon,10,5,10_packet processing_tcp_datagram protocol_protocol
+Amazon,11,3,11_memory cache_cache memory_instruction cache_cache cache
+Amazon,12,4,12_ambient light_ambient lighting_sensor ambient_light sensors
+Amazon,13,6,13_power wirelessly_power transmitting_power receiving_transmitting power
+Amazon,14,2,14_display substrate_substrate display_flexible substrate_substrate flexible
+Amazon,15,7,15_voice activated_voice commands_speech recognition_voice guidance
+Amazon,16,4,16_trained neural_deep neural_neural_hardware accelerator
+Amazon,17,4,17_thread scheduling_thread scheduler_multiprocessor_cores
+Amazon,18,1,18_printed boards_printed board_electrically_conductive layers
+Amazon,19,10,19_storage control_storage controller_storage power_state storage
+Amazon,20,14,20_virtual compute_virtual machines_virtual machine_virtualized
+Amazon,21,15,21_resource control_resource management_resource service_resource usage
+Amazon,22,5,22_protocols_routing_multi hop_packet core
+Amazon,23,7,23_surface glass_glass substrate_glass_automated fabrication
+Amazon,24,4,24_messages processing_processing core_processing cores_chip architecture
+Amazon,25,6,25_resource management_datacenter power_datacenter_physical resource
+Amazon,27,1,27_display processing_image display_processing display_managing display
+Amazon,28,1,28_instruction memory_instruction blocks_instruction block_memory operations
+Amazon,29,3,29_energy usage_consumption hardware_energy utilization_power consumption
+Amazon,32,13,32_light control_control light_light emitters_light sensor
+Amazon,33,2,33_fuel cell_fuel cells_cell fuel_power controller
+Amazon,34,2,34_film transistors_film transistor_pixels_transistors
+Amazon,35,5,35_backup power_power grid_grid power_power main
+Apple,0,389,0_radio access_transmit_transmitting_radio resource
+Apple,1,176,1_power management_power consumption_power mode_throttling
+Apple,2,235,2_battery cells_anode cathode_battery cell_cathode anode
+Apple,3,6,3_aerial vehicles_aerial vehicle_unmanned aerial_aerial
+Apple,4,33,4_cooling_thermal control_liquid cooling_thermal management
+Apple,5,85,5_boost converter_power converters_power converter_converters
+Apple,6,39,6_memory management_memory banks_memory controller_memory blocks
+Apple,7,75,7_wake monitoring_wake receiver_monitoring radio_wake radio
+Apple,8,33,8_battery management_battery operation_dynamic battery_battery charging
+Apple,9,61,9_electrolyte lithium_electrochemical cell_cells electrolyte_battery cells
+Apple,10,13,10_packet processing_tcp_datagram protocol_protocol
+Apple,11,42,11_memory cache_cache memory_instruction cache_cache cache
+Apple,12,32,12_ambient light_ambient lighting_sensor ambient_light sensors
+Apple,13,27,13_power wirelessly_power transmitting_power receiving_transmitting power
+Apple,14,33,14_display substrate_substrate display_flexible substrate_substrate flexible
+Apple,15,12,15_voice activated_voice commands_speech recognition_voice guidance
+Apple,16,2,16_trained neural_deep neural_neural_hardware accelerator
+Apple,17,14,17_thread scheduling_thread scheduler_multiprocessor_cores
+Apple,18,30,18_printed boards_printed board_electrically_conductive layers
+Apple,19,10,19_storage control_storage controller_storage power_state storage
+Apple,21,4,21_resource control_resource management_resource service_resource usage
+Apple,22,19,22_protocols_routing_multi hop_packet core
+Apple,23,23,23_surface glass_glass substrate_glass_automated fabrication
+Apple,24,16,24_messages processing_processing core_processing cores_chip architecture
+Apple,26,18,26_schedule wirelessly_access point_wlan_wirelessly transmit
+Apple,27,19,27_display processing_image display_processing display_managing display
+Apple,28,4,28_instruction memory_instruction blocks_instruction block_memory operations
+Apple,29,6,29_energy usage_consumption hardware_energy utilization_power consumption
+Apple,30,24,30_mapping navigation_navigation application_map_maps
+Apple,31,9,31_connection managing_background connections_cellular telephone_communicate cellular
+Apple,32,5,32_light control_control light_light emitters_light sensor
+Apple,33,4,33_fuel cell_fuel cells_cell fuel_power controller
+Apple,34,14,34_film transistors_film transistor_pixels_transistors
+Meta,0,18,0_radio access_transmit_transmitting_radio resource
+Meta,1,25,1_power management_power consumption_power mode_throttling
+Meta,2,26,2_battery cells_anode cathode_battery cell_cathode anode
+Meta,3,9,3_aerial vehicles_aerial vehicle_unmanned aerial_aerial
+Meta,4,7,4_cooling_thermal control_liquid cooling_thermal management
+Meta,5,3,5_boost converter_power converters_power converter_converters
+Meta,6,3,6_memory management_memory banks_memory controller_memory blocks
+Meta,8,3,8_battery management_battery operation_dynamic battery_battery charging
+Meta,10,5,10_packet processing_tcp_datagram protocol_protocol
+Meta,12,2,12_ambient light_ambient lighting_sensor ambient_light sensors
+Meta,13,1,13_power wirelessly_power transmitting_power receiving_transmitting power
+Meta,14,5,14_display substrate_substrate display_flexible substrate_substrate flexible
+Meta,16,9,16_trained neural_deep neural_neural_hardware accelerator
+Meta,17,2,17_thread scheduling_thread scheduler_multiprocessor_cores
+Meta,18,1,18_printed boards_printed board_electrically_conductive layers
+Meta,22,1,22_protocols_routing_multi hop_packet core
+Meta,23,1,23_surface glass_glass substrate_glass_automated fabrication
+Meta,24,2,24_messages processing_processing core_processing cores_chip architecture
+Meta,25,4,25_resource management_datacenter power_datacenter_physical resource
+Meta,26,17,26_schedule wirelessly_access point_wlan_wirelessly transmit
+Meta,31,1,31_connection managing_background connections_cellular telephone_communicate cellular
+Meta,33,1,33_fuel cell_fuel cells_cell fuel_power controller
+Meta,34,2,34_film transistors_film transistor_pixels_transistors
+Meta,35,1,35_backup power_power grid_grid power_power main
+Microsoft,0,63,0_radio access_transmit_transmitting_radio resource
+Microsoft,1,138,1_power management_power consumption_power mode_throttling
+Microsoft,2,44,2_battery cells_anode cathode_battery cell_cathode anode
+Microsoft,3,2,3_aerial vehicles_aerial vehicle_unmanned aerial_aerial
+Microsoft,4,35,4_cooling_thermal control_liquid cooling_thermal management
+Microsoft,5,7,5_boost converter_power converters_power converter_converters
+Microsoft,6,20,6_memory management_memory banks_memory controller_memory blocks
+Microsoft,8,16,8_battery management_battery operation_dynamic battery_battery charging
+Microsoft,9,3,9_electrolyte lithium_electrochemical cell_cells electrolyte_battery cells
+Microsoft,10,30,10_packet processing_tcp_datagram protocol_protocol
+Microsoft,11,12,11_memory cache_cache memory_instruction cache_cache cache
+Microsoft,12,1,12_ambient light_ambient lighting_sensor ambient_light sensors
+Microsoft,13,8,13_power wirelessly_power transmitting_power receiving_transmitting power
+Microsoft,14,6,14_display substrate_substrate display_flexible substrate_substrate flexible
+Microsoft,15,13,15_voice activated_voice commands_speech recognition_voice guidance
+Microsoft,16,16,16_trained neural_deep neural_neural_hardware accelerator
+Microsoft,17,20,17_thread scheduling_thread scheduler_multiprocessor_cores
+Microsoft,18,3,18_printed boards_printed board_electrically_conductive layers
+Microsoft,19,18,19_storage control_storage controller_storage power_state storage
+Microsoft,20,27,20_virtual compute_virtual machines_virtual machine_virtualized
+Microsoft,21,18,21_resource control_resource management_resource service_resource usage
+Microsoft,22,2,22_protocols_routing_multi hop_packet core
+Microsoft,23,6,23_surface glass_glass substrate_glass_automated fabrication
+Microsoft,24,8,24_messages processing_processing core_processing cores_chip architecture
+Microsoft,25,24,25_resource management_datacenter power_datacenter_physical resource
+Microsoft,26,1,26_schedule wirelessly_access point_wlan_wirelessly transmit
+Microsoft,27,10,27_display processing_image display_processing display_managing display
+Microsoft,28,31,28_instruction memory_instruction blocks_instruction block_memory operations
+Microsoft,29,16,29_energy usage_consumption hardware_energy utilization_power consumption
+Microsoft,30,1,30_mapping navigation_navigation application_map_maps
+Microsoft,31,9,31_connection managing_background connections_cellular telephone_communicate cellular
+Microsoft,32,3,32_light control_control light_light emitters_light sensor
+Microsoft,33,9,33_fuel cell_fuel cells_cell fuel_power controller
+Microsoft,34,2,34_film transistors_film transistor_pixels_transistors
+Microsoft,35,11,35_backup power_power grid_grid power_power main
