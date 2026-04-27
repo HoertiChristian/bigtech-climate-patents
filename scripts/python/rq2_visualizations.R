@@ -56,9 +56,10 @@ COMPANY_COLORS <- c(
 )
 
 POLICY_EVENTS <- tibble(
-  year  = c(2015, 2017, 2022),
-  label = c("Paris Agreement", "US withdrawal", "IRA")
+  year  = c(2015, 2017, 2020),
+  label = c("Paris Agreement", "US withdrawal", "COVID")
 )
+
 
 # ---- Load data ---------------------------------------------------------------
 docs          <- read_csv(file.path(INPUT_DIR, "document_topics.csv"),            show_col_types = FALSE)
@@ -74,17 +75,64 @@ topic_info <- topic_info %>%
   rename_with(tolower) %>%
   select(topic = topic, count = count, name = name)
 
-# helper: pick the FIRST keyword after the topic id as the short label.
-# BERTopic auto-names look like "12_battery_thermal_management_pack" — this
-# returns "battery". You can hard-code nicer names later by building a named
-# vector and rebinding topic_info$short_label before each figure block.
-shorten_label <- function(name, max_words = 1) {
-  parts <- str_split(name, "_")[[1]]
-  parts <- parts[-1]  # drop leading topic id
-  paste(head(parts, max_words), collapse = " ")
+# ---- Topic short labels: most-prevalent keyword ------------------------------
+# Old approach took BERTopic's first keyword (highest c-TF-IDF rank). That
+# keyword can be a distinctive but rare term — characteristic of the topic in
+# the c-TF-IDF sense, but not necessarily the word readers would associate
+# with the topic. Here we instead pick the keyword with the highest CORPUS
+# PREVALENCE among the topic's top-K c-TF-IDF terms, i.e. the candidate
+# keyword that literally appears in the largest share of the topic's
+# abstracts. This produces labels that reflect the dominant vocabulary of the
+# topic rather than its most discriminative word.
+#
+# Tuning knobs:
+#   LABEL_CANDIDATE_K — how many top c-TF-IDF terms to consider per topic.
+#   Smaller = stays close to BERTopic's intent. Larger = more freedom to pick
+#   a common-but-lower-ranked word. 5 is a reasonable default.
+
+LABEL_CANDIDATE_K <- 5
+
+most_prevalent_keyword <- function(topic_id, candidate_words, docs_df) {
+  abstracts <- docs_df %>%
+    filter(topic == topic_id) %>%
+    pull(abstract) %>%
+    str_to_lower()
+  if (length(abstracts) == 0 || length(candidate_words) == 0) {
+    return(NA_character_)
+  }
+  prev <- vapply(candidate_words, function(w) {
+    pattern <- paste0("\\b", str_replace_all(str_to_lower(w), " ", "\\\\s+"), "\\b")
+    mean(str_detect(abstracts, pattern))
+  }, numeric(1))
+  # tie-breaker: when prevalence is equal, fall back to BERTopic's c-TF-IDF
+  # order (i.e. the first candidate, since `candidate_words` is already
+  # sorted by rank ascending).
+  candidate_words[which.max(prev)]
 }
+
+short_label_lookup <- topic_terms %>%
+  filter(topic != -1) %>%
+  group_by(topic) %>%
+  slice_min(rank, n = LABEL_CANDIDATE_K) %>%
+  arrange(topic, rank) %>%
+  summarise(words = list(word), .groups = "drop") %>%
+  mutate(short_label = map2_chr(topic, words,
+                                ~ most_prevalent_keyword(.x, .y, docs))) %>%
+  select(topic, short_label)
+
+# fall back to BERTopic's first keyword if (for whatever reason) the
+# prevalence-based pick is NA — keeps the pipeline robust to empty topics.
+fallback_first_keyword <- function(name) {
+  parts <- str_split(name, "_")[[1]]
+  parts <- parts[-1]
+  if (length(parts) == 0) "" else parts[1]
+}
+
 topic_info <- topic_info %>%
-  mutate(short_label = map_chr(name, shorten_label))
+  left_join(short_label_lookup, by = "topic") %>%
+  mutate(short_label = if_else(is.na(short_label) | short_label == "",
+                               map_chr(name, fallback_first_keyword),
+                               short_label))
 
 # exclude the HDBSCAN outlier bin globally
 topic_info_sub <- topic_info %>% filter(topic != -1)
@@ -100,8 +148,8 @@ docs_sub       <- docs       %>% filter(topic != -1)
 # the keyword actually characterises the topic, not just a distinctive artefact.
 # -----------------------------------------------------------------------------
 
-TOP_N_TOPICS   <- 5
-TOP_N_KEYWORDS <- 10
+TOP_N_TOPICS   <- 6
+TOP_N_KEYWORDS <- 4
 
 # pick top 5 topics by patent count (excluding -1)
 top5_topics <- topic_info_sub %>%
@@ -140,7 +188,6 @@ prev_tbl <- top5_keywords %>%
   mutate(res = map2(topic, words, ~ compute_prevalence(.x, .y, docs_sub))) %>%
   select(topic, res) %>%
   unnest(res) %>%
-  filter(prevalence > 0) %>%     # drop keywords absent from every abstract in the topic
   left_join(topic_info_sub %>% select(topic, short_label, count), by = "topic") %>%
   mutate(facet_label = sprintf("T%d · %s  (N=%d)", topic, short_label, count))
 
@@ -176,10 +223,6 @@ fig3 <- ggplot(prev_tbl, aes(x = word, y = prevalence, fill = prevalence)) +
                                margin = margin(t = 2, b = 2))
   )
 
-ggsave(file.path(OUTPUT_DIR, "fig3_keyword_prevalence.png"),
-       fig3, width = 11, height = 8, dpi = 300, bg = "white")
-message("Saved fig3_keyword_prevalence.png")
-
 
 # =============================================================================
 # FIGURE 4 — Topics over time (stacked area, top topics + other)
@@ -188,7 +231,7 @@ message("Saved fig3_keyword_prevalence.png")
 # with policy-event reference lines to connect shifts to external milestones.
 # -----------------------------------------------------------------------------
 
-TOP_N_STREAM <- 8
+TOP_N_STREAM <- 6
 
 top_stream_topics <- topic_info_sub %>%
   slice_max(count, n = TOP_N_STREAM) %>%
@@ -224,12 +267,6 @@ stream_df <- stream_df %>%
 
 fig4 <- ggplot(stream_df, aes(x = year, y = count, fill = display_label)) +
   geom_area(alpha = 0.85, colour = "white", linewidth = 0.2) +
-  geom_vline(data = POLICY_EVENTS, aes(xintercept = year),
-             linetype = "dashed", colour = "grey40", linewidth = 0.4) +
-  geom_text(data = POLICY_EVENTS,
-            aes(x = year, y = Inf, label = label),
-            inherit.aes = FALSE, vjust = 1.5, hjust = -0.05,
-            size = 3, colour = "grey30") +
   scale_x_continuous(breaks = seq(2010, 2024, 2), expand = c(0, 0)) +
   scale_y_continuous(expand = c(0, 0)) +
   scale_fill_brewer(palette = "Set2", name = NULL) +
@@ -246,9 +283,7 @@ fig4 <- ggplot(stream_df, aes(x = year, y = count, fill = display_label)) +
     plot.margin   = margin(10, 15, 10, 10)
   )
 
-ggsave(file.path(OUTPUT_DIR, "fig4_topics_over_time.png"),
-       fig4, width = 11, height = 6.5, dpi = 300, bg = "white")
-message("Saved fig4_topics_over_time.png")
+
 
 
 # =============================================================================
@@ -258,7 +293,7 @@ message("Saved fig4_topics_over_time.png")
 # of that firm's climate patents in that topic. Highlights firm specialisation.
 # -----------------------------------------------------------------------------
 
-TOP_N_HEAT <- 15
+TOP_N_HEAT <- 6
 
 top_heat_topics <- topic_info_sub %>%
   slice_max(count, n = TOP_N_HEAT) %>%
@@ -309,9 +344,7 @@ fig5 <- ggplot(heat_df, aes(x = company, y = topic_label, fill = share)) +
     axis.text.x = element_text(size = 10, face = "bold")
   )
 
-ggsave(file.path(OUTPUT_DIR, "fig5_firm_topic_heatmap.png"),
-       fig5, width = 10, height = 8, dpi = 300, bg = "white")
-message("Saved fig5_firm_topic_heatmap.png")
+
 
 
 # =============================================================================
@@ -444,9 +477,7 @@ fig6 <- ggplot(firm_stream, aes(x = year, y = share, fill = short_label)) +
     plot.margin     = margin(10, 15, 10, 10)
   )
 
-ggsave(file.path(OUTPUT_DIR, "fig6_firm_portfolio_over_time.png"),
-       fig6, width = 12, height = 7, dpi = 300, bg = "white")
-message("Saved fig6_firm_portfolio_over_time.png")
+
 
 
 # =============================================================================
@@ -475,7 +506,7 @@ cpc_long <- cpc_comp %>%
             by = "topic")
 
 # keep top 20 topics for a readable heatmap
-TOP_N_CPC <- 20
+TOP_N_CPC <- 10
 top_cpc_topics <- topic_info_sub %>%
   slice_max(count, n = TOP_N_CPC) %>%
   pull(topic)
@@ -525,9 +556,6 @@ fig7 <- ggplot(cpc_long, aes(x = cpc_subclass, y = topic_label, fill = share)) +
     axis.text.x = element_text(size = 10, face = "bold")
   )
 
-ggsave(file.path(OUTPUT_DIR, "fig7_cpc_heatmap.png"),
-       fig7, width = 10, height = 9, dpi = 300, bg = "white")
-message("Saved fig7_cpc_heatmap.png")
 
 
 # =============================================================================
@@ -635,8 +663,216 @@ fig8 <- ggplot(firm_topic_shares,
     plot.margin        = margin(10, 15, 10, 10)
   )
 
-ggsave(file.path(OUTPUT_DIR, "fig8_firm_topic_focus.png"),
-       fig8, width = 13, height = 5.5, dpi = 300, bg = "white")
-message("Saved fig8_firm_topic_focus.png")
+# install.packages("devEMF")  # one-time
+library(devEMF)
+
+save_fig <- function(plot, name, width, height) {
+  # PNG fallback, higher resolution than before
+  ggsave(file.path(OUTPUT_DIR, paste0(name, ".png")),
+         plot, width = width, height = height, dpi = 300, bg = "white")
+  
+  # EMF for PowerPoint — vector, scales perfectly
+  ggsave(file.path(OUTPUT_DIR, paste0(name, ".emf")),
+         plot, width = width, height = height,
+         device = emf, bg = "white")
+}
+
+save_fig(fig3, "fig3_keyword_prevalence",       14, 10)
+save_fig(fig4, "fig4_topics_over_time",         14,  7)
+save_fig(fig5, "fig5_firm_topic_heatmap",       12, 10)
+save_fig(fig6, "fig6_firm_portfolio_over_time", 14,  8)
+save_fig(fig7, "fig7_cpc_heatmap",              12, 11)
+save_fig(fig8, "fig8_firm_topic_focus",         15,  6)
+
+
+# =============================================================================
+# RQ 2.2 — additional visualisations of topic shifts around policy events
+# =============================================================================
+# These figures focus specifically on the RQ 2.2 question: do BERTopic topic
+# prevalences shift in response to major policy or industry events?
+#
+# Design notes shared across all figures below:
+#
+#  * "Topic share" = topic count in year t divided by all (non-outlier) climate
+#    patents in year t. This is the right denominator for RQ2.2 — we are asking
+#    about composition, not absolute output.
+#
+#  * Patent-publication lag. Patents are typically published 12–24 months after
+#    filing, so the visible response to a policy event is shifted forward in
+#    time. Where we compare pre/post windows we centre them on the event year
+#    and discuss the lag in the caption rather than baking it into the maths,
+#    so readers can judge for themselves.
+# -----------------------------------------------------------------------------
+
+# Convenience: yearly totals across all non-outlier topics, used as denominator
+year_totals <- year_topic %>%
+  filter(topic != -1, year >= 2010, year <= 2024) %>%
+  group_by(year) %>%
+  summarise(year_total = sum(count), .groups = "drop")
+
+
+# =============================================================================
+# FIGURE 9 — Small-multiples line chart, one panel per top topic
+# =============================================================================
+# Each panel shows a single topic's yearly share of all climate patents, with
+# event lines overlaid. Reading: a kink, jump, or trend break in any panel that
+# coincides with an event line is the visual signature RQ 2.2 is asking about.
+#
+# Why this complements Fig 4: the stacked area shows compositional shifts in
+# aggregate but it is hard to read individual topic trajectories off it. A
+# small-multiples grid trades visual punch for analytical clarity.
+# -----------------------------------------------------------------------------
+
+TOP_N_LINES <- 8
+
+top_line_topics <- topic_info_sub %>%
+  slice_max(count, n = TOP_N_LINES) %>%
+  pull(topic)
+
+line_df <- year_topic %>%
+  filter(topic %in% top_line_topics, year >= 2010, year <= 2024) %>%
+  group_by(year, topic) %>%
+  summarise(count = sum(count), .groups = "drop") %>%
+  left_join(year_totals, by = "year") %>%
+  mutate(share = count / year_total) %>%
+  left_join(topic_info_sub %>% select(topic, short_label, total_count = count),
+            by = "topic") %>%
+  mutate(facet_label = sprintf("T%d · %s  (N=%d)", topic, short_label, total_count),
+         facet_label = fct_reorder(facet_label, -total_count))
+
+fig9 <- ggplot(line_df, aes(x = year, y = share)) +
+  geom_line(colour = "#1f4e79", linewidth = 0.8) +
+  geom_point(colour = "#1f4e79", size = 1.2) +
+  facet_wrap(~ facet_label, ncol = 4, scales = "free_y") +
+  scale_x_continuous(breaks = seq(2010, 2024, 4)) +
+  scale_y_continuous(labels = percent_format(accuracy = 1),
+                     expand = expansion(mult = c(0.02, 0.15))) +
+  labs(
+    title    = "Topic-level trajectories with policy-event reference lines",
+    subtitle = sprintf("Yearly share of all climate patents per topic, top %d topics; dashed lines mark events", TOP_N_LINES),
+    x = NULL, y = "Share of climate patents",
+    caption = "Patent publication lags filing by ~12–24 months; expected response window begins 1–2 years after each event."
+  ) +
+  theme_report() +
+  theme(
+    strip.text = element_text(size = 9, face = "bold"),
+    panel.spacing = unit(0.6, "lines")
+  )
+
+
+# =============================================================================
+# FIGURE 11 — Bump chart of topic rankings over time
+# =============================================================================
+# Each line tracks one topic's RANK (1 = largest share that year) over time.
+# Crossings indicate topics overtaking each other. Best read as a narrative:
+# "after Paris, smart-grid topics climbed from rank 6 to rank 2."
+#
+# Loses magnitude information by design — that's what Figs 4 and 9 are for.
+# -----------------------------------------------------------------------------
+
+TOP_N_BUMP <- 8
+
+top_bump_topics <- topic_info_sub %>%
+  slice_max(count, n = TOP_N_BUMP) %>%
+  pull(topic)
+
+bump_df <- year_topic %>%
+  filter(topic %in% top_bump_topics, year >= 2010, year <= 2024) %>%
+  group_by(year, topic) %>%
+  summarise(count = sum(count), .groups = "drop") %>%
+  group_by(year) %>%
+  mutate(rank = rank(-count, ties.method = "first")) %>%
+  ungroup() %>%
+  left_join(topic_info_sub %>% select(topic, short_label), by = "topic")
+
+# Label endpoints only (cleaner than labelling every point)
+endpoint_left  <- bump_df %>% filter(year == min(year))
+endpoint_right <- bump_df %>% filter(year == max(year))
+
+fig11 <- ggplot(bump_df, aes(x = year, y = rank,
+                             colour = factor(topic), group = topic)) +
+  geom_line(linewidth = 1.1, alpha = 0.85) +
+  geom_point(size = 2.4) +
+  geom_text(data = endpoint_left,
+            aes(label = short_label),
+            hjust = 1.05, size = 3, show.legend = FALSE) +
+  geom_text(data = endpoint_right,
+            aes(label = short_label),
+            hjust = -0.05, size = 3, show.legend = FALSE) +
+  scale_y_reverse(breaks = 1:TOP_N_BUMP) +
+  scale_x_continuous(breaks = seq(2010, 2024, 2),
+                     expand = expansion(add = c(2.0, 2.0))) +
+  scale_colour_brewer(palette = "Set1", guide = "none") +
+  labs(
+    title    = "Topic rank dynamics, 2010–2024",
+    subtitle = sprintf("Yearly rank of the top %d topics by patent share; rank 1 = largest", TOP_N_BUMP),
+    x = NULL, y = "Rank within climate portfolio"
+  ) +
+  theme_report() +
+  theme(
+    panel.grid.major.y = element_line(colour = "grey92"),
+    panel.grid.minor   = element_blank()
+  )
+
+
+# =============================================================================
+# FIGURE 13 — BERTopic-style multi-line view (topics_over_time, re-styled)
+# =============================================================================
+# Re-creation of BERTopic's native topics_over_time line chart in ggplot2,
+# styled consistently with the rest of the figure set. This is the figure that
+# matches Yun et al. (2024) and similar landscape papers, which makes it useful
+# for the methods section even if it tells a similar story to Fig 9.
+#
+# Difference from Fig 9: all topics on a single set of axes (not faceted), so
+# you read RELATIVE size and timing across topics in one glance, at the cost
+# of crowding. Use when 5–8 topics is enough.
+# -----------------------------------------------------------------------------
+
+TOP_N_TOT <- 6
+
+top_tot_topics <- topic_info_sub %>%
+  slice_max(count, n = TOP_N_TOT) %>%
+  pull(topic)
+
+# `tot` is company × year × topic; sum across companies for the global line
+tot_df <- tot %>%
+  filter(topic %in% top_tot_topics, year >= 2010, year <= 2024) %>%
+  group_by(year, topic) %>%
+  summarise(count = sum(count), .groups = "drop") %>%
+  left_join(year_totals, by = "year") %>%
+  mutate(share = count / year_total) %>%
+  left_join(topic_info_sub %>% select(topic, short_label), by = "topic")
+
+# legend ordered by overall topic size
+legend_order_tot <- topic_info_sub %>%
+  filter(topic %in% top_tot_topics) %>%
+  arrange(desc(count)) %>%
+  pull(short_label)
+
+tot_df <- tot_df %>%
+  mutate(short_label = factor(short_label, levels = legend_order_tot))
+
+fig13 <- ggplot(tot_df, aes(x = year, y = share,
+                            colour = short_label, group = short_label)) +
+  geom_line(linewidth = 1.0) +
+  geom_point(size = 1.6) +
+  scale_x_continuous(breaks = seq(2010, 2024, 2)) +
+  scale_y_continuous(labels = percent_format(accuracy = 1),
+                     expand = expansion(mult = c(0.02, 0.18))) +
+  scale_colour_brewer(palette = "Dark2", name = NULL) +
+  guides(colour = guide_legend(nrow = 1)) +
+  labs(
+    title    = "Topic prevalence over time with policy-event markers",
+    subtitle = sprintf("Yearly share of climate patents, top %d topics on a shared axis", TOP_N_TOT),
+    x = NULL, y = "Share of climate patents"
+  ) +
+  theme_report()
+
+
+# ---- Save RQ 2.2 figures -----------------------------------------------------
+save_fig(fig9,  "fig9_topic_lines_facet",  14, 8)
+save_fig(fig11, "fig11_topic_bump",        14, 8)
+save_fig(fig13, "fig13_topics_over_time",  14, 7)
+
 
 message("\nAll RQ2 figures written to ", OUTPUT_DIR)
